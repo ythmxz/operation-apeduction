@@ -100,8 +100,9 @@ func has_upper_collision() -> bool:
 	return false
 
 func die() -> void:
-	is_dead = true
-	died.emit()
+	if not is_dead:
+		is_dead = true
+		died.emit()
 
 func set_crouch(crouch: bool) -> void:
 	placeholder_model.visible = not crouch
