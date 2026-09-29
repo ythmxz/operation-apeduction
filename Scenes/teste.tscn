@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://c1f3tlnpl16dd" path="res://Scenes/stage.gd" id="1_m4hkj"]
 [ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="1_w2l1y"]
 [ext_resource type="PackedScene" uid="uid://cwj6as3qj2bj0" path="res://Scenes/chunk_1.tscn" id="2_ati5v"]
+[ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="2_e54hh"]
 [ext_resource type="Script" uid="uid://5gjng7e2tp8f" path="res://ui.gd" id="4_ati5v"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
@@ -18,7 +19,12 @@ volumetric_fog_detail_spread = 6.0
 [node name="Teste" type="Node3D" unique_id=948574914]
 script = ExtResource("1_m4hkj")
 
-[node name="Chunk1" parent="." unique_id=178818462 instance=ExtResource("2_ati5v")]
+[node name="Chunks" type="Node3D" parent="." unique_id=789164813]
+
+[node name="ChunkInit" parent="Chunks" unique_id=178818462 instance=ExtResource("2_e54hh")]
+
+[node name="Chunk1" parent="Chunks" unique_id=559485114 instance=ExtResource("2_ati5v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.744745)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=482709764]
 environment = SubResource("Environment_fk1rg")

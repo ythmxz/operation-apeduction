@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://33k7yosawhn8"]
+
+[ext_resource type="PackedScene" uid="uid://wlkvb8xnhqwd" path="res://guh.glb" id="2_606b5"]
+
+[node name="ChunkInit" type="Node3D" unique_id=178818462]
+
+[node name="StartIndicator" type="Node3D" parent="." unique_id=1542595902]
+
+[node name="EndIndicator" type="Node3D" parent="." unique_id=904687225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.775833)
+
+[node name="guh" parent="." unique_id=1046359962 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.4598689, -0.9855806, -2.1940265)
+
+[node name="guh2" parent="." unique_id=827021844 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.4598689, -0.9855806, -7.4499326)
+
+[node name="guh3" parent="." unique_id=197447043 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.4598689, -0.9855806, -12.739286)
+
+[node name="guh9" parent="." unique_id=285392605 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.126944, -0.9855806, -2.1940265)
+
+[node name="guh10" parent="." unique_id=926366729 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.126944, -0.9855806, -7.4499326)
+
+[node name="guh11" parent="." unique_id=732777003 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.126944, -0.9855806, -12.739286)
+
+[node name="guh17" parent="." unique_id=217974723 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.0912843, -0.9855806, -2.1940265)
+
+[node name="guh18" parent="." unique_id=1347050833 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.0912843, -0.9855806, -7.4499326)
+
+[node name="guh19" parent="." unique_id=1371132253 instance=ExtResource("2_606b5")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.0912843, -0.9855806, -12.739286)

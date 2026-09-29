@@ -1,6 +1,7 @@
 extends Node3D
 
-@onready var stage := $Chunk1
+@onready var chunks: Node3D = $Chunks
+
 @onready var camera := $Camera3D
 
 const SCROLL_SPEED := 10.0
@@ -26,8 +27,9 @@ func _physics_process(delta: float) -> void:
 		scroll_speed = SCROLL_SPEED
 	elif state == State.Died:
 		scroll_speed = move_toward(scroll_speed, 0.0, BACK_DECCEL * delta)
-
-	stage.position.z += scroll_speed * delta
+		
+	for c in chunks.get_children():
+		c.position.z += scroll_speed * delta
 
 	var cam_y: float = camera.global_position.y
 	var tgt_y: float = player.global_position.y + 3
