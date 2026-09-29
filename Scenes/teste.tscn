@@ -7,9 +7,9 @@
 [ext_resource type="Script" uid="uid://5gjng7e2tp8f" path="res://ui.gd" id="4_ati5v"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
-background_color = Color(8.663535e-07, 0.59050936, 0.67476517, 1)
-volumetric_fog_enabled = true
-volumetric_fog_density = 0.0146
+fog_enabled = true
+fog_density = 0.055
+volumetric_fog_density = 0.09
 volumetric_fog_detail_spread = 6.0
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_ufa0x"]
