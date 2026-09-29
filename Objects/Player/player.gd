@@ -82,7 +82,7 @@ func handle_input():
 	if Input.is_action_just_pressed("ui_left"):
 		cur_lane -= 1
 
-	if Input.is_action_just_pressed("ui_up") and is_on_floor():
+	if Input.is_action_pressed("ui_up") and is_on_floor():
 		velocity.y = 20
 		sm.transition(^"Jump")
 
