@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://c0g4l4d2g20kq"]
 
-[ext_resource type="Script" uid="uid://c1f3tlnpl16dd" path="res://Scenes/stage.gd" id="1_m4hkj"]
-[ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="1_w2l1y"]
-[ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="2_e54hh"]
-[ext_resource type="Script" uid="uid://0dqqbgkjqg3f" path="res://Lib/chunks.gd" id="2_gowrv"]
+[ext_resource type="Script" uid="uid://c1f3tlnpl16dd" path="res://Scenes/stage.gd" id="1_lq36l"]
+[ext_resource type="Script" uid="uid://0dqqbgkjqg3f" path="res://Lib/chunks.gd" id="2_165j7"]
+[ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="3_6toak"]
+[ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="4_yl4g2"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
 fog_enabled = true
@@ -15,13 +15,13 @@ volumetric_fog_detail_spread = 6.0
 
 [sub_resource type="Compositor" id="Compositor_acmg4"]
 
-[node name="Teste" type="Node3D" unique_id=948574914]
-script = ExtResource("1_m4hkj")
+[node name="Ingame" type="Node3D" unique_id=948574914]
+script = ExtResource("1_lq36l")
 
 [node name="Chunks" type="Node3D" parent="." unique_id=789164813]
-script = ExtResource("2_gowrv")
+script = ExtResource("2_165j7")
 
-[node name="ChunkInit" parent="Chunks" unique_id=178818462 instance=ExtResource("2_e54hh")]
+[node name="ChunkInit" parent="Chunks" unique_id=178818462 instance=ExtResource("3_6toak")]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=482709764]
 environment = SubResource("Environment_fk1rg")
@@ -31,7 +31,7 @@ compositor = SubResource("Compositor_acmg4")
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1710603936]
 transform = Transform3D(1, 0, 0, 0, 0.8933403, 0.44938076, 0, -0.44938076, 0.8933403, 0, 7.161587, 7.6876554)
 
-[node name="Player" parent="." unique_id=1668873940 instance=ExtResource("1_w2l1y")]
+[node name="Player" parent="." unique_id=1668873940 instance=ExtResource("4_yl4g2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.366816, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1696851979]
