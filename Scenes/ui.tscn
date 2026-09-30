@@ -8,20 +8,3 @@ script = ExtResource("1_jxero")
 [node name="DebugLabels" type="HFlowContainer" parent="." unique_id=1714477939]
 offset_right = 55.0
 offset_bottom = 50.0
-
-[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=355708335]
-offset_left = 385.0
-offset_top = 13.0
-offset_right = 513.0
-offset_bottom = 141.0
-
-[node name="SubViewport" type="SubViewport" parent="SubViewportContainer" unique_id=1232576471]
-handle_input_locally = false
-size = Vector2i(128, 128)
-render_target_update_mode = 4
-
-[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SubViewport" unique_id=1311185634]
-transform = Transform3D(1, 0, 0, 0, -0.02652267, 0.9996482, 0, -0.9996482, -0.02652267, 0, 3.94629, 0)
-visible = false
-projection = 1
-size = 27.877
