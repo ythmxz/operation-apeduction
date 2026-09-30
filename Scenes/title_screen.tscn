@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://cdqa1flm8oykv" path="res://Lib/title_screen.gd" id="1_p3fck"]
 [ext_resource type="Texture2D" uid="uid://dd8gwmdb2xyq2" path="res://Assets/Spr_MysteryMen.webp" id="2_4gxqj"]
-[ext_resource type="PackedScene" uid="uid://c0g4l4d2g20kq" path="res://Scenes/teste.tscn" id="2_twnyg"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_57qmd"]
 
@@ -37,7 +36,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_p3fck")
-game_scene = ExtResource("2_twnyg")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1486839175]
 layout_mode = 1

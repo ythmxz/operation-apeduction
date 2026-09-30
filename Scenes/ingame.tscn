@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://c0g4l4d2g20kq"]
+
+[ext_resource type="Script" uid="uid://c1f3tlnpl16dd" path="res://Scenes/stage.gd" id="1_lq36l"]
+[ext_resource type="Script" uid="uid://0dqqbgkjqg3f" path="res://Lib/chunks.gd" id="2_165j7"]
+[ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="3_6toak"]
+[ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="4_yl4g2"]
+
+[sub_resource type="Environment" id="Environment_fk1rg"]
+background_color = Color(8.663535e-07, 0.59050936, 0.67476517, 1)
+fog_enabled = true
+fog_density = 0.055
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.09
+volumetric_fog_detail_spread = 6.0
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_ufa0x"]
+
+[sub_resource type="Compositor" id="Compositor_acmg4"]
+
+[node name="Ingame" type="Node3D" unique_id=948574914]
+script = ExtResource("1_lq36l")
+
+[node name="Chunks" type="Node3D" parent="." unique_id=789164813]
+script = ExtResource("2_165j7")
+
+[node name="ChunkInit" parent="Chunks" unique_id=178818462 instance=ExtResource("3_6toak")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=482709764]
+environment = SubResource("Environment_fk1rg")
+camera_attributes = SubResource("CameraAttributesPractical_ufa0x")
+compositor = SubResource("Compositor_acmg4")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1710603936]
+transform = Transform3D(1, 0, 0, 0, 0.8933403, 0.44938076, 0, -0.44938076, 0.8933403, 0, 3.851861, 4.617079)
+
+[node name="Player" parent="." unique_id=1668873940 instance=ExtResource("4_yl4g2")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.366816, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1696851979]
+transform = Transform3D(0.96834093, -0.20128131, 0.14765373, 0, 0.5914872, 0.8063144, -0.2496313, -0.7807872, 0.5727613, 9.135828, 8.786674, 6.5201154)
+shadow_enabled = true
+shadow_normal_bias = 1.573
+shadow_blur = 4.59

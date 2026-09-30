@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://coe5waorggm7n"]
+
+[ext_resource type="Script" uid="uid://5gjng7e2tp8f" path="res://Scenes/ui.gd" id="1_jxero"]
+
+[node name="UI" type="CanvasLayer" unique_id=1269545403]
+script = ExtResource("1_jxero")
+
+[node name="DebugLabels" type="HFlowContainer" parent="." unique_id=1714477939]
+offset_right = 55.0
+offset_bottom = 50.0
