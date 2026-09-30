@@ -61,7 +61,7 @@ func after_ready() -> void:
 func _physics_process(delta: float) -> void:
 	velocity.y -= 65 * delta
 	move_and_slide()
-	
+
 	if is_dead:
 		velocity.x = 0
 		velocity.z = 0
@@ -77,7 +77,7 @@ func _physics_process(delta: float) -> void:
 	cur_lane = clampi(cur_lane, min_lane, max_lane)
 
 	if Input.is_action_just_pressed("debug_restart"):
-		get_tree().reload_current_scene()
+		Global.game.switch_context(&"world_3d", "uid://c0g4l4d2g20kq", Transitions.FADE_BLACK)
 
 func handle_input():
 	if Input.is_action_just_pressed("ui_right"):
