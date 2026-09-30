@@ -2,7 +2,7 @@ extends Area3D
 
 const ROTATION_SPEED := 150.0
 
-@onready var player := $"../../../Player"
+@onready var player := $"../../../../Player"
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -15,4 +15,5 @@ func _process(delta: float) -> void:
 
 func _on_body_entered(body: Node3D) -> void:
 	if(body == player):
+		body.coleta_moedas();
 		queue_free()

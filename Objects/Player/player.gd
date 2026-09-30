@@ -7,6 +7,9 @@ var max_lane := 1
 var cur_lane := 0
 const LANE_WIDTH: float = 1.65
 
+@onready var hud: Control = $"../HUD"
+var moedas := 0;
+
 @onready var x_center := position.x
 @onready var sm: StateMachine = $StateMachine
 
@@ -121,3 +124,8 @@ func on_lower_front_collision(_body: Node3D) -> void:
 func on_upper_front_collision(_body: Node3D) -> void:
 	if not is_crouching:
 		die()
+		
+func coleta_moedas():
+	moedas += 1;
+	hud.atualizaMoedas(moedas);
+	
