@@ -5,6 +5,7 @@ signal died()
 var min_lane := -1
 var max_lane := 1
 var cur_lane := 0
+const LANE_WIDTH: float = 1.65
 
 @onready var x_center := position.x
 @onready var sm: StateMachine = $StateMachine
@@ -13,8 +14,8 @@ var cur_lane := 0
 @onready var areas_upper: Array[Area3D] = [$AreaUF, $AreaUL, $AreaUR]
 @onready var collider_u: CollisionShape3D = $ColliderU
 
-@onready var placeholder_model: MeshInstance3D = $PlaceholderModel
-@onready var placeholder_model_crouch: MeshInstance3D = $PlaceholderModelCrouch
+@onready var placeholder_model: Node3D = $Mona
+@onready var placeholder_model_crouch: Node3D = $PlaceholderModelCrouch
 
 var l_cur_state: Debug.Entry = null
 
@@ -66,7 +67,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = 0
 		velocity.z = 0
 	else:
-		var x_dest := x_center + cur_lane * 3.5
+		var x_dest := x_center + cur_lane * LANE_WIDTH
 		velocity.x = (x_dest - position.x) * 0.5 / delta
 		velocity.z = (0 - position.z) * 0.8 / delta
 		handle_input()
