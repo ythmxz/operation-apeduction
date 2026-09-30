@@ -71,6 +71,9 @@ func _physics_process(delta: float) -> void:
 		velocity.z = (0 - position.z) * 0.8 / delta
 		handle_input()
 
+	if global_position.y <= -5.0:
+		die()
+
 	cur_lane = clampi(cur_lane, min_lane, max_lane)
 
 	if Input.is_action_just_pressed("debug_restart"):
@@ -100,9 +103,10 @@ func has_upper_collision() -> bool:
 	return false
 
 func die() -> void:
-	if not is_dead:
-		is_dead = true
-		died.emit()
+	if is_dead:
+		return
+	is_dead = true
+	died.emit()
 
 func set_crouch(crouch: bool) -> void:
 	placeholder_model.visible = not crouch

@@ -2,14 +2,14 @@
 
 [ext_resource type="Script" uid="uid://c1f3tlnpl16dd" path="res://Scenes/stage.gd" id="1_m4hkj"]
 [ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="1_w2l1y"]
-[ext_resource type="PackedScene" uid="uid://cwj6as3qj2bj0" path="res://Scenes/chunk_1.tscn" id="2_ati5v"]
 [ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="2_e54hh"]
+[ext_resource type="Script" uid="uid://0dqqbgkjqg3f" path="res://Lib/chunks.gd" id="2_gowrv"]
 [ext_resource type="Script" uid="uid://5gjng7e2tp8f" path="res://ui.gd" id="4_ati5v"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
-background_color = Color(8.663535e-07, 0.59050936, 0.67476517, 1)
-volumetric_fog_enabled = true
-volumetric_fog_density = 0.0146
+fog_enabled = true
+fog_density = 0.055
+volumetric_fog_density = 0.09
 volumetric_fog_detail_spread = 6.0
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_ufa0x"]
@@ -20,11 +20,9 @@ volumetric_fog_detail_spread = 6.0
 script = ExtResource("1_m4hkj")
 
 [node name="Chunks" type="Node3D" parent="." unique_id=789164813]
+script = ExtResource("2_gowrv")
 
 [node name="ChunkInit" parent="Chunks" unique_id=178818462 instance=ExtResource("2_e54hh")]
-
-[node name="Chunk1" parent="Chunks" unique_id=559485114 instance=ExtResource("2_ati5v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.744745)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=482709764]
 environment = SubResource("Environment_fk1rg")
@@ -51,10 +49,10 @@ offset_right = 55.0
 offset_bottom = 50.0
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="UI" unique_id=2113364557]
-offset_left = 755.0
-offset_top = 16.0
-offset_right = 883.0
-offset_bottom = 144.0
+offset_left = 385.0
+offset_top = 13.0
+offset_right = 513.0
+offset_bottom = 141.0
 
 [node name="SubViewport" type="SubViewport" parent="UI/SubViewportContainer" unique_id=2122547201]
 handle_input_locally = false
@@ -63,5 +61,6 @@ render_target_update_mode = 4
 
 [node name="Camera3D" type="Camera3D" parent="UI/SubViewportContainer/SubViewport" unique_id=290553034]
 transform = Transform3D(1, 0, 0, 0, -0.02652267, 0.9996482, 0, -0.9996482, -0.02652267, 0, 3.94629, 0)
+visible = false
 projection = 1
-size = 5.1131344
+size = 27.877

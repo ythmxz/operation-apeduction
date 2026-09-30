@@ -6,8 +6,6 @@
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 
-[node name="StartIndicator" type="Node3D" parent="." unique_id=1285273966]
-
 [node name="EndIndicator" type="Node3D" parent="." unique_id=1125204893]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -127.542336)
 
