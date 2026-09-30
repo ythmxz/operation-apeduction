@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Operation Apeduction (ProjectSubway)"
-run/main_scene="uid://bf62aaybcwjik"
+run/main_scene="uid://b74o5nov317re"
 config/features=PackedStringArray("4.7")
 config/icon="res://icon.svg"
 
@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 Debug="*uid://bgj1hklwrbau"
 Utils="*uid://cu5smhus1vxt"
+Global="*uid://dfk8pur88vcf1"
 
 [display]
 

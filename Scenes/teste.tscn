@@ -4,7 +4,6 @@
 [ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="1_w2l1y"]
 [ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="2_e54hh"]
 [ext_resource type="Script" uid="uid://0dqqbgkjqg3f" path="res://Lib/chunks.gd" id="2_gowrv"]
-[ext_resource type="Script" uid="uid://5gjng7e2tp8f" path="res://ui.gd" id="4_ati5v"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
 fog_enabled = true
@@ -40,27 +39,3 @@ transform = Transform3D(0.96834093, -0.20128131, 0.14765373, 0, 0.5914872, 0.806
 shadow_enabled = true
 shadow_normal_bias = 1.573
 shadow_blur = 4.59
-
-[node name="UI" type="CanvasLayer" parent="." unique_id=1138531117]
-script = ExtResource("4_ati5v")
-
-[node name="DebugLabels" type="HFlowContainer" parent="UI" unique_id=997244761]
-offset_right = 55.0
-offset_bottom = 50.0
-
-[node name="SubViewportContainer" type="SubViewportContainer" parent="UI" unique_id=2113364557]
-offset_left = 385.0
-offset_top = 13.0
-offset_right = 513.0
-offset_bottom = 141.0
-
-[node name="SubViewport" type="SubViewport" parent="UI/SubViewportContainer" unique_id=2122547201]
-handle_input_locally = false
-size = Vector2i(128, 128)
-render_target_update_mode = 4
-
-[node name="Camera3D" type="Camera3D" parent="UI/SubViewportContainer/SubViewport" unique_id=290553034]
-transform = Transform3D(1, 0, 0, 0, -0.02652267, 0.9996482, 0, -0.9996482, -0.02652267, 0, 3.94629, 0)
-visible = false
-projection = 1
-size = 27.877
