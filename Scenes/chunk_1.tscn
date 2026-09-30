@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://ce6qyh4eb5nsr" path="res://Objects/crap_block.tscn" id="1_dgiig"]
 [ext_resource type="PackedScene" uid="uid://wlkvb8xnhqwd" path="res://guh.glb" id="2_vcyvq"]
+[ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="3_gcrt2"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 
@@ -171,3 +172,9 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.09
 
 [node name="guh24" parent="." unique_id=290495601 instance=ExtResource("2_vcyvq")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.0912843, -0.9706379, -39.071808)
+
+[node name="Coin?" parent="." unique_id=1610124163 node_paths=PackedStringArray("player") instance=ExtResource("3_gcrt2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.079575, 0.6873182, -12.680931)
+collision_layer = 1
+collision_mask = 2
+player = NodePath("")
