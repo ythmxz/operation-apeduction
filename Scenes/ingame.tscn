@@ -31,7 +31,7 @@ camera_attributes = SubResource("CameraAttributesPractical_ufa0x")
 compositor = SubResource("Compositor_acmg4")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1710603936]
-transform = Transform3D(1, 0, 0, 0, 0.8933403, 0.44938076, 0, -0.44938076, 0.8933403, 0, 3.851861, 4.617079)
+transform = Transform3D(1, 0, 0, 0, 0.8933403, 0.44938076, 0, -0.44938076, 0.8933403, 0, 4.9535465, 5.1240296)
 
 [node name="Player" parent="." unique_id=1668873940 instance=ExtResource("4_yl4g2")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.366816, 0)
