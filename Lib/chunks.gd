@@ -1,30 +1,44 @@
 extends Node3D
 
-# TODO: mais chunks diferentes
-const CHUNK_1 := preload("uid://cwj6as3qj2bj0")
-
+var last_chunk_type: PackedScene = null
 var scroll_speed: float = 0.0
-var choices: Array[PackedScene] = [CHUNK_1]
+var choices: Array[PackedScene] = [
+	preload("res://Scenes/chunk_1.tscn"),
+]
 
-func _ready() -> void:
-	# TODO: detectar quando que precisa com base na distância do fog ou algo assim (ou ter uma linha de limite lá longe mesmo)
-	var timer := get_tree().create_timer(1.0)
-	timer.timeout.connect(spawn_chunk)
+# Distâncias p/ spawnar e despawnar.
+const DISTANCE_TO_SPAWN: float = 100.0
+const DISTANCE_TO_DESPAWN: float = 5.0
 
 func _physics_process(delta: float) -> void:
 	for c in get_children():
 		c.position.z += scroll_speed * delta
-		if c.get_node(^"EndIndicator").global_position.z >= 0.0:
-			# TODO: deixar isso inmperceptível p/ a câmera
+		if c.get_node(^"EndIndicator").global_position.z >= DISTANCE_TO_DESPAWN:
 			c.queue_free()
+	
+	var ch := get_children()
+	if ch.is_empty():
+		spawn_chunk()
+	else:
+		var ei := ch[-1].get_node(^"EndIndicator")
+		if ei.global_position.z >= -DISTANCE_TO_SPAWN:
+			spawn_chunk()
+			print(ei.global_position.z)
 
 func spawn_chunk() -> void:
+	print("Spawning new random chunk...")
+
 	var arr: Array[PackedScene] = choices.duplicate()
 	arr.shuffle()
 
-	var last_chunk := get_children()[-1]
-	print("Last chunk: ", last_chunk)
+	var picked: PackedScene = arr[0]
+	if last_chunk_type != null and picked == last_chunk_type and arr.size() > 1:
+		# trocar se for o exato mesmo tipo de chunk que antes
+		picked = arr[1]
+	last_chunk_type = picked
 
-	var chunk := arr[0].instantiate()
+	var last_chunk := get_children()[-1]
+	var chunk := picked.instantiate()
+	# print("Last chunk was: ", last_chunk)
 	add_child(chunk)
 	chunk.global_position = last_chunk.get_node(^"EndIndicator").global_position
