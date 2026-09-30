@@ -171,7 +171,29 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.09
 [node name="guh24" parent="." unique_id=290495601 instance=ExtResource("2_vcyvq")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.0912843, -0.9706379, -39.071808)
 
-[node name="Coin?" parent="." unique_id=1610124163 instance=ExtResource("3_gcrt2")]
+[node name="Moedas" type="Node3D" parent="." unique_id=977152299]
+
+[node name="Coin?" parent="Moedas" unique_id=1610124163 instance=ExtResource("3_gcrt2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.079575, 0.6873182, -12.680931)
+collision_layer = 1
+collision_mask = 2
+
+[node name="Coin?4" parent="Moedas" unique_id=1728757976 instance=ExtResource("3_gcrt2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15915, 0.638294, -16.139462)
+collision_layer = 1
+collision_mask = 2
+
+[node name="Coin?3" parent="Moedas" unique_id=1249118026 instance=ExtResource("3_gcrt2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.238725, 0.2581116, -17.896933)
+collision_layer = 1
+collision_mask = 2
+
+[node name="Coin?2" parent="Moedas" unique_id=640854088 instance=ExtResource("3_gcrt2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15915, 0.66301155, -14.438402)
+collision_layer = 1
+collision_mask = 2
+
+[node name="Coin?5" parent="Moedas" unique_id=607395437 instance=ExtResource("3_gcrt2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3183, 0.2548021, -19.771862)
 collision_layer = 1
 collision_mask = 2
