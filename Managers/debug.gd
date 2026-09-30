@@ -1,21 +1,25 @@
 extends Node
 
+var is_enabled: bool = true
+
 var labels: Node = null
 var entries: Array[Entry] = []
 
 func _ready() -> void:
-	get_tree().node_added.connect(on_node_added)
-	labels = get_tree().root.find_child("DebugLabels", true, false)
-	if is_instance_valid(labels):
-		_flush_entries()
+	if is_enabled:
+		get_tree().node_added.connect(on_node_added)
+		labels = get_tree().root.find_child("DebugLabels", true, false)
+		if is_instance_valid(labels):
+			_flush_entries()
 
 func on_node_added(node: Node) -> void:
-	if node.name == "DebugLabels":
+	if node.name == &"DebugLabels":
 		labels = node
 		_flush_entries()
 
 func _flush_entries() -> void:
-	if not is_instance_valid(labels): return
+	if not is_instance_valid(labels):
+		return
 	for e in entries:
 		if not is_instance_valid(e.label):
 			var l := Label.new()

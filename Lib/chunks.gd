@@ -14,6 +14,7 @@ func _physics_process(delta: float) -> void:
 	for c in get_children():
 		c.position.z += scroll_speed * delta
 		if c.get_node(^"EndIndicator").global_position.z >= DISTANCE_TO_DESPAWN:
+			print("Freeing old chunk: ", c)
 			c.queue_free()
 	
 	var ch := get_children()
@@ -39,6 +40,5 @@ func spawn_chunk() -> void:
 
 	var last_chunk := get_children()[-1]
 	var chunk := picked.instantiate()
-	# print("Last chunk was: ", last_chunk)
 	add_child(chunk)
 	chunk.global_position = last_chunk.get_node(^"EndIndicator").global_position
