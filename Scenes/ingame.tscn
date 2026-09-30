@@ -7,6 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://mf8sl25xf2rg" path="res://Assets/Espacos.png" id="5_6toak"]
 [ext_resource type="Script" uid="uid://bxfr0jxs2n8m3" path="res://Lib/hud.gd" id="5_yl4g2"]
 [ext_resource type="Texture2D" uid="uid://vcsha1lkb2hl" path="res://Assets/Moeda.png" id="6_yl4g2"]
+[ext_resource type="Texture2D" uid="uid://cg671fmvajqr8" path="res://Assets/Ampulheta.png" id="8_mpua3"]
+[ext_resource type="Script" uid="uid://cme6n5uyff0oh" path="res://Lib/timer.gd" id="9_35pev"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
 background_color = Color(8.663535e-07, 0.59050936, 0.67476517, 1)
@@ -54,33 +56,68 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("5_yl4g2")
 
-[node name="Espaços" type="TextureRect" parent="HUD" unique_id=1000095015]
+[node name="EspaçosMoedas" type="TextureRect" parent="HUD" unique_id=1000095015]
 layout_mode = 0
-offset_left = 478.0
-offset_top = 3.0
-offset_right = 894.0
-offset_bottom = 163.0
+offset_left = 306.0
+offset_top = 6.0
+offset_right = 537.4
+offset_bottom = 95.0
 texture = ExtResource("5_6toak")
+expand_mode = 1
 
 [node name="QuantMoedas" type="Label" parent="HUD" unique_id=821665011]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -251.0
-offset_top = 37.0
-offset_right = -64.0
-offset_bottom = 128.0
+offset_left = -141.0
+offset_top = 4.0
+offset_right = 46.0
+offset_bottom = 95.0
 grow_horizontal = 0
 theme_override_constants/outline_size = 15
-theme_override_font_sizes/font_size = 64
+theme_override_font_sizes/font_size = 36
 text = "0"
 vertical_alignment = 1
 
 [node name="Moeda" type="TextureRect" parent="HUD" unique_id=1446713056]
 layout_mode = 0
-offset_left = 496.0
-offset_top = 21.0
-offset_right = 624.0
-offset_bottom = 149.0
+offset_left = 316.0
+offset_top = 16.0
+offset_right = 385.0
+offset_bottom = 85.0
 texture = ExtResource("6_yl4g2")
+expand_mode = 1
+
+[node name="EspaçosTempo" type="TextureRect" parent="HUD" unique_id=153425644]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 7.0
+offset_right = 236.40002
+offset_bottom = 96.0
+texture = ExtResource("5_6toak")
+expand_mode = 1
+
+[node name="Ampulheta" type="TextureRect" parent="HUD" unique_id=506071915]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 17.0
+offset_right = 85.0
+offset_bottom = 86.0
+texture = ExtResource("8_mpua3")
+expand_mode = 1
+
+[node name="Timer" type="Label" parent="HUD" unique_id=729541145]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -442.0
+offset_top = 5.0
+offset_right = -255.0
+offset_bottom = 96.0
+grow_horizontal = 0
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 36
+vertical_alignment = 1
+script = ExtResource("9_35pev")
