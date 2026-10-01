@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dosven0seta2x" path="res://Assets/Icone Casinha.png" id="2_fa7yd"]
 [ext_resource type="Script" uid="uid://bv6lpoqpjmpk6" path="res://Lib/tela_game_over.gd" id="2_i0hva"]
 [ext_resource type="Texture2D" uid="uid://c5rrqb8m2sar1" path="res://Assets/Icone Reset.png" id="3_i0hva"]
+[ext_resource type="Theme" uid="uid://c3ojic6fyhlqj" path="res://Assets/tema_ui.tres" id="3_jiblr"]
 
 [node name="TelaGameOver" type="TextureRect" unique_id=1894542213]
 anchors_preset = 8
@@ -27,7 +28,9 @@ offset_left = 154.0
 offset_top = 83.0
 offset_right = 294.0
 offset_bottom = 111.0
+theme = ExtResource("3_jiblr")
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Moedas" type="Label" parent="." unique_id=246950783]
 layout_mode = 0
@@ -35,7 +38,9 @@ offset_left = 153.91943
 offset_top = 150.5
 offset_right = 294.91943
 offset_bottom = 184.0
+theme = ExtResource("3_jiblr")
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Pontuação" type="Label" parent="." unique_id=1360252629]
 layout_mode = 0
@@ -43,7 +48,10 @@ offset_left = 153.0
 offset_top = 220.0
 offset_right = 294.0
 offset_bottom = 254.0
+theme = ExtResource("3_jiblr")
 horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_trim_flags = 128
 
 [node name="MenuPrincipal" type="Button" parent="." unique_id=1064898650]
 layout_mode = 0

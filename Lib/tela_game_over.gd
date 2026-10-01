@@ -14,10 +14,10 @@ func _ready() -> void:
 	segundos = Global.tempo_final[1]
 	segundos_totais = Global.tempo_final[2]
 	moedas = Global.moedas_finais
-	
+
 	moedas_l.text = str(moedas)
 	tempo_l.text = "%d:%02d" % [minutos, segundos]
-	
+
 	var calculo_pontuacao = (segundos_totais * 10) + (moedas * 200)
 	pontuacao_l.text = str(calculo_pontuacao)
 
