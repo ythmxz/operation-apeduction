@@ -22,3 +22,6 @@ func transition(path: NodePath) -> void:
 
 func _process(delta: float) -> void:
 	current_state.process(delta)
+	
+func _ready() -> void:
+	current_state.enter.call_deferred()

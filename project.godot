@@ -39,3 +39,7 @@ debug_restart={
 
 3d_physics/layer_1="objects"
 3d_physics/layer_2="player"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=3

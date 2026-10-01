@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dnot6wcu5fiv"
-path="res://.godot/imported/porta_sem_textura.glb-d5ba9a5618449c326779603af5c0f443.scn"
+uid="uid://bb5mq8aa5mufx"
+path="res://.godot/imported/pilar_quadrado_sem_textura.glb-78d0928855be43370b7bb42b6930bf47.scn"
 
 [deps]
 
-source_file="res://models/porta_sem_textura.glb"
-dest_files=["res://.godot/imported/porta_sem_textura.glb-d5ba9a5618449c326779603af5c0f443.scn"]
+source_file="res://models/Static/pilar_quadrado_sem_textura.glb"
+dest_files=["res://.godot/imported/pilar_quadrado_sem_textura.glb-78d0928855be43370b7bb42b6930bf47.scn"]
 
 [params]
 

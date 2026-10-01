@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://lsdyqgnuofcw"
-path="res://.godot/imported/caixa_sem_textura.glb-7100c5ed17952b08acf1bd1438797c31.scn"
+uid="uid://bxo311bu34b6v"
+path="res://.godot/imported/SM_moeda.glb-bb897cb5a7ceda295e637f5427f38381.scn"
 
 [deps]
 
-source_file="res://models/caixa_sem_textura.glb"
-dest_files=["res://.godot/imported/caixa_sem_textura.glb-7100c5ed17952b08acf1bd1438797c31.scn"]
+source_file="res://models/Static/SM_moeda.glb"
+dest_files=["res://.godot/imported/SM_moeda.glb-bb897cb5a7ceda295e637f5427f38381.scn"]
 
 [params]
 
