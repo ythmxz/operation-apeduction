@@ -14,11 +14,35 @@ height = 0.96655273
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y0qk3"]
 albedo_color = Color(0.627451, 1, 1, 1)
+emission_enabled = true
+emission = Color(0.627451, 1, 1, 1)
 rim_enabled = true
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ufa0x"]
 material = SubResource("StandardMaterial3D_y0qk3")
 height = 1.1083984
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7ktk5"]
+lifetime_randomness = 0.5
+emission_shape = 1
+emission_sphere_radius = 0.5
+use_rotation_3d = true
+rotation_3d_min = Vector3(-90, 0, 0)
+rotation_3d_max = Vector3(-90, 0, 0)
+gravity = Vector3(0, 0, -3)
+scale_min = 0.5
+scale_max = 2.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ojhik"]
+albedo_color = Color(0.627451, 1, 1, 1)
+emission_enabled = true
+emission = Color(0.627451, 1, 1, 1)
+emission_energy_multiplier = 5.0
+rim_enabled = true
+
+[sub_resource type="PrismMesh" id="PrismMesh_t0o8e"]
+material = SubResource("StandardMaterial3D_ojhik")
+size = Vector3(0.05, 0.2, 0.05)
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_v0iea"]
 radius = 0.4
@@ -41,8 +65,15 @@ transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -1, 0)
 
 [node name="PlaceholderModelCrouch" type="MeshInstance3D" parent="." unique_id=601452220]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.44580078, 0)
-visible = false
 mesh = SubResource("CapsuleMesh_ufa0x")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="PlaceholderModelCrouch" unique_id=1224981918]
+cast_shadow = 0
+amount = 32
+randomness = 1.0
+local_coords = true
+process_material = SubResource("ParticleProcessMaterial_7ktk5")
+draw_pass_1 = SubResource("PrismMesh_t0o8e")
 
 [node name="AreaLF" type="Area3D" parent="." unique_id=1334924452]
 transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, -0.08098805, -0.45162764, -0.27956924)
