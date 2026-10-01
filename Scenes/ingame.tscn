@@ -37,7 +37,7 @@ compositor = SubResource("Compositor_acmg4")
 transform = Transform3D(1, 0, 0, 0, 0.8933403, 0.44938076, 0, -0.44938076, 0.8933403, 0, 4.9535465, 5.1240296)
 
 [node name="Player" parent="." unique_id=1668873940 instance=ExtResource("4_yl4g2")]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.366816, 0)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.0369742, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1696851979]
 transform = Transform3D(0.96834093, -0.20128131, 0.14765373, 0, 0.5914872, 0.8063144, -0.2496313, -0.7807872, 0.5727613, 9.135828, 8.786674, 6.5201154)
