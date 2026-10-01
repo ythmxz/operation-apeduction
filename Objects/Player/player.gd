@@ -71,7 +71,7 @@ func after_ready() -> void:
 	sm.transitioned.connect(func(_old, new):
 		l_cur_state.set_text(new.name)
 	)
-	
+
 	anim_player.animation_finished.connect(_on_animation_finished)
 
 func _physics_process(delta: float) -> void:
@@ -136,16 +136,16 @@ func on_lower_front_collision(_body: Node3D) -> void:
 func on_upper_front_collision(_body: Node3D) -> void:
 	if not is_crouching:
 		die()
-		
+
 func coleta_moedas():
 	moedas += 1
 	hud.atualizaMoedas(moedas)
-	
+
 func _on_animation_finished(anim_name: StringName) -> void:
 	if anim_name == "BAKED_Shift Left" or anim_name == "BAKED_Shift Right":
 		var current_anim: String = STATE_TO_ANIMATION.get(sm.get_state_name(), "BAKED_Running")
 		anim_player.play(current_anim, 0.15)
-		
+
 func shift_lane(direction: StringName) -> void:
 	cur_lane += -1 if (direction == &"Left") else 1
 	anim_player.play("BAKED_Shift %s" % direction, 0.1, 1.25)
