@@ -2,24 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cyfm43gy8uk42"
-path.s3tc="res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.s3tc.ctex"
+uid="uid://dw38nwtxdyc5f"
+path="res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
-}
-generator_parameters={
-"md5": "09abaa51e57824de2d6abaef3c87f3f1"
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://Models/SM_moeda_Moeda.png"
-dest_files=["res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.s3tc.ctex"]
+dest_files=["res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -27,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -41,4 +37,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

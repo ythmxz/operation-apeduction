@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3onpgoe1ksfv"
+uid="uid://bj24rnm5nr3r7"
 path.s3tc="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-5acfdf004d468151623d406c1ee4f44e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "0ff973f9daafd7565d6f7c5fc9da7b51"
 }
 
 [deps]

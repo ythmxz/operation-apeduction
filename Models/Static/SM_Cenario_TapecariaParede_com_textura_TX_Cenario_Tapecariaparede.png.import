@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfin7j5iu4rjn"
+uid="uid://ro8c0b3kpv20"
 path.s3tc="res://.godot/imported/SM_Cenario_TapecariaParede_com_textura_TX_Cenario_Tapecariaparede.png-4d472aa5de7d628d34ecf4c64d9b2b66.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "785fb574194e76be12f2c6be1ed6fce7"
 }
 
 [deps]

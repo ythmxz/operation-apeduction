@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buwai8eggrypx"
+uid="uid://dmw12xv45tx38"
 path.s3tc="res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_BarrilMadeira.png-9d09454f021c212edb3caf0425168e50.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "605186fbadf9cd72ccf2be8d5e68c8a5"
 }
 
 [deps]
