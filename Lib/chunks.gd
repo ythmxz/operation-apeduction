@@ -3,8 +3,8 @@ extends Node3D
 var last_chunk_type: PackedScene = null
 var scroll_speed: float = 0.0
 var choices: Array[PackedScene] = [
-	preload("res://Scenes/Chunks/chunk_1.tscn"),
-	# preload("res://Scenes/chunk_2.tscn"),
+	# preload("res://Scenes/Chunks/chunk_1.tscn"),
+	preload("res://Scenes/Chunks/chunk_2.tscn"),
 ]
 
 # Distâncias p/ spawnar e despawnar.

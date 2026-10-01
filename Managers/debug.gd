@@ -1,6 +1,6 @@
 extends Node
 
-var is_enabled: bool = true
+var is_enabled: bool = false
 
 var labels: Node = null
 var entries: Array[Entry] = []

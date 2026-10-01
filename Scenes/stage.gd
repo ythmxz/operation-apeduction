@@ -38,7 +38,14 @@ func _physics_process(delta: float) -> void:
 		chunks.scroll_speed = move_toward(chunks.scroll_speed, 0.0, BACK_DECCEL * delta)
 
 	var cam_y: float = camera.global_position.y
-	var tgt_y: float = max(-2, player.global_position.y + 3)
+	var tgt_y: float = max(-2, player.global_position.y + 3.5)
+	var dist := absf(cam_y - tgt_y)
 
-	if abs(cam_y - tgt_y) >= 2:
-		camera.global_position.y = move_toward(cam_y, tgt_y, abs(cam_y - tgt_y) * 0.05)
+	var follow_factor := (
+		0.00 if (dist <= 1) else
+		0.02 if (dist <= 3) else
+		0.08 if (dist <= 5) else
+		0.10
+	)
+
+	camera.global_position.y = move_toward(cam_y, tgt_y, abs(cam_y - tgt_y) * follow_factor)
