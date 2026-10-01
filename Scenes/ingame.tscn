@@ -4,10 +4,7 @@
 [ext_resource type="Script" uid="uid://0dqqbgkjqg3f" path="res://Lib/chunks.gd" id="2_165j7"]
 [ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="3_6toak"]
 [ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="4_yl4g2"]
-[ext_resource type="Texture2D" uid="uid://mf8sl25xf2rg" path="res://Assets/Espacos.png" id="5_6toak"]
-[ext_resource type="Script" uid="uid://bxfr0jxs2n8m3" path="res://Lib/hud.gd" id="5_yl4g2"]
-[ext_resource type="Texture2D" uid="uid://vcsha1lkb2hl" path="res://Assets/Moeda.png" id="6_yl4g2"]
-[ext_resource type="Texture2D" uid="uid://cg671fmvajqr8" path="res://Assets/Ampulheta.png" id="8_mpua3"]
+[ext_resource type="PackedScene" uid="uid://y232dhvambw3" path="res://Scenes/hud.tscn" id="5_165j7"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
 background_mode = 1
@@ -47,79 +44,7 @@ transform = Transform3D(1, 0, 0, 0, 0.8933403, 0.44938076, 0, -0.44938076, 0.893
 [node name="Player" parent="." unique_id=1668873940 instance=ExtResource("4_yl4g2")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.0369742, 0)
 
-[node name="HUD" type="Control" parent="." unique_id=241010302]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-script = ExtResource("5_yl4g2")
-
-[node name="EspaçosMoedas" type="TextureRect" parent="HUD" unique_id=1000095015]
-layout_mode = 0
-offset_left = 306.0
-offset_top = 6.0
-offset_right = 537.4
-offset_bottom = 95.0
-texture = ExtResource("5_6toak")
-expand_mode = 1
-
-[node name="QuantMoedas" type="Label" parent="HUD" unique_id=821665011]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -141.0
-offset_top = 4.0
-offset_right = 46.0
-offset_bottom = 95.0
-grow_horizontal = 0
-theme_override_constants/outline_size = 15
-theme_override_font_sizes/font_size = 36
-text = "0"
-vertical_alignment = 1
-
-[node name="Moeda" type="TextureRect" parent="HUD" unique_id=1446713056]
-layout_mode = 0
-offset_left = 316.0
-offset_top = 16.0
-offset_right = 385.0
-offset_bottom = 85.0
-texture = ExtResource("6_yl4g2")
-expand_mode = 1
-
-[node name="EspaçosTempo" type="TextureRect" parent="HUD" unique_id=153425644]
-layout_mode = 0
-offset_left = 5.0
-offset_top = 7.0
-offset_right = 236.40002
-offset_bottom = 96.0
-texture = ExtResource("5_6toak")
-expand_mode = 1
-
-[node name="Ampulheta" type="TextureRect" parent="HUD" unique_id=506071915]
-layout_mode = 0
-offset_left = 16.0
-offset_top = 17.0
-offset_right = 85.0
-offset_bottom = 86.0
-texture = ExtResource("8_mpua3")
-expand_mode = 1
-
-[node name="Timer" type="Label" parent="HUD" unique_id=729541145]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -442.0
-offset_top = 5.0
-offset_right = -255.0
-offset_bottom = 96.0
-grow_horizontal = 0
-theme_override_constants/outline_size = 15
-theme_override_font_sizes/font_size = 36
-vertical_alignment = 1
+[node name="HUD" parent="." unique_id=2067654754 instance=ExtResource("5_165j7")]
 
 [node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1476066664]
 transform = Transform3D(1, 0, 0, 0, 0.9173245, 0.3981408, 0, -0.39814073, 0.91732436, 0, 10.581827, 0)
