@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cehjs3lwrjnox"]
 
 [ext_resource type="Script" uid="uid://vtd04qumlcj6" path="res://Lib/coin.gd" id="1_l6gqw"]
-[ext_resource type="PackedScene" uid="uid://bxo311bu34b6v" path="res://models/Static/SM_moeda.glb" id="2_0qxo4"]
+[ext_resource type="PackedScene" uid="uid://bxo311bu34b6v" path="res://Models/Static/SM_moeda.glb" id="2_0qxo4"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_yj6yl"]
 height = 0.12399292
