@@ -500,7 +500,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7165755, 0.64816654, -41.80
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7165755, 0.64816654, -43.25281)
 
 [node name="Coin?10" parent="." unique_id=1696329877 instance=ExtResource("5_al6ls")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7165755, 0.64816654, -44.72369)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7165755, 3.0197902, -54.55061)
+
+[node name="Coin?11" parent="." unique_id=655916992 instance=ExtResource("5_al6ls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7165755, 3.3801875, -55.610794)
+
+[node name="Coin?12" parent="." unique_id=1758594462 instance=ExtResource("5_al6ls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7165755, 2.870669, -56.66621)
 
 [node name="Coin?4" parent="." unique_id=1212839433 instance=ExtResource("5_al6ls")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03905329, 0.64816654, -21.192314)
