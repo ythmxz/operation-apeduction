@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c8w7io6thsm8y"
-path="res://.godot/imported/OBS_Cenario_BarrilMadeira.glb-16e737af081e98bdc7dfb946438bfc41.scn"
+uid="uid://dcyjm0ku2qvh6"
+path="res://.godot/imported/OBS_cenario_barril_2.glb-de54f743ad438adef00e69420f2a9fe4.scn"
 
 [deps]
 
-source_file="res://models/Obstacle/OBS_Cenario_BarrilMadeira.glb"
-dest_files=["res://.godot/imported/OBS_Cenario_BarrilMadeira.glb-16e737af081e98bdc7dfb946438bfc41.scn"]
+source_file="res://models/Static/OBS_cenario_barril_2.glb"
+dest_files=["res://.godot/imported/OBS_cenario_barril_2.glb-de54f743ad438adef00e69420f2a9fe4.scn"]
 
 [params]
 

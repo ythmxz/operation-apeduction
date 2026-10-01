@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3y0ioo01xv3c"
-path.s3tc="res://.godot/imported/OBS_cenario_barrilmadeira_com_textura_TX_Cenario_Gaiola.png-1a01640538acd955776b2e8dfbd88197.s3tc.ctex"
+uid="uid://buwai8eggrypx"
+path.s3tc="res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_BarrilMadeira.png-a409a7fb187ba562ac633d74f222aa06.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "a2a2018d45ddb3cfd69e768b52f9333b"
+"md5": "605186fbadf9cd72ccf2be8d5e68c8a5"
 }
 
 [deps]
 
-source_file="res://models/Obstacle/OBS_cenario_barrilmadeira_com_textura_TX_Cenario_Gaiola.png"
-dest_files=["res://.godot/imported/OBS_cenario_barrilmadeira_com_textura_TX_Cenario_Gaiola.png-1a01640538acd955776b2e8dfbd88197.s3tc.ctex"]
+source_file="res://models/Static/OBS_cenario_barril_2_TX_Cenario_BarrilMadeira.png"
+dest_files=["res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_BarrilMadeira.png-a409a7fb187ba562ac633d74f222aa06.s3tc.ctex"]
 
 [params]
 
