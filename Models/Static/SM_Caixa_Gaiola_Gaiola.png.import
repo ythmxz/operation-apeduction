@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buwai8eggrypx"
-path.s3tc="res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_BarrilMadeira.png-a409a7fb187ba562ac633d74f222aa06.s3tc.ctex"
+uid="uid://c3onpgoe1ksfv"
+path.s3tc="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-5acfdf004d468151623d406c1ee4f44e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "605186fbadf9cd72ccf2be8d5e68c8a5"
+"md5": "0ff973f9daafd7565d6f7c5fc9da7b51"
 }
 
 [deps]
 
-source_file="res://models/Static/OBS_cenario_barril_2_TX_Cenario_BarrilMadeira.png"
-dest_files=["res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_BarrilMadeira.png-a409a7fb187ba562ac633d74f222aa06.s3tc.ctex"]
+source_file="res://Models/Static/SM_Caixa_Gaiola_Gaiola.png"
+dest_files=["res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-5acfdf004d468151623d406c1ee4f44e.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3tttfce8nm67"
-path.s3tc="res://.godot/imported/SM_tocha_binga.png-d6e956fc942c8ce70a0d4507a1c5498f.s3tc.ctex"
+uid="uid://o562l1ke3ln4"
+path.s3tc="res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "d3ae6e4bdc2881df5b1fc030f742c444"
+"md5": "fbaa1daa47041045d27cf1a30c31e540"
 }
 
 [deps]
 
-source_file="res://models/Static/SM_tocha_binga.png"
-dest_files=["res://.godot/imported/SM_tocha_binga.png-d6e956fc942c8ce70a0d4507a1c5498f.s3tc.ctex"]
+source_file="res://Models/Static/SM_cadeira_imag1e.png"
+dest_files=["res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.s3tc.ctex"]
 
 [params]
 

@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmktnpfrjn6rm"
-path.s3tc="res://.godot/imported/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png-5321c534e76323d7bd79e03f7ca0b045.s3tc.ctex"
+uid="uid://bs6c1sa5o6em6"
+path.s3tc="res://.godot/imported/SM_moeda_Moeda.png-2c0e0270d2aa1924dc554976280f52d1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "fdd2284cd0d29fcd7d01e5436ff54850"
+"md5": "09abaa51e57824de2d6abaef3c87f3f1"
 }
 
 [deps]
 
-source_file="res://models/Static/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png"
-dest_files=["res://.godot/imported/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png-5321c534e76323d7bd79e03f7ca0b045.s3tc.ctex"]
+source_file="res://Models/Static/SM_moeda_Moeda.png"
+dest_files=["res://.godot/imported/SM_moeda_Moeda.png-2c0e0270d2aa1924dc554976280f52d1.s3tc.ctex"]
 
 [params]
 

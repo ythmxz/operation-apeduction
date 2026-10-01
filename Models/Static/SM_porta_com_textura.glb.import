@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dcyjm0ku2qvh6"
-path="res://.godot/imported/OBS_cenario_barril_2.glb-de54f743ad438adef00e69420f2a9fe4.scn"
+uid="uid://cydxubscm506p"
+path="res://.godot/imported/SM_porta_com_textura.glb-fbc4b7da90d0d3f41d913800b25faed6.scn"
 
 [deps]
 
-source_file="res://models/Static/OBS_cenario_barril_2.glb"
-dest_files=["res://.godot/imported/OBS_cenario_barril_2.glb-de54f743ad438adef00e69420f2a9fe4.scn"]
+source_file="res://Models/Static/SM_porta_com_textura.glb"
+dest_files=["res://.godot/imported/SM_porta_com_textura.glb-fbc4b7da90d0d3f41d913800b25faed6.scn"]
 
 [params]
 

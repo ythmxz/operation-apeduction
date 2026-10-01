@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bxo311bu34b6v"
-path="res://.godot/imported/SM_moeda.glb-bb897cb5a7ceda295e637f5427f38381.scn"
+uid="uid://qmb52dttqbm5"
+path="res://.godot/imported/SM_Cenario_TapecariaParede_com_textura.glb-253c4dbb5f440846760a5ae35ebad3e2.scn"
 
 [deps]
 
-source_file="res://models/Static/SM_moeda.glb"
-dest_files=["res://.godot/imported/SM_moeda.glb-bb897cb5a7ceda295e637f5427f38381.scn"]
+source_file="res://Models/Static/SM_Cenario_TapecariaParede_com_textura.glb"
+dest_files=["res://.godot/imported/SM_Cenario_TapecariaParede_com_textura.glb-253c4dbb5f440846760a5ae35ebad3e2.scn"]
 
 [params]
 

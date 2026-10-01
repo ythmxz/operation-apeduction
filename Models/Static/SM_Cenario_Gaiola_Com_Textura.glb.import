@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dal45eyfledbt"
-path="res://.godot/imported/SM_barril.glb-1f280c0b600831f24a878b9f5a5da0b5.scn"
+uid="uid://cjvfvu64qug4y"
+path="res://.godot/imported/SM_Cenario_Gaiola_Com_Textura.glb-fd7323abe4c9b240e457847cf7ffa652.scn"
 
 [deps]
 
-source_file="res://models/Static/SM_barril.glb"
-dest_files=["res://.godot/imported/SM_barril.glb-1f280c0b600831f24a878b9f5a5da0b5.scn"]
+source_file="res://Models/Static/SM_Cenario_Gaiola_Com_Textura.glb"
+dest_files=["res://.godot/imported/SM_Cenario_Gaiola_Com_Textura.glb-fd7323abe4c9b240e457847cf7ffa652.scn"]
 
 [params]
 

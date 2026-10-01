@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://by3une86pqwhk"
-path="res://.godot/imported/SM_Caixa_Gaiola.glb-ac3d5706379ed4ac1e66fa2e424bd1c3.scn"
+uid="uid://bxo311bu34b6v"
+path="res://.godot/imported/SM_moeda.glb-2beba380ede1b3b0c46e9136216063cf.scn"
 
 [deps]
 
-source_file="res://models/Static/SM_Caixa_Gaiola.glb"
-dest_files=["res://.godot/imported/SM_Caixa_Gaiola.glb-ac3d5706379ed4ac1e66fa2e424bd1c3.scn"]
+source_file="res://Models/Static/SM_moeda.glb"
+dest_files=["res://.godot/imported/SM_moeda.glb-2beba380ede1b3b0c46e9136216063cf.scn"]
 
 [params]
 

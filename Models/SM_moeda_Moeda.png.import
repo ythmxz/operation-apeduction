@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3onpgoe1ksfv"
-path.s3tc="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.s3tc.ctex"
+uid="uid://cyfm43gy8uk42"
+path.s3tc="res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "0ff973f9daafd7565d6f7c5fc9da7b51"
+"md5": "09abaa51e57824de2d6abaef3c87f3f1"
 }
 
 [deps]
 
-source_file="res://models/Static/SM_Caixa_Gaiola_Gaiola.png"
-dest_files=["res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.s3tc.ctex"]
+source_file="res://Models/SM_moeda_Moeda.png"
+dest_files=["res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.s3tc.ctex"]
 
 [params]
 

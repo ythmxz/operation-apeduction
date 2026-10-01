@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://capt8yvwaf78w"
-path.s3tc="res://.godot/imported/SM_barril_Barril.png-b22e14e67637244c96c514234cd84c39.s3tc.ctex"
+uid="uid://buuaaryl0uhh3"
+path.s3tc="res://.godot/imported/SM_porta_com_textura_porta.png-2a4118855a847371db3258f2aa5d4931.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "4d42695b6fcd843bc417db9ea488299b"
+"md5": "33090cb32319f33e887037d965b36902"
 }
 
 [deps]
 
-source_file="res://models/Static/SM_barril_Barril.png"
-dest_files=["res://.godot/imported/SM_barril_Barril.png-b22e14e67637244c96c514234cd84c39.s3tc.ctex"]
+source_file="res://Models/Static/SM_porta_com_textura_porta.png"
+dest_files=["res://.godot/imported/SM_porta_com_textura_porta.png-2a4118855a847371db3258f2aa5d4931.s3tc.ctex"]
 
 [params]
 
