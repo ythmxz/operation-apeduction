@@ -5,8 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="3_if764"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_8u3e7"]
 [ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="5_al6ls"]
-[ext_resource type="PackedScene" uid="uid://dal45eyfledbt" path="res://Models/Static/SM_barril.glb" id="6_if764"]
-[ext_resource type="PackedScene" uid="uid://by3une86pqwhk" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="7_8u3e7"]
+[ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://Models/Static/SM_barril.glb" id="6_if764"]
+[ext_resource type="PackedScene" uid="uid://c8d2cgev8ccpn" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="7_8u3e7"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 

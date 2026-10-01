@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c0oers5tfuco5"]
 
-[ext_resource type="PackedScene" uid="uid://cbxcjobbqgp3u" path="res://Models/Static/SM_tocha.glb" id="1_phc6a"]
+[ext_resource type="PackedScene" uid="uid://18ti0aem67de" path="res://Models/Static/SM_tocha.glb" id="1_phc6a"]
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7ktk5"]
 emission_shape = 1
@@ -31,7 +31,7 @@ size = Vector3(0.1, 0.1, 0.1)
 
 [node name="Tocha" unique_id=1044915645 instance=ExtResource("1_phc6a")]
 
-[node name="Cubo" parent="." index="0" unique_id=1910557450]
+[node name="Cubo" parent="." index="0" unique_id=1833289531]
 transform = Transform3D(0.32213467, 0, 0, 0, 0.32213467, 0, 0, 0, 0.32213467, 0.0013566399, -0.18697499, 0.1839753)
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="." index="1" unique_id=2144547929]

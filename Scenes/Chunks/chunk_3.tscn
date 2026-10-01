@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="1_2e5nx"]
 [ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Scenes/parede.tscn" id="2_x841d"]
-[ext_resource type="PackedScene" uid="uid://qmb52dttqbm5" path="res://Models/Static/SM_Cenario_TapecariaParede_com_textura.glb" id="3_01imp"]
+[ext_resource type="PackedScene" uid="uid://cdg3yuggljlqj" path="res://Models/Static/SM_Cenario_TapecariaParede_com_textura.glb" id="3_01imp"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_1u80q"]
-[ext_resource type="PackedScene" uid="uid://by3une86pqwhk" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="5_e4tgv"]
+[ext_resource type="PackedScene" uid="uid://c8d2cgev8ccpn" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="5_e4tgv"]
 
 [node name="Chunk3" type="Node3D" unique_id=1030924840]
 

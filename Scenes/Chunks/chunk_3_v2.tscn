@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="1_d0kcw"]
 [ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Scenes/parede.tscn" id="2_78r7g"]
-[ext_resource type="PackedScene" uid="uid://qmb52dttqbm5" path="res://Models/Static/SM_Cenario_TapecariaParede_com_textura.glb" id="3_ngepp"]
+[ext_resource type="PackedScene" uid="uid://cdg3yuggljlqj" path="res://Models/Static/SM_Cenario_TapecariaParede_com_textura.glb" id="3_ngepp"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_nlal8"]
-[ext_resource type="PackedScene" uid="uid://dal45eyfledbt" path="res://Models/Static/SM_barril.glb" id="5_d0kcw"]
+[ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://Models/Static/SM_barril.glb" id="5_d0kcw"]
 
 [node name="Chunk3" type="Node3D" unique_id=1030924840]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)

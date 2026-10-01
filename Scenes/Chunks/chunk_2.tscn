@@ -4,10 +4,10 @@
 [ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="3_3esqc"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_5xnqh"]
 [ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="5_yvyln"]
-[ext_resource type="PackedScene" uid="uid://dal45eyfledbt" path="res://Models/Static/SM_barril.glb" id="6_g5ma0"]
-[ext_resource type="PackedScene" uid="uid://c7f62pbgvwmxn" path="res://Models/Static/SM_cadeira.glb" id="6_vbtkr"]
-[ext_resource type="PackedScene" uid="uid://by3une86pqwhk" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="7_yi8o1"]
-[ext_resource type="PackedScene" uid="uid://chicniavpexx1" path="res://Models/Static/SM_cenario_tapetecorredor.glb" id="8_hagbw"]
+[ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://Models/Static/SM_barril.glb" id="6_g5ma0"]
+[ext_resource type="PackedScene" uid="uid://qdux25glnw3i" path="res://Models/Static/SM_cadeira.glb" id="6_vbtkr"]
+[ext_resource type="PackedScene" uid="uid://c8d2cgev8ccpn" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="7_yi8o1"]
+[ext_resource type="PackedScene" uid="uid://bffbqe51ta3nx" path="res://Models/Static/SM_cenario_tapetecorredor.glb" id="8_hagbw"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 
