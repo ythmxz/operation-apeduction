@@ -20,9 +20,7 @@ func _ready() -> void:
 
 	moedas_l.text = str(moedas)
 	tempo_l.text = "%d:%02d" % [minutos, segundos]
-
-	var calculo_pontuacao = (segundos_totais * 10) + (moedas * 200)
-	pontuacao_l.text = str(calculo_pontuacao)
+	pontuacao_l.text = str(Global.pontuacao_final)
 
 func _on_menu_principal_pressed() -> void:
 	Global.game.switch_context(&"gui", "uid://bf62aaybcwjik", Transitions.FADE_BLACK)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djceas5h83nr1"
-path="res://.godot/imported/Layout Game Over.png-60215b90187cf2c36ef2e0eaeb4b7907.ctex"
+uid="uid://dcqxngmul8o58"
+path="res://.godot/imported/Icone Avancar.png-2fd7fd11119154a8a63d24e72c74a099.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Layout Game Over.png"
-dest_files=["res://.godot/imported/Layout Game Over.png-60215b90187cf2c36ef2e0eaeb4b7907.ctex"]
+source_file="res://Assets/Icone Avancar.png"
+dest_files=["res://.godot/imported/Icone Avancar.png-2fd7fd11119154a8a63d24e72c74a099.ctex"]
 
 [params]
 

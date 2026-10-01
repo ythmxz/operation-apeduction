@@ -56,6 +56,11 @@ focus_neighbor_bottom = NodePath("../CreditsButton")
 theme = ExtResource("4_twnyg")
 text = "Iniciar"
 
+[node name="LeaderBoardButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=2010580548]
+layout_mode = 2
+theme = ExtResource("4_twnyg")
+text = "LeaderBoard"
+
 [node name="CreditsButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=200281592]
 layout_mode = 2
 focus_neighbor_top = NodePath("../StartButton")
@@ -70,5 +75,6 @@ theme = ExtResource("4_twnyg")
 text = "Sair"
 
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/LeaderBoardButton" to="." method="_on_leader_board_button_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/CreditsButton" to="." method="_on_credits_button_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
