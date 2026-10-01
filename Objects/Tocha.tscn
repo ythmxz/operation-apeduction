@@ -2,22 +2,53 @@
 
 [ext_resource type="PackedScene" uid="uid://4jbk08x6cyjn" path="res://models/tocha.glb" id="1_phc6a"]
 
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7ktk5"]
+emission_shape = 1
+emission_sphere_radius = 0.3
+use_rotation_3d = true
+rotation_3d_min = Vector3(-30, -30, -30)
+rotation_3d_max = Vector3(30, 30, 30)
+gravity = Vector3(0, 0.5, 0)
+scale_min = 0.5
+scale_max = 1.5
+turbulence_enabled = true
+turbulence_noise_speed_random = 0.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ojhik"]
+shading_mode = 0
+vertex_color_use_as_albedo = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_t0o8e"]
+material = SubResource("StandardMaterial3D_ojhik")
+size = Vector3(0.1, 0.1, 0.1)
+
 [node name="tocha" unique_id=1044915645 instance=ExtResource("1_phc6a")]
 
-[node name="Cilindro" parent="." index="0" unique_id=2088982023]
+[node name="Cilindro" parent="." index="0" unique_id=325813270]
 transform = Transform3D(0.23811331, 0.00619983, 0.0040542325, 0.029059479, -0.049263284, 0.028989043, -0.0075890417, 0.005889633, 0.23820835, -0.07678351, 0.443951, -0.08334577)
 
-[node name="Cilindro_001" parent="." index="1" unique_id=981061626]
+[node name="Cilindro_001" parent="." index="1" unique_id=450862260]
 transform = Transform3D(0.28772014, 0.0037198972, 0.004729938, 0.035113525, -0.029557964, 0.033820547, -0.009170089, 0.003533779, 0.27790973, -0.08794317, 0.5326251, -0.09394711)
 
-[node name="Cone" parent="." index="2" unique_id=1717042783]
+[node name="Cone" parent="." index="2" unique_id=307722916]
 transform = Transform3D(-0.20834917, 0.06447817, 0.0035474566, -0.025427004, -0.51233846, 0.025365407, 0.00664041, 0.061252218, 0.20843229, -0.008585304, -0.0979453, -0.018559754)
 
-[node name="Cubo" parent="." index="3" unique_id=2038169822]
+[node name="Cubo" parent="." index="3" unique_id=1112267955]
 transform = Transform3D(0.32213467, 0, 0, 0, 0.32213467, 0, 0, 0, 0.32213467, 0.0013566399, -0.18697499, 0.1839753)
 
-[node name="Toróide" parent="." index="4" unique_id=1644790]
+[node name="Toróide" parent="." index="4" unique_id=1634640830]
 transform = Transform3D(0.12056583, 0, 0, 0, 0.12056583, 0, 0, 0, 0.12056583, 0, -0.18947649, 0)
 
-[node name="Toróide_001" parent="." index="5" unique_id=810899232]
+[node name="Toróide_001" parent="." index="5" unique_id=479672434]
 transform = Transform3D(0.18965225, 0, 0, 0, 0.18965225, 0, 0, 0, 0.18965225, -0.034655184, 0.08004364, -0.055870216)
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." index="6" unique_id=2144547929]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0.6, -0.1)
+transparency = 0.2
+amount = 32
+lifetime = 5.0
+speed_scale = 2.5
+explosiveness = 0.1
+randomness = 0.1
+process_material = SubResource("ParticleProcessMaterial_7ktk5")
+draw_pass_1 = SubResource("BoxMesh_t0o8e")
