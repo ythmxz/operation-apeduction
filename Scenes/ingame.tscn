@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://c1f3tlnpl16dd" path="res://Scenes/stage.gd" id="1_lq36l"]
 [ext_resource type="Script" uid="uid://0dqqbgkjqg3f" path="res://Lib/chunks.gd" id="2_165j7"]
-[ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/chunk_init.tscn" id="3_6toak"]
+[ext_resource type="PackedScene" uid="uid://33k7yosawhn8" path="res://Scenes/Chunks/chunk_init.tscn" id="3_6toak"]
 [ext_resource type="PackedScene" uid="uid://bd7q8eduip0aw" path="res://Objects/Player/player.tscn" id="4_yl4g2"]
 [ext_resource type="PackedScene" uid="uid://y232dhvambw3" path="res://Scenes/hud.tscn" id="5_165j7"]
 

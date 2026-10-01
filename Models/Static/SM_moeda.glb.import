@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bxo311bu34b6v"
-path="res://.godot/imported/SM_moeda.glb-bb897cb5a7ceda295e637f5427f38381.scn"
+path="res://.godot/imported/SM_moeda.glb-2beba380ede1b3b0c46e9136216063cf.scn"
 
 [deps]
 
-source_file="res://models/Static/SM_moeda.glb"
-dest_files=["res://.godot/imported/SM_moeda.glb-bb897cb5a7ceda295e637f5427f38381.scn"]
+source_file="res://Models/Static/SM_moeda.glb"
+dest_files=["res://.godot/imported/SM_moeda.glb-2beba380ede1b3b0c46e9136216063cf.scn"]
 
 [params]
 

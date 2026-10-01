@@ -2,24 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bs6c1sa5o6em6"
-path.s3tc="res://.godot/imported/SM_moeda_Moeda.png-c25721cddffa6e2114f2491912e53d44.s3tc.ctex"
+uid="uid://blb5k3tdknu1r"
+path="res://.godot/imported/brick.png-69001c7bde54f6f7c47800d7bb04a237.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
-}
-generator_parameters={
-"md5": "09abaa51e57824de2d6abaef3c87f3f1"
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://models/Static/SM_moeda_Moeda.png"
-dest_files=["res://.godot/imported/SM_moeda_Moeda.png-c25721cddffa6e2114f2491912e53d44.s3tc.ctex"]
+source_file="res://Assets/brick.png"
+dest_files=["res://.godot/imported/brick.png-69001c7bde54f6f7c47800d7bb04a237.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -27,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""

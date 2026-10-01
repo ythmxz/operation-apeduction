@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cbxcjobbqgp3u"
-path="res://.godot/imported/SM_tocha.glb-b44b4e7acc45fc4767c5e191de4fb7d5.scn"
+uid="uid://wlkvb8xnhqwd"
+path="res://.godot/imported/guh.glb-39532df976d0284776d0695e4d7732ed.scn"
 
 [deps]
 
-source_file="res://models/Static/SM_tocha.glb"
-dest_files=["res://.godot/imported/SM_tocha.glb-b44b4e7acc45fc4767c5e191de4fb7d5.scn"]
+source_file="res://Models/guh.glb"
+dest_files=["res://.godot/imported/guh.glb-39532df976d0284776d0695e4d7732ed.scn"]
 
 [params]
 
@@ -39,7 +39,13 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Cube": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

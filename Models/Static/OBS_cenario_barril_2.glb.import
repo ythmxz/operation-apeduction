@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bb5mq8aa5mufx"
-path="res://.godot/imported/pilar_quadrado_sem_textura.glb-78d0928855be43370b7bb42b6930bf47.scn"
+uid="uid://dcyjm0ku2qvh6"
+path="res://.godot/imported/OBS_cenario_barril_2.glb-2bfb3cd827f0c6cbd06e6c6a9b449286.scn"
 
 [deps]
 
-source_file="res://models/Static/pilar_quadrado_sem_textura.glb"
-dest_files=["res://.godot/imported/pilar_quadrado_sem_textura.glb-78d0928855be43370b7bb42b6930bf47.scn"]
+source_file="res://Models/Static/OBS_cenario_barril_2.glb"
+dest_files=["res://.godot/imported/OBS_cenario_barril_2.glb-2bfb3cd827f0c6cbd06e6c6a9b449286.scn"]
 
 [params]
 

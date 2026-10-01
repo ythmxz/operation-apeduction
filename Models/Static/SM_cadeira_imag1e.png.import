@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buuaaryl0uhh3"
-path.s3tc="res://.godot/imported/SM_porta_com_textura_porta.png-3212fe32a9e0c7e469c4602039e186e8.s3tc.ctex"
+uid="uid://o562l1ke3ln4"
+path.s3tc="res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "33090cb32319f33e887037d965b36902"
+"md5": "fbaa1daa47041045d27cf1a30c31e540"
 }
 
 [deps]
 
-source_file="res://models/Static/SM_porta_com_textura_porta.png"
-dest_files=["res://.godot/imported/SM_porta_com_textura_porta.png-3212fe32a9e0c7e469c4602039e186e8.s3tc.ctex"]
+source_file="res://Models/Static/SM_cadeira_imag1e.png"
+dest_files=["res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.s3tc.ctex"]
 
 [params]
 

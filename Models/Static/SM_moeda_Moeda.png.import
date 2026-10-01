@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://o562l1ke3ln4"
-path.s3tc="res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.s3tc.ctex"
+uid="uid://bs6c1sa5o6em6"
+path.s3tc="res://.godot/imported/SM_moeda_Moeda.png-2c0e0270d2aa1924dc554976280f52d1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "fbaa1daa47041045d27cf1a30c31e540"
+"md5": "09abaa51e57824de2d6abaef3c87f3f1"
 }
 
 [deps]
 
-source_file="res://models/Static/SM_cadeira_imag1e.png"
-dest_files=["res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.s3tc.ctex"]
+source_file="res://Models/Static/SM_moeda_Moeda.png"
+dest_files=["res://.godot/imported/SM_moeda_Moeda.png-2c0e0270d2aa1924dc554976280f52d1.s3tc.ctex"]
 
 [params]
 
