@@ -20,10 +20,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.14901961, 0.3254902, 0.4509804, 1)
+color = Color(0.082499996, 0.18020836, 0.25, 1)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1838489297]
-modulate = Color(0.56, 0.8166667, 1, 0.27450982)
+modulate = Color(0.308, 0.44916672, 0.55, 0.27450982)
 texture_repeat = 2
 layout_mode = 1
 anchors_preset = 15
