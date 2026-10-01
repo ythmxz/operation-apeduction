@@ -1,0 +1,128 @@
+[gd_scene format=3 uid="uid://338hwcv8gxww"]
+
+[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="1_d0kcw"]
+[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Scenes/parede.tscn" id="2_78r7g"]
+[ext_resource type="PackedScene" uid="uid://qmb52dttqbm5" path="res://models/Static/SM_Cenario_TapecariaParede_com_textura.glb" id="3_ngepp"]
+[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_nlal8"]
+[ext_resource type="PackedScene" uid="uid://dal45eyfledbt" path="res://models/Static/SM_barril.glb" id="5_d0kcw"]
+
+[node name="Chunk3" type="Node3D" unique_id=1030924840]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, -28.124985)
+
+[node name="Chaos" type="Node3D" parent="." unique_id=1770493533]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.3339367)
+
+[node name="Chao3" parent="Chaos" unique_id=1029618047 instance=ExtResource("1_d0kcw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.019890487, 0, -9.465849)
+
+[node name="Chao4" parent="Chaos" unique_id=365032589 instance=ExtResource("1_d0kcw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010329843, 0, -14.125689)
+
+[node name="Chao" parent="Chaos" unique_id=1401096791 instance=ExtResource("1_d0kcw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.019890487, 0, -0.12623513)
+
+[node name="Chao2" parent="Chaos" unique_id=470619833 instance=ExtResource("1_d0kcw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010329843, 0, -4.7860746)
+
+[node name="Chao5" parent="Chaos" unique_id=862419004 instance=ExtResource("1_d0kcw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.013409436, 0, -18.791979)
+
+[node name="Chao6" parent="Chaos" unique_id=226242711 instance=ExtResource("1_d0kcw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010329843, 0, -23.451818)
+
+[node name="Parede Direita" type="Node3D" parent="." unique_id=546122502]
+transform = Transform3D(0.66423297, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.3339367)
+
+[node name="Parede" parent="Parede Direita" unique_id=299997410 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 2.0159783, 1.7354264, -0.12614465)
+
+[node name="Parede2" parent="Parede Direita" unique_id=1680124076 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 2.0159783, 1.7354264, -4.7928247)
+
+[node name="Parede3" parent="Parede Direita" unique_id=2130347705 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1.0029616, 2.0159783, 1.7354264, -14.088449)
+
+[node name="Parede4" parent="Parede Direita" unique_id=1927449134 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 2.0159783, 1.7354264, -9.421768)
+
+[node name="Parede5" parent="Parede Direita" unique_id=898175235 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1.0029616, 2.0159783, 1.7354264, -23.425484)
+
+[node name="Parede6" parent="Parede Direita" unique_id=1084114352 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 2.0159783, 1.7354264, -18.758804)
+
+[node name="Parede Esquerda" type="Node3D" parent="." unique_id=960802573]
+transform = Transform3D(0.66423297, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.62956)
+
+[node name="Parede3" parent="Parede Esquerda" unique_id=1157416015 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -2.095063, 1.7354264, -0.12614465)
+
+[node name="Parede4" parent="Parede Esquerda" unique_id=1406220427 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -2.095063, 1.7354264, -4.741477)
+
+[node name="Parede5" parent="Parede Esquerda" unique_id=1801431290 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -2.095063, 1.7354264, 9.169479)
+
+[node name="Parede6" parent="Parede Esquerda" unique_id=1856388548 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -2.095063, 1.7354264, 4.554147)
+
+[node name="Parede7" parent="Parede Esquerda" unique_id=576279895 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -2.095063, 1.7354264, -9.404814)
+
+[node name="Parede8" parent="Parede Esquerda" unique_id=1435604777 instance=ExtResource("2_78r7g")]
+transform = Transform3D(-4.371139e-08, -1, 1.4210855e-14, 1, -4.371139e-08, 0, 0, 0, 1.0173218, -2.0950627, 1.7354264, -14.125926)
+
+[node name="Decorations" type="Node3D" parent="." unique_id=1316748661]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5885062, 0)
+
+[node name="Estandarte" type="Node3D" parent="Decorations" unique_id=757100857]
+
+[node name="SM_Cenario_TapecariaParede_com_textura" parent="Decorations/Estandarte" unique_id=567374653 instance=ExtResource("3_ngepp")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.1841943, -0.24883604, -2.071134)
+
+[node name="SM_Cenario_TapecariaParede_com_textura2" parent="Decorations/Estandarte" unique_id=1469514012 instance=ExtResource("3_ngepp")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.1841943, -0.24883604, -9.926359)
+
+[node name="SM_Cenario_TapecariaParede_com_textura3" parent="Decorations/Estandarte" unique_id=1792776336 instance=ExtResource("3_ngepp")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.1841943, -0.24883604, -18.538412)
+
+[node name="SM_Cenario_TapecariaParede_com_textura4" parent="Decorations/Estandarte" unique_id=716487127 instance=ExtResource("3_ngepp")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.1841943, -0.24883604, -26.357433)
+
+[node name="SM_Cenario_TapecariaParede_com_textura5" parent="Decorations/Estandarte" unique_id=672185403 instance=ExtResource("3_ngepp")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.2097156, -0.24883604, -6.1164436)
+
+[node name="SM_Cenario_TapecariaParede_com_textura6" parent="Decorations/Estandarte" unique_id=356479036 instance=ExtResource("3_ngepp")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.2097156, -0.24883604, -22.512972)
+
+[node name="Torchs" type="Node3D" parent="Decorations" unique_id=239638990]
+
+[node name="Tocha" parent="Decorations/Torchs" unique_id=1044915645 instance=ExtResource("4_nlal8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1093502, -0.4477334, -0.9612117)
+
+[node name="Tocha2" parent="Decorations/Torchs" unique_id=1158752610 instance=ExtResource("4_nlal8")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.1617668, -0.4477334, -0.9612117)
+
+[node name="Tocha3" parent="Decorations/Torchs" unique_id=558018670 instance=ExtResource("4_nlal8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1093502, -0.4477334, -7.047584)
+
+[node name="Tocha4" parent="Decorations/Torchs" unique_id=48546327 instance=ExtResource("4_nlal8")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.1617668, -0.4477334, -11.021272)
+
+[node name="Tocha5" parent="Decorations/Torchs" unique_id=1800921042 instance=ExtResource("4_nlal8")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.1617668, -0.4477334, -18.618214)
+
+[node name="Obstacles" type="Node3D" parent="." unique_id=689000405]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5885062, 0)
+
+[node name="SM_barril" parent="Obstacles" unique_id=701054974 instance=ExtResource("5_d0kcw")]
+transform = Transform3D(-1.4, 0, 2.1139412e-07, 0, 1.4, 0, -2.1139412e-07, 0, -1.4, -0.036666177, -2.3869681, -26.602705)
+
+[node name="SM_barril2" parent="Obstacles" unique_id=1468596208 instance=ExtResource("5_d0kcw")]
+transform = Transform3D(-1.4, 0, 2.1139412e-07, 0, 1.4, 0, -2.1139412e-07, 0, -1.4, -0.036666878, -2.3869681, -18.572594)
+
+[node name="SM_barril3" parent="Obstacles" unique_id=930246555 instance=ExtResource("5_d0kcw")]
+transform = Transform3D(-1.4, 0, 2.1139412e-07, 0, 1.4, 0, -2.1139412e-07, 0, -1.4, -0.03666783, -2.3869681, -7.677044)
+
+[node name="EndIndicator" type="Node3D" parent="." unique_id=1474708206]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.439193e-06, 0, 0.0068187714)

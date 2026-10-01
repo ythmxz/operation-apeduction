@@ -3,8 +3,10 @@ extends Node3D
 var last_chunk_type: PackedScene = null
 var scroll_speed: float = 0.0
 var choices: Array[PackedScene] = [
-	# preload("res://Scenes/Chunks/chunk_1.tscn"),
 	preload("res://Scenes/Chunks/chunk_2.tscn"),
+	preload("res://Scenes/Chunks/chunk_1.tscn"),
+	preload("res://Scenes/Chunks/chunk_3.tscn"),
+	preload("res://Scenes/Chunks/chunk_3_v2.tscn"),
 ]
 
 # Distâncias p/ spawnar e despawnar.
@@ -17,7 +19,7 @@ func _physics_process(delta: float) -> void:
 		if c.get_node(^"EndIndicator").global_position.z >= DISTANCE_TO_DESPAWN:
 			print("Freeing old chunk: ", c)
 			c.queue_free()
-	
+
 	var ch := get_children()
 	if ch.is_empty():
 		spawn_chunk()

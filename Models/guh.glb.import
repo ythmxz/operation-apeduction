@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://wlkvb8xnhqwd"
-path="res://.godot/imported/guh.glb-a7dab27301426eee4466847fd31d869b.scn"
+path="res://.godot/imported/guh.glb-39532df976d0284776d0695e4d7732ed.scn"
 
 [deps]
 
-source_file="res://guh.glb"
-dest_files=["res://.godot/imported/guh.glb-a7dab27301426eee4466847fd31d869b.scn"]
+source_file="res://Models/guh.glb"
+dest_files=["res://.godot/imported/guh.glb-39532df976d0284776d0695e4d7732ed.scn"]
 
 [params]
 
