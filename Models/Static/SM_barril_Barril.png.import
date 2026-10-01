@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://capt8yvwaf78w"
+uid="uid://dndse5vswdd2t"
 path.s3tc="res://.godot/imported/SM_barril_Barril.png-fd501e8f8d93d6a4379841ba8c6ef7b0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "4d42695b6fcd843bc417db9ea488299b"
 }
 
 [deps]

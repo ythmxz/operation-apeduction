@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdfenpq1nxo0w"
+uid="uid://w1uhp6x8ty0o"
 path.s3tc="res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_Gaiola.png-5efef537fc74cb59c452c17c5e28d481.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "a2a2018d45ddb3cfd69e768b52f9333b"
 }
 
 [deps]

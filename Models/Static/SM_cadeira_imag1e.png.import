@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://o562l1ke3ln4"
+uid="uid://bmjg5w615fumu"
 path.s3tc="res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "fbaa1daa47041045d27cf1a30c31e540"
 }
 
 [deps]

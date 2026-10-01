@@ -1,10 +1,12 @@
 [gd_scene format=3 uid="uid://bojqeli1y7w6u"]
 
-[ext_resource type="Texture2D" uid="uid://djceas5h83nr1" path="res://Assets/Layout Game Over.png" id="1_g8bk7"]
+[ext_resource type="Texture2D" uid="uid://iyi63e20taks" path="res://Assets/teste.png" id="1_fa7yd"]
 [ext_resource type="Texture2D" uid="uid://dosven0seta2x" path="res://Assets/Icone Casinha.png" id="2_fa7yd"]
 [ext_resource type="Script" uid="uid://bv6lpoqpjmpk6" path="res://Lib/tela_game_over.gd" id="2_i0hva"]
 [ext_resource type="Texture2D" uid="uid://c5rrqb8m2sar1" path="res://Assets/Icone Reset.png" id="3_i0hva"]
 [ext_resource type="Theme" uid="uid://c3ojic6fyhlqj" path="res://Assets/tema_ui.tres" id="3_jiblr"]
+[ext_resource type="Texture2D" uid="uid://vcsha1lkb2hl" path="res://Assets/Moeda.png" id="6_hsjv5"]
+[ext_resource type="Texture2D" uid="uid://cg671fmvajqr8" path="res://Assets/Ampulheta.png" id="8_3sjjw"]
 
 [node name="TelaGameOver" type="TextureRect" unique_id=1894542213]
 anchors_preset = 8
@@ -12,42 +14,42 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -225.0
-offset_top = -184.0
-offset_right = 224.83887
-offset_bottom = 205.0
+offset_left = -270.08057
+offset_top = -469.5
+offset_right = 269.91943
+offset_bottom = 490.5
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_g8bk7")
+texture = ExtResource("1_fa7yd")
 expand_mode = 1
 script = ExtResource("2_i0hva")
 
 [node name="Tempo" type="Label" parent="." unique_id=1489708954]
 layout_mode = 0
-offset_left = 154.0
-offset_top = 83.0
-offset_right = 294.0
-offset_bottom = 111.0
+offset_left = 245.08057
+offset_top = 315.5
+offset_right = 364.08057
+offset_bottom = 375.5
 theme = ExtResource("3_jiblr")
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Moedas" type="Label" parent="." unique_id=246950783]
 layout_mode = 0
-offset_left = 153.91943
-offset_top = 150.5
-offset_right = 294.91943
-offset_bottom = 184.0
+offset_left = 241.08057
+offset_top = 403.5
+offset_right = 364.08057
+offset_bottom = 465.5
 theme = ExtResource("3_jiblr")
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Pontuação" type="Label" parent="." unique_id=1360252629]
 layout_mode = 0
-offset_left = 153.0
-offset_top = 220.0
-offset_right = 294.0
-offset_bottom = 254.0
+offset_left = 178.08057
+offset_top = 493.5
+offset_right = 363.08057
+offset_bottom = 558.5
 theme = ExtResource("3_jiblr")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -55,22 +57,34 @@ autowrap_trim_flags = 128
 
 [node name="MenuPrincipal" type="Button" parent="." unique_id=1064898650]
 layout_mode = 0
-offset_left = 50.0
-offset_top = 295.0
-offset_right = 114.0
-offset_bottom = 355.0
+offset_left = 164.08057
+offset_top = 581.5
+offset_right = 261.14722
+offset_bottom = 672.5
 action_mode = 0
 icon = ExtResource("2_fa7yd")
 flat = true
+expand_icon = true
 
 [node name="Reset" type="Button" parent="." unique_id=116432397]
 layout_mode = 0
-offset_left = 333.0
-offset_top = 291.0
-offset_right = 397.0
-offset_bottom = 351.0
+offset_left = 280.08057
+offset_top = 580.5
+offset_right = 378.2139
+offset_bottom = 672.5
 icon = ExtResource("3_i0hva")
 flat = true
+expand_icon = true
+
+[node name="Moeda" type="Sprite2D" parent="." unique_id=1463479698]
+position = Vector2(206.08057, 433.5)
+scale = Vector2(0.453125, 0.453125)
+texture = ExtResource("6_hsjv5")
+
+[node name="Ampulheta" type="Sprite2D" parent="." unique_id=1985580928]
+position = Vector2(207.08057, 343.5)
+scale = Vector2(0.4469697, 0.4469697)
+texture = ExtResource("8_3sjjw")
 
 [connection signal="pressed" from="MenuPrincipal" to="." method="_on_menu_principal_pressed"]
 [connection signal="pressed" from="Reset" to="." method="_on_reset_pressed"]

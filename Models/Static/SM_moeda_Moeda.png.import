@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bs6c1sa5o6em6"
+uid="uid://rt0oi7dq0ee"
 path.s3tc="res://.godot/imported/SM_moeda_Moeda.png-2c0e0270d2aa1924dc554976280f52d1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "09abaa51e57824de2d6abaef3c87f3f1"
 }
 
 [deps]

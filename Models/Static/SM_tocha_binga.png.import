@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3tttfce8nm67"
+uid="uid://drviunf7gu8m5"
 path.s3tc="res://.godot/imported/SM_tocha_binga.png-d21b96a8a073b192b146dbdacc7ffce8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "d3ae6e4bdc2881df5b1fc030f742c444"
 }
 
 [deps]
