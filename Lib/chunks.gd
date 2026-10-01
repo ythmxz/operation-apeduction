@@ -16,7 +16,7 @@ func _physics_process(delta: float) -> void:
 		if c.get_node(^"EndIndicator").global_position.z >= DISTANCE_TO_DESPAWN:
 			print("Freeing old chunk: ", c)
 			c.queue_free()
-	
+
 	var ch := get_children()
 	if ch.is_empty():
 		spawn_chunk()

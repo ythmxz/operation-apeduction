@@ -3,31 +3,7 @@
 [ext_resource type="Script" uid="uid://cdqa1flm8oykv" path="res://Lib/title_screen.gd" id="1_p3fck"]
 [ext_resource type="Texture2D" uid="uid://dd8gwmdb2xyq2" path="res://Assets/Spr_MysteryMen.webp" id="2_4gxqj"]
 [ext_resource type="Texture2D" uid="uid://ctg6yv0vnfhfw" path="res://Assets/TitleScreen.png" id="2_twnyg"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_57qmd"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d0u6y"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3gngh"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fcnqv"]
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7numd"]
-
-[sub_resource type="Theme" id="Theme_yf5fn"]
-Button/colors/font_color = Color(0.90295947, 0.86632234, 0.8518328, 1)
-Button/colors/font_focus_color = Color(0.7368536, 0.5946408, 0.07943801, 1)
-Button/colors/font_hover_color = Color(0.7368536, 0.5946408, 0.07943801, 1)
-Button/colors/font_outline_color = Color(0, 0.4159066, 0.6647731, 1)
-Button/colors/font_pressed_color = Color(0.7368536, 0.5946408, 0.07943801, 1)
-Button/constants/outline_size = 10
-Button/font_sizes/font_size = 96
-Button/fonts/font = null
-Button/styles/disabled = SubResource("StyleBoxEmpty_57qmd")
-Button/styles/focus = SubResource("StyleBoxEmpty_d0u6y")
-Button/styles/hover = SubResource("StyleBoxEmpty_3gngh")
-Button/styles/normal = SubResource("StyleBoxEmpty_fcnqv")
-Button/styles/pressed = SubResource("StyleBoxEmpty_7numd")
+[ext_resource type="Theme" uid="uid://c3ojic6fyhlqj" path="res://Assets/tema_ui.tres" id="4_twnyg"]
 
 [node name="TitleScreen" type="Control" unique_id=778946909]
 layout_mode = 3
@@ -75,18 +51,19 @@ theme_override_constants/separation = 35
 
 [node name="StartButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1187121894]
 layout_mode = 2
-theme = SubResource("Theme_yf5fn")
+theme = ExtResource("4_twnyg")
 text = "Iniciar"
 
 [node name="CreditsButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=200281592]
 layout_mode = 2
-theme = SubResource("Theme_yf5fn")
+theme = ExtResource("4_twnyg")
 text = "Créditos"
 
 [node name="ExitButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1424403462]
 layout_mode = 2
-theme = SubResource("Theme_yf5fn")
+theme = ExtResource("4_twnyg")
 text = "Sair"
 
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/CreditsButton" to="." method="_on_credits_button_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
