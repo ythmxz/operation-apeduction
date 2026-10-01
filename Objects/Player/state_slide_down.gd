@@ -8,6 +8,7 @@ var timer: float
 func enter() -> void:
 	timer = 0.5
 	player.set_crouch(true)
+	player.anim_player.play("BAKED_Jump Air", 0.1)
 
 func process(delta: float) -> void:
 	timer = maxf(0.0, timer - delta)
