@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://4jbk08x6cyjn"
-path="res://.godot/imported/tocha.glb-fb72cc69d22d342b0e94913d7c333a6d.scn"
+uid="uid://cydxubscm506p"
+path="res://.godot/imported/SM_porta_com_textura.glb-d487ec2d821d64d5971301433eb183aa.scn"
 
 [deps]
 
-source_file="res://models/tocha.glb"
-dest_files=["res://.godot/imported/tocha.glb-fb72cc69d22d342b0e94913d7c333a6d.scn"]
+source_file="res://models/Static/SM_porta_com_textura.glb"
+dest_files=["res://.godot/imported/SM_porta_com_textura.glb-d487ec2d821d64d5971301433eb183aa.scn"]
 
 [params]
 

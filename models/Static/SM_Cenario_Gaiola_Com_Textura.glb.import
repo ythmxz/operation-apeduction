@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://djwux3cljjley"
-path="res://.godot/imported/SM_Cenario_Gaiola.glb-87cf9782037d9642d8f41e455e6f5306.scn"
+uid="uid://cjvfvu64qug4y"
+path="res://.godot/imported/SM_Cenario_Gaiola_Com_Textura.glb-51c4a0feed1a740d0fabd813e566ff23.scn"
 
 [deps]
 
-source_file="res://models/SM_Cenario_Gaiola.glb"
-dest_files=["res://.godot/imported/SM_Cenario_Gaiola.glb-87cf9782037d9642d8f41e455e6f5306.scn"]
+source_file="res://models/Static/SM_Cenario_Gaiola_Com_Textura.glb"
+dest_files=["res://.godot/imported/SM_Cenario_Gaiola_Com_Textura.glb-51c4a0feed1a740d0fabd813e566ff23.scn"]
 
 [params]
 

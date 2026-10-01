@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3tttfce8nm67"
-path.s3tc="res://.godot/imported/SM_tocha_binga.png-50a88afa6ac0d3683698ea15753ccc81.s3tc.ctex"
+uid="uid://c3onpgoe1ksfv"
+path.s3tc="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "d3ae6e4bdc2881df5b1fc030f742c444"
+"md5": "0ff973f9daafd7565d6f7c5fc9da7b51"
 }
 
 [deps]
 
-source_file="res://models/SM_tocha_binga.png"
-dest_files=["res://.godot/imported/SM_tocha_binga.png-50a88afa6ac0d3683698ea15753ccc81.s3tc.ctex"]
+source_file="res://models/Static/SM_Caixa_Gaiola_Gaiola.png"
+dest_files=["res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.s3tc.ctex"]
 
 [params]
 

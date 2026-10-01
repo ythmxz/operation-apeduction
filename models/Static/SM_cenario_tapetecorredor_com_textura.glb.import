@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cbxcjobbqgp3u"
-path="res://.godot/imported/SM_tocha.glb-cf48a445133666da1c18b17b14bfba01.scn"
+uid="uid://chicniavpexx1"
+path="res://.godot/imported/SM_cenario_tapetecorredor_com_textura.glb-f4b377e56602309753688cb5778ec14a.scn"
 
 [deps]
 
-source_file="res://models/SM_tocha.glb"
-dest_files=["res://.godot/imported/SM_tocha.glb-cf48a445133666da1c18b17b14bfba01.scn"]
+source_file="res://models/Static/SM_cenario_tapetecorredor_com_textura.glb"
+dest_files=["res://.godot/imported/SM_cenario_tapetecorredor_com_textura.glb-f4b377e56602309753688cb5778ec14a.scn"]
 
 [params]
 

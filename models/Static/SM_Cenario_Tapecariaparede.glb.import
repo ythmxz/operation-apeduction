@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bb5mq8aa5mufx"
-path="res://.godot/imported/pilar_quadrado_sem_textura.glb-0c4a57446b965389b4e8f34253549682.scn"
+uid="uid://cxxtxoxsduuk5"
+path="res://.godot/imported/SM_Cenario_Tapecariaparede.glb-8abafa7ec590c239c0884b59d1d2ba80.scn"
 
 [deps]
 
-source_file="res://models/pilar_quadrado_sem_textura.glb"
-dest_files=["res://.godot/imported/pilar_quadrado_sem_textura.glb-0c4a57446b965389b4e8f34253549682.scn"]
+source_file="res://models/Static/SM_Cenario_Tapecariaparede.glb"
+dest_files=["res://.godot/imported/SM_Cenario_Tapecariaparede.glb-8abafa7ec590c239c0884b59d1d2ba80.scn"]
 
 [params]
 

@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5mi713u7y4uy"
-path.s3tc="res://.godot/imported/SM_cenario_tapetecorredor_com_textura_TX_Cenario_TapeteCorredor.png-e1f97f869d0f7a05f005559e1538de3d.s3tc.ctex"
+uid="uid://o562l1ke3ln4"
+path.s3tc="res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "fdd2284cd0d29fcd7d01e5436ff54850"
+"md5": "fbaa1daa47041045d27cf1a30c31e540"
 }
 
 [deps]
 
-source_file="res://models/SM_cenario_tapetecorredor_com_textura_TX_Cenario_TapeteCorredor.png"
-dest_files=["res://.godot/imported/SM_cenario_tapetecorredor_com_textura_TX_Cenario_TapeteCorredor.png-e1f97f869d0f7a05f005559e1538de3d.s3tc.ctex"]
+source_file="res://models/Static/SM_cadeira_imag1e.png"
+dest_files=["res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.s3tc.ctex"]
 
 [params]
 
