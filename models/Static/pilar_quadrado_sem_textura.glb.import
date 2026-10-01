@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://byeqppjepiis8"
-path="res://.godot/imported/ SM_Cenario_TapeteCorredor .glb-451ef2279251f0c689654d631e7f7d1d.scn"
+uid="uid://bb5mq8aa5mufx"
+path="res://.godot/imported/pilar_quadrado_sem_textura.glb-78d0928855be43370b7bb42b6930bf47.scn"
 
 [deps]
 
-source_file="res://models/ SM_Cenario_TapeteCorredor .glb"
-dest_files=["res://.godot/imported/ SM_Cenario_TapeteCorredor .glb-451ef2279251f0c689654d631e7f7d1d.scn"]
+source_file="res://models/Static/pilar_quadrado_sem_textura.glb"
+dest_files=["res://.godot/imported/pilar_quadrado_sem_textura.glb-78d0928855be43370b7bb42b6930bf47.scn"]
 
 [params]
 

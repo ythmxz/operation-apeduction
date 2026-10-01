@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bb5mq8aa5mufx"
-path="res://.godot/imported/pilar_quadrado_sem_textura.glb-0c4a57446b965389b4e8f34253549682.scn"
+uid="uid://c8w7io6thsm8y"
+path="res://.godot/imported/OBS_Cenario_BarrilMadeira.glb-16e737af081e98bdc7dfb946438bfc41.scn"
 
 [deps]
 
-source_file="res://models/pilar_quadrado_sem_textura.glb"
-dest_files=["res://.godot/imported/pilar_quadrado_sem_textura.glb-0c4a57446b965389b4e8f34253549682.scn"]
+source_file="res://models/Obstacle/OBS_Cenario_BarrilMadeira.glb"
+dest_files=["res://.godot/imported/OBS_Cenario_BarrilMadeira.glb-16e737af081e98bdc7dfb946438bfc41.scn"]
 
 [params]
 

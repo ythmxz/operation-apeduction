@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4lp01si2wip0"
-path.s3tc="res://.godot/imported/OBS_cenario_barrilmadeira_com_textura_TX_Cenario_BarrilMadeira.png-a3134d1a4d03bc001c603ca9472bff10.s3tc.ctex"
+uid="uid://capt8yvwaf78w"
+path.s3tc="res://.godot/imported/SM_barril_Barril.png-b22e14e67637244c96c514234cd84c39.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "605186fbadf9cd72ccf2be8d5e68c8a5"
+"md5": "4d42695b6fcd843bc417db9ea488299b"
 }
 
 [deps]
 
-source_file="res://models/OBS_cenario_barrilmadeira_com_textura_TX_Cenario_BarrilMadeira.png"
-dest_files=["res://.godot/imported/OBS_cenario_barrilmadeira_com_textura_TX_Cenario_BarrilMadeira.png-a3134d1a4d03bc001c603ca9472bff10.s3tc.ctex"]
+source_file="res://models/Static/SM_barril_Barril.png"
+dest_files=["res://.godot/imported/SM_barril_Barril.png-b22e14e67637244c96c514234cd84c39.s3tc.ctex"]
 
 [params]
 

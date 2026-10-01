@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buuaaryl0uhh3"
-path.s3tc="res://.godot/imported/SM_porta_com_textura_porta.png-43d4b52743a9328c0c987216e9eac5fb.s3tc.ctex"
+uid="uid://bs6c1sa5o6em6"
+path.s3tc="res://.godot/imported/SM_moeda_Moeda.png-c25721cddffa6e2114f2491912e53d44.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "33090cb32319f33e887037d965b36902"
+"md5": "09abaa51e57824de2d6abaef3c87f3f1"
 }
 
 [deps]
 
-source_file="res://models/SM_porta_com_textura_porta.png"
-dest_files=["res://.godot/imported/SM_porta_com_textura_porta.png-43d4b52743a9328c0c987216e9eac5fb.s3tc.ctex"]
+source_file="res://models/Static/SM_moeda_Moeda.png"
+dest_files=["res://.godot/imported/SM_moeda_Moeda.png-c25721cddffa6e2114f2491912e53d44.s3tc.ctex"]
 
 [params]
 

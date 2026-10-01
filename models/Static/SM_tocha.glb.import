@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cxxtxoxsduuk5"
-path="res://.godot/imported/SM_Cenario_Tapecariaparede.glb-2fe9ddff2a677353f5ecffbb1a6133b3.scn"
+uid="uid://cbxcjobbqgp3u"
+path="res://.godot/imported/SM_tocha.glb-b44b4e7acc45fc4767c5e191de4fb7d5.scn"
 
 [deps]
 
-source_file="res://models/SM_Cenario_Tapecariaparede.glb"
-dest_files=["res://.godot/imported/SM_Cenario_Tapecariaparede.glb-2fe9ddff2a677353f5ecffbb1a6133b3.scn"]
+source_file="res://models/Static/SM_tocha.glb"
+dest_files=["res://.godot/imported/SM_tocha.glb-b44b4e7acc45fc4767c5e191de4fb7d5.scn"]
 
 [params]
 
