@@ -3,6 +3,7 @@ extends TextureRect
 @onready var tempo_l: Label = $Tempo
 @onready var moedas_l: Label = $Moedas
 @onready var pontuacao_l: Label = $Pontuação
+@onready var botao_reset: Button = $Reset
 
 var segundos := 0
 var minutos := 0
@@ -10,6 +11,8 @@ var segundos_totais := 0
 var moedas := 0
 
 func _ready() -> void:
+	botao_reset.grab_focus()
+
 	minutos = Global.tempo_final[0]
 	segundos = Global.tempo_final[1]
 	segundos_totais = Global.tempo_final[2]

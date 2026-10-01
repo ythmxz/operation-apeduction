@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://ctg6yv0vnfhfw" path="res://Assets/TitleScreen.png" id="2_twnyg"]
 [ext_resource type="Theme" uid="uid://c3ojic6fyhlqj" path="res://Assets/tema_ui.tres" id="4_twnyg"]
 
-[node name="TitleScreen" type="Control" unique_id=778946909]
+[node name="TitleScreen" type="Control" unique_id=778946909 node_paths=PackedStringArray("first_button")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -13,6 +13,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_p3fck")
+first_button = NodePath("MarginContainer/HBoxContainer/VBoxContainer/StartButton")
 
 [node name="Arte" type="TextureRect" parent="." unique_id=129190599]
 layout_mode = 0
@@ -51,16 +52,22 @@ theme_override_constants/separation = 35
 
 [node name="StartButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1187121894]
 layout_mode = 2
+focus_neighbor_top = NodePath("../ExitButton")
+focus_neighbor_bottom = NodePath("../CreditsButton")
 theme = ExtResource("4_twnyg")
 text = "Iniciar"
 
 [node name="CreditsButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=200281592]
 layout_mode = 2
+focus_neighbor_top = NodePath("../StartButton")
+focus_neighbor_bottom = NodePath("../ExitButton")
 theme = ExtResource("4_twnyg")
 text = "Créditos"
 
 [node name="ExitButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1424403462]
 layout_mode = 2
+focus_neighbor_top = NodePath("../CreditsButton")
+focus_neighbor_bottom = NodePath("../StartButton")
 theme = ExtResource("4_twnyg")
 text = "Sair"
 

@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://c0ydhfv4fs84o" path="res://Scenes/credits_screen.gd" id="1_kwkrj"]
 [ext_resource type="Theme" uid="uid://c3ojic6fyhlqj" path="res://Assets/tema_ui.tres" id="2_kwkrj"]
 
-[node name="CreditsScreen" type="Control" unique_id=2003392428]
+[node name="CreditsScreen" type="Control" unique_id=2003392428 node_paths=PackedStringArray("first_button")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,6 +12,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_kwkrj")
+first_button = NodePath("MarginContainer/VBoxContainer/Button")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=737921424]
 layout_mode = 1

@@ -92,24 +92,24 @@ func _physics_process(delta: float) -> void:
 
 	cur_lane = clampi(cur_lane, min_lane, max_lane)
 
-	if Input.is_action_just_pressed("debug_restart"):
+	if Input.is_action_just_pressed("debug_restart") or Input.is_action_just_pressed("restart"):
 		Global.game.switch_context(&"world_3d", "uid://c0g4l4d2g20kq", Transitions.FADE_BLACK)
 
 func handle_input():
-	if Input.is_action_just_pressed("ui_right"):
+	if Input.is_action_just_pressed("move_right"):
 		shift_lane(&"Right")
-	if Input.is_action_just_pressed("ui_left"):
+	if Input.is_action_just_pressed("move_left"):
 		shift_lane(&"Left")
 
-	if Input.is_action_pressed("ui_up") and is_on_floor():
+	if Input.is_action_pressed("jump") and is_on_floor():
 		velocity.y = 15
 		sm.transition(^"Jump")
 
-	if sm.get_state_name() == &"Jump" and Input.is_action_just_pressed("ui_down"):
+	if sm.get_state_name() == &"Jump" and Input.is_action_just_pressed("slide"):
 		velocity.y = minf(velocity.y, -30)
 		sm.transition(^"DashDown")
 
-	if sm.get_state_name() == &"Walk" and Input.is_action_just_pressed("ui_down"):
+	if sm.get_state_name() == &"Walk" and Input.is_action_just_pressed("slide"):
 		sm.transition(^"SlideDown")
 
 func has_upper_collision() -> bool:
