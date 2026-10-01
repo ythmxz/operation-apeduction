@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://chicniavpexx1"
-path="res://.godot/imported/SM_cenario_tapetecorredor_com_textura.glb-f4b377e56602309753688cb5778ec14a.scn"
+path="res://.godot/imported/SM_cenario_tapetecorredor.glb-22df71766deffc4e733b779b553b7abe.scn"
 
 [deps]
 
-source_file="res://models/Static/SM_cenario_tapetecorredor_com_textura.glb"
-dest_files=["res://.godot/imported/SM_cenario_tapetecorredor_com_textura.glb-f4b377e56602309753688cb5778ec14a.scn"]
+source_file="res://models/Static/SM_cenario_tapetecorredor.glb"
+dest_files=["res://.godot/imported/SM_cenario_tapetecorredor.glb-22df71766deffc4e733b779b553b7abe.scn"]
 
 [params]
 
