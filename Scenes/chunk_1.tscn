@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cwj6as3qj2bj0"]
 
 [ext_resource type="PackedScene" uid="uid://ce6qyh4eb5nsr" path="res://Objects/crap_block.tscn" id="1_dgiig"]
-[ext_resource type="PackedScene" uid="uid://wlkvb8xnhqwd" path="res://guh.glb" id="2_vcyvq"]
+[ext_resource type="PackedScene" uid="uid://wlkvb8xnhqwd" path="res://models/guh.glb" id="2_vcyvq"]
 [ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="3_gcrt2"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
