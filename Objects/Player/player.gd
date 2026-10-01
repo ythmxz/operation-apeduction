@@ -7,8 +7,10 @@ var max_lane := 1
 var cur_lane := 0
 const LANE_WIDTH: float = 1.65
 
+const GRAVITY: float = 40
+
 @onready var hud: Control = $"../HUD"
-var moedas := 0;
+var moedas := 0
 
 @onready var x_center := position.x
 @onready var sm: StateMachine = $StateMachine
@@ -72,7 +74,7 @@ func after_ready() -> void:
 	anim_player.animation_finished.connect(_on_animation_finished)
 
 func _physics_process(delta: float) -> void:
-	velocity.y -= 65 * delta
+	velocity.y -= GRAVITY * delta
 	move_and_slide()
 
 	if is_dead:
@@ -94,14 +96,12 @@ func _physics_process(delta: float) -> void:
 
 func handle_input():
 	if Input.is_action_just_pressed("ui_right"):
-		cur_lane += 1
-		shift_lane("Right")
+		shift_lane(&"Right")
 	if Input.is_action_just_pressed("ui_left"):
-		cur_lane -= 1
-		shift_lane("Left")
+		shift_lane(&"Left")
 
 	if Input.is_action_pressed("ui_up") and is_on_floor():
-		velocity.y = 20
+		velocity.y = 15
 		sm.transition(^"Jump")
 
 	if sm.get_state_name() == &"Jump" and Input.is_action_just_pressed("ui_down"):
@@ -145,5 +145,6 @@ func _on_animation_finished(anim_name: StringName) -> void:
 		var current_anim: String = STATE_TO_ANIMATION.get(sm.get_state_name(), "BAKED_Running")
 		anim_player.play(current_anim, 0.15)
 		
-func shift_lane(direction: String) -> void:
+func shift_lane(direction: StringName) -> void:
+	cur_lane += -1 if (direction == &"Left") else 1
 	anim_player.play("BAKED_Shift %s" % direction, 0.1)
