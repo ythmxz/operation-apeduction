@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cxpkltqymm81p"]
 
-[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="1_2e5nx"]
-[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Scenes/parede.tscn" id="2_x841d"]
+[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Objects/chao.tscn" id="1_2e5nx"]
+[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Objects/parede.tscn" id="2_x841d"]
 [ext_resource type="PackedScene" uid="uid://cdg3yuggljlqj" path="res://Models/Static/SM_Cenario_TapecariaParede_com_textura.glb" id="3_01imp"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_1u80q"]
 [ext_resource type="PackedScene" uid="uid://c8d2cgev8ccpn" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="5_e4tgv"]
@@ -163,10 +163,7 @@ transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.1
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5885062, 0.101894855)
 
 [node name="SM_Caixa_Gaiola" parent="Obstacles" unique_id=439164325 instance=ExtResource("5_e4tgv")]
-transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -2.4918303, -7.435711)
-
-[node name="SM_Caixa_Gaiola2" parent="Obstacles" unique_id=1795831495 instance=ExtResource("5_e4tgv")]
-transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -2.4918303, -15.540077)
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -2.4918303, -8.968594)
 
 [node name="SM_Caixa_Gaiola3" parent="Obstacles" unique_id=1266527523 instance=ExtResource("5_e4tgv")]
-transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -2.4918303, -23.995369)
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -2.4918303, -22.769293)

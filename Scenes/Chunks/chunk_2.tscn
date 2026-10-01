@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cmijrem5ewje6"]
 
-[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Scenes/parede.tscn" id="2_hagbw"]
-[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="3_3esqc"]
+[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Objects/parede.tscn" id="2_hagbw"]
+[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Objects/chao.tscn" id="3_3esqc"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_5xnqh"]
 [ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="5_yvyln"]
 [ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://Models/Static/SM_barril.glb" id="6_g5ma0"]
@@ -571,3 +571,6 @@ transform = Transform3D(0.03878075, 0.9992477, 0, -0.9992477, 0.03878075, 0, 0, 
 
 [node name="SM_cenario_tapetecorredor" parent="." unique_id=821637858 instance=ExtResource("8_hagbw")]
 transform = Transform3D(1, 0, 0, 0, 0.9685755, 0.24871975, 0, -0.24871975, 0.9685755, 2.7621164, 6.876351, -60.775337)
+
+[node name="SM_cenario_tapetecorredor2" parent="." unique_id=334954944 instance=ExtResource("8_hagbw")]
+transform = Transform3D(1, 0, 0, 0, 0.9685755, 0.24871975, 0, -0.24871975, 0.9685755, -3.5141764, 6.876351, -60.775337)
