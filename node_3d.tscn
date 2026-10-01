@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://wgo7ptvx2060"]
+
+[ext_resource type="Material" uid="uid://kd4xkyn5mr41" path="res://material_gaiola.tres" id="1_a202f"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ptoi7"]
+
+[node name="Node3D" type="Node3D" unique_id=258201808]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2086099545]
+mesh = SubResource("BoxMesh_ptoi7")
+surface_material_override/0 = ExtResource("1_a202f")
