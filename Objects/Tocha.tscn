@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c0oers5tfuco5"]
 
-[ext_resource type="PackedScene" uid="uid://4jbk08x6cyjn" path="res://models/tocha.glb" id="1_phc6a"]
+[ext_resource type="PackedScene" uid="uid://cbxcjobbqgp3u" path="res://models/Static/SM_tocha.glb" id="1_phc6a"]
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7ktk5"]
 emission_shape = 1
