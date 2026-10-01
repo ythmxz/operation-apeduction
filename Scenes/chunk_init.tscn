@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Scenes/chao.tscn" id="2_606b5"]
 [ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Scenes/parede.tscn" id="2_p7qqm"]
 [ext_resource type="PackedScene" uid="uid://cc5ttjbjp8211" path="res://Objects/Cadeira.tscn" id="2_qme1e"]
+[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_p7qqm"]
 
 [node name="ChunkInit" type="Node3D" unique_id=178818462]
 
@@ -206,3 +207,27 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -27.72124)
 
 [node name="Chao27" parent="." unique_id=1286484889 instance=ExtResource("2_606b5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -27.72124)
+
+[node name="Tocha" parent="." unique_id=1044915645 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, -5.209629, 4.3588905, 0)
+
+[node name="Tocha2" parent="." unique_id=571991426 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.196619, 4.3588905, 0)
+
+[node name="Tocha3" parent="." unique_id=296959960 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, -5.209629, 4.3588905, -6.747466)
+
+[node name="Tocha4" parent="." unique_id=2120245340 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.196619, 4.3588905, -6.747466)
+
+[node name="Tocha5" parent="." unique_id=1218219546 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, -5.209629, 4.3588905, -13.813394)
+
+[node name="Tocha6" parent="." unique_id=951299360 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.196619, 4.3588905, -13.813394)
+
+[node name="Tocha7" parent="." unique_id=806600048 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, -5.209629, 4.3588905, -19.991034)
+
+[node name="Tocha8" parent="." unique_id=928562768 instance=ExtResource("4_p7qqm")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.196619, 4.3588905, -19.991034)

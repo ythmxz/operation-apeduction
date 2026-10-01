@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://4jbk08x6cyjn" path="res://models/tocha.glb" id="1_phc6a"]
 
-[node name="tocha" unique_id=1044915645 instance=ExtResource("1_phc6a")]
+[node name="Tocha" unique_id=1044915645 instance=ExtResource("1_phc6a")]
 
 [node name="Cilindro" parent="." index="0" unique_id=2088982023]
 transform = Transform3D(0.23811331, 0.00619983, 0.0040542325, 0.029059479, -0.049263284, 0.028989043, -0.0075890417, 0.005889633, 0.23820835, -0.07678351, 0.443951, -0.08334577)
@@ -21,3 +21,9 @@ transform = Transform3D(0.12056583, 0, 0, 0, 0.12056583, 0, 0, 0, 0.12056583, 0,
 
 [node name="Toróide_001" parent="." index="5" unique_id=810899232]
 transform = Transform3D(0.18965225, 0, 0, 0, 0.18965225, 0, 0, 0, 0.18965225, -0.034655184, 0.08004364, -0.055870216)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="6" unique_id=1366533089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6432564, -0.083297014)
+light_color = Color(0.99562854, 0.65888673, 0.326608, 1)
+shadow_enabled = true
+shadow_blur = 3.22

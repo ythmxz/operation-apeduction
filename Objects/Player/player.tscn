@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cc7r0vj552tr7" path="res://Objects/Player/player.gd" id="1_v0iea"]
 [ext_resource type="Script" uid="uid://cydm7qancl1v3" path="res://Lib/state_machine.gd" id="2_3y5cq"]
-[ext_resource type="PackedScene" uid="uid://dtlkdpv5mhf1i" path="res://Objects/Player/model/Mona.glb" id="2_bpp7x"]
+[ext_resource type="PackedScene" uid="uid://bnocousr6h4xx" path="res://Objects/Player/model/mona.tscn" id="2_bpp7x"]
 [ext_resource type="Script" uid="uid://uw7nnvd6m6d7" path="res://Objects/Player/state_walk.gd" id="3_2i4gt"]
 [ext_resource type="Script" uid="uid://86sav2cggk8" path="res://Objects/Player/state_jump.gd" id="4_0ar0x"]
 [ext_resource type="Script" uid="uid://bw2ktrwamgm1f" path="res://Objects/Player/state_slide_down.gd" id="4_x20fu"]
@@ -37,7 +37,7 @@ shape = SubResource("CapsuleShape3D_u7612")
 disabled = true
 
 [node name="Mona" parent="." unique_id=970662309 instance=ExtResource("2_bpp7x")]
-transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, -0.9918712, 0)
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -1, 0)
 
 [node name="PlaceholderModelCrouch" type="MeshInstance3D" parent="." unique_id=601452220]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.44580078, 0)

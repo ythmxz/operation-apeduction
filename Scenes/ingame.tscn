@@ -11,10 +11,17 @@
 [ext_resource type="Script" uid="uid://cme6n5uyff0oh" path="res://Lib/timer.gd" id="9_35pev"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
-background_color = Color(8.663535e-07, 0.59050936, 0.67476517, 1)
+background_mode = 1
+background_color = Color(1.8289685e-06, 0.117725395, 0.37322372, 1)
+background_energy_multiplier = 4.08
+ambient_light_source = 3
+reflected_light_source = 1
 fog_enabled = true
-fog_density = 0.055
-volumetric_fog_enabled = true
+fog_light_color = Color(0, 0, 0.10980392, 1)
+fog_light_energy = 2.7
+fog_density = 0.1073
+fog_depth_curve = 9.189586
+fog_depth_begin = 40.0
 volumetric_fog_density = 0.09
 volumetric_fog_detail_spread = 6.0
 
@@ -40,12 +47,6 @@ transform = Transform3D(1, 0, 0, 0, 0.8933403, 0.44938076, 0, -0.44938076, 0.893
 
 [node name="Player" parent="." unique_id=1668873940 instance=ExtResource("4_yl4g2")]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 1.0369742, 0)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1696851979]
-transform = Transform3D(0.96834093, -0.20128131, 0.14765373, 0, 0.5914872, 0.8063144, -0.2496313, -0.7807872, 0.5727613, 9.135828, 8.786674, 6.5201154)
-shadow_enabled = true
-shadow_normal_bias = 1.573
-shadow_blur = 4.59
 
 [node name="HUD" type="Control" parent="." unique_id=241010302]
 layout_mode = 3
@@ -121,3 +122,9 @@ theme_override_constants/outline_size = 15
 theme_override_font_sizes/font_size = 36
 vertical_alignment = 1
 script = ExtResource("9_35pev")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1476066664]
+transform = Transform3D(1, 0, 0, 0, 0.9173245, 0.3981408, 0, -0.39814073, 0.91732436, 0, 10.581827, 0)
+light_energy = 7.391
+spot_range = 32.720707
+spot_angle = 83.46
