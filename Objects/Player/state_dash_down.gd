@@ -7,6 +7,7 @@ extends State
 
 func enter() -> void:
 	player.set_crouch(true)
+	player.anim_player.play("BAKED_Jump Air",0.15)
 
 func process(_delta: float) -> void:
 	if player.is_on_floor():
