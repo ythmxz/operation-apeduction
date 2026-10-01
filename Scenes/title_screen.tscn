@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cdqa1flm8oykv" path="res://Lib/title_screen.gd" id="1_p3fck"]
 [ext_resource type="Texture2D" uid="uid://dd8gwmdb2xyq2" path="res://Assets/Spr_MysteryMen.webp" id="2_4gxqj"]
+[ext_resource type="Texture2D" uid="uid://ctg6yv0vnfhfw" path="res://Assets/TitleScreen.png" id="2_twnyg"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_57qmd"]
 
@@ -37,16 +38,14 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_p3fck")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1486839175]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(1, 0.7524598, 0.5118486, 1)
+[node name="Arte" type="TextureRect" parent="." unique_id=129190599]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_twnyg")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=379031931]
+visible = false
 modulate = Color(1, 1, 1, 0.22352941)
 layout_mode = 1
 anchors_preset = 15
@@ -78,21 +77,16 @@ theme_override_constants/separation = 35
 layout_mode = 2
 theme = SubResource("Theme_yf5fn")
 text = "Iniciar"
-alignment = 0
 
 [node name="CreditsButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=200281592]
 layout_mode = 2
 theme = SubResource("Theme_yf5fn")
 text = "Créditos"
-alignment = 0
 
 [node name="ExitButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer" unique_id=1424403462]
 layout_mode = 2
 theme = SubResource("Theme_yf5fn")
 text = "Sair"
-alignment = 0
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1856319604]
 
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
