@@ -8,7 +8,6 @@
 [ext_resource type="Script" uid="uid://bxfr0jxs2n8m3" path="res://Lib/hud.gd" id="5_yl4g2"]
 [ext_resource type="Texture2D" uid="uid://vcsha1lkb2hl" path="res://Assets/Moeda.png" id="6_yl4g2"]
 [ext_resource type="Texture2D" uid="uid://cg671fmvajqr8" path="res://Assets/Ampulheta.png" id="8_mpua3"]
-[ext_resource type="Script" uid="uid://cme6n5uyff0oh" path="res://Lib/timer.gd" id="9_35pev"]
 
 [sub_resource type="Environment" id="Environment_fk1rg"]
 background_color = Color(8.663535e-07, 0.59050936, 0.67476517, 1)
@@ -120,4 +119,3 @@ grow_horizontal = 0
 theme_override_constants/outline_size = 15
 theme_override_font_sizes/font_size = 36
 vertical_alignment = 1
-script = ExtResource("9_35pev")
