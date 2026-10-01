@@ -10,10 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Operation Apeduction (ProjectSubway)"
+config/name="Operation Apeduction"
+config/version="1.0.0"
 run/main_scene="uid://b74o5nov317re"
 config/features=PackedStringArray("4.7")
-config/icon="res://icon.svg"
+config/icon="uid://vcsha1lkb2hl"
 
 [autoload]
 
