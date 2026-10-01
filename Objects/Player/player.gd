@@ -82,7 +82,7 @@ func _physics_process(delta: float) -> void:
 		velocity.z = 0
 	else:
 		var x_dest := x_center + cur_lane * LANE_WIDTH
-		velocity.x = (x_dest - position.x) * 0.5 / delta
+		velocity.x = (x_dest - position.x) * 0.3 / delta
 		velocity.z = (0 - position.z) * 0.8 / delta
 		handle_input()
 
@@ -147,4 +147,4 @@ func _on_animation_finished(anim_name: StringName) -> void:
 		
 func shift_lane(direction: StringName) -> void:
 	cur_lane += -1 if (direction == &"Left") else 1
-	anim_player.play("BAKED_Shift %s" % direction, 0.1)
+	anim_player.play("BAKED_Shift %s" % direction, 0.1, 1.25)
