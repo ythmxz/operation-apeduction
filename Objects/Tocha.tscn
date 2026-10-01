@@ -11,7 +11,6 @@ rotation_3d_max = Vector3(30, 30, 30)
 gravity = Vector3(0, 0.5, 0)
 scale_min = 0.5
 scale_max = 1.5
-turbulence_enabled = true
 turbulence_noise_speed_random = 0.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ojhik"]
@@ -42,19 +41,18 @@ transform = Transform3D(0.12056583, 0, 0, 0, 0.12056583, 0, 0, 0, 0.12056583, 0,
 [node name="Toróide_001" parent="." index="5" unique_id=479672434]
 transform = Transform3D(0.18965225, 0, 0, 0, 0.18965225, 0, 0, 0, 0.18965225, -0.034655184, 0.08004364, -0.055870216)
 
-[node name="OmniLight3D" type="OmniLight3D" parent="." index="6" unique_id=1366533089]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6432564, -0.083297014)
-light_color = Color(0.99562854, 0.65888673, 0.326608, 1)
-shadow_enabled = true
-shadow_blur = 3.22
-
 [node name="GPUParticles3D" type="GPUParticles3D" parent="." index="6" unique_id=2144547929]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0.6, -0.1)
 transparency = 0.2
 amount = 32
-lifetime = 5.0
-speed_scale = 2.5
+lifetime = 2.0
 explosiveness = 0.1
 randomness = 0.1
 process_material = SubResource("ParticleProcessMaterial_7ktk5")
 draw_pass_1 = SubResource("BoxMesh_t0o8e")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="7" unique_id=1366533089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6432564, -0.083297014)
+light_color = Color(0.99562854, 0.65888673, 0.326608, 1)
+shadow_enabled = true
+shadow_blur = 3.22
