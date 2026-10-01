@@ -4,6 +4,8 @@ var last_chunk_type: PackedScene = null
 var scroll_speed: float = 0.0
 var choices: Array[PackedScene] = [
 	preload("res://Scenes/chunk_1.tscn"),
+	preload("res://Scenes/chunk_3.tscn"),
+	preload("res://Scenes/chunk_3_v2.tscn"),
 ]
 
 # Distâncias p/ spawnar e despawnar.
