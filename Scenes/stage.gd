@@ -19,6 +19,7 @@ func _ready() -> void:
 		state = State.Died
 		chunks.scroll_speed = BACK_INIT_SCROLL_SPEED
 	)
+	chunks.scroll_speed = SCROLL_SPEED
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("start"):
@@ -33,7 +34,7 @@ func _push_ui() -> void:
 
 func _physics_process(delta: float) -> void:
 	if state == State.Playing:
-		chunks.scroll_speed = SCROLL_SPEED
+		pass # chunks.scroll_speed += 1 * delta
 	elif state == State.Died:
 		chunks.scroll_speed = move_toward(chunks.scroll_speed, 0.0, BACK_DECCEL * delta)
 
