@@ -5,7 +5,7 @@ extends TextureRect
 @export var avancar_button: Button = null
 
 func _ready() -> void:
-	texto_label.grab_focus()
+	input.grab_focus()
 
 func _on_avançar_pressed() -> void:
 	var nome = input.text
