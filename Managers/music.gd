@@ -4,6 +4,7 @@ var songs: Dictionary[StringName, Variant] = {
 	# cada entry aqui tem como valor: [resource_path, stream]
 	# stream começa como nulo mas em _ready() a gente seta ele
 	&"TitleScreen": ["res://Assets/Sound/mus_title_screen.mp3", null],
+	&"Results": ["res://Assets/Sound/mus_results.mp3", null],
 }
 
 var current_stream: AudioStreamPlayer = null

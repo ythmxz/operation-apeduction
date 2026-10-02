@@ -15,11 +15,13 @@ var player: Node3D = null
 func _ready() -> void:
 	_push_ui()
 	player = $"Player"
-	player.died.connect(func():
-		state = State.Died
-		chunks.scroll_speed = BACK_INIT_SCROLL_SPEED
-	)
+	player.died.connect(on_died)
 	chunks.scroll_speed = SCROLL_SPEED
+
+func on_died() -> void:
+	state = State.Died
+	chunks.scroll_speed = BACK_INIT_SCROLL_SPEED
+	Music.play(&"Results")
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("start"):
