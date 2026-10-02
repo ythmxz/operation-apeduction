@@ -23,7 +23,7 @@ func _physics_process(delta: float) -> void:
 
 		var segundos_totais = int(tempo_decorrido)
 
-		var minutos = segundos_totais / 60
+		var minutos = int(float(segundos_totais) / 60)
 		var segundos = segundos_totais % 60
 
 		temp_arm = [minutos, segundos, segundos_totais]

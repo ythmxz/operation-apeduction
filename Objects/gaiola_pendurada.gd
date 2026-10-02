@@ -17,7 +17,7 @@ func register_anel(a: Node3D) -> void:
 func _ready() -> void:
 	var anel0: Node3D = $AnelCorrente
 	register_anel(anel0)
-	
+
 	var p := anel0.position
 	for i in range(1, 20):
 		p.y += 0.5
@@ -27,7 +27,7 @@ func _ready() -> void:
 		ac.rotation_degrees.y = i * 70
 
 		register_anel(ac)
-		
+
 func _physics_process(delta: float) -> void:
 	for i in range(aneis.size()):
 		var a := aneis[i]
