@@ -13,6 +13,10 @@ const GRAVITY: float = 40
 @onready var hud: Control = $"../HUD"
 var moedas := 0
 
+@onready var coin_sfx_player: AudioStreamPlayer3D = $CoinSfxPlayer
+@onready var jump_sfx_player: AudioStreamPlayer3D = $JumpSfxPlayer
+@onready var swipe_sfx_player: AudioStreamPlayer3D = $SwipeSfxPlayer
+
 @onready var x_center := position.x
 @onready var sm: StateMachine = $StateMachine
 
@@ -101,18 +105,25 @@ func _physics_process(delta: float) -> void:
 func handle_input():
 	if Input.is_action_just_pressed("move_right"):
 		shift_lane(&"Right")
+
 	if Input.is_action_just_pressed("move_left"):
 		shift_lane(&"Left")
 
 	if Input.is_action_pressed("jump") and is_on_floor():
 		velocity.y = 15
+		jump_sfx_player.stop()
+		jump_sfx_player.play()
 		sm.transition(^"Jump")
 
 	if sm.get_state_name() == &"Jump" and Input.is_action_just_pressed("slide"):
 		velocity.y = minf(velocity.y, -30)
+		swipe_sfx_player.stop()
+		swipe_sfx_player.play()
 		sm.transition(^"DashDown")
 
 	if sm.get_state_name() == &"Walk" and Input.is_action_just_pressed("slide"):
+		swipe_sfx_player.stop()
+		swipe_sfx_player.play()
 		sm.transition(^"SlideDown")
 
 func has_upper_collision() -> bool:
@@ -140,7 +151,9 @@ func on_upper_front_collision(_body: Node3D) -> void:
 	if not is_crouching:
 		die()
 
-func coleta_moedas():
+func coletar_moeda():
+	coin_sfx_player.stop()
+	coin_sfx_player.play()
 	moedas += 1
 	hud.atualizaMoedas(moedas)
 

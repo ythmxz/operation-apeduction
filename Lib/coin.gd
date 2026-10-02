@@ -9,5 +9,5 @@ func _on_body_entered(body: Node3D) -> void:
 	var player := body as Player
 	if player == null:
 		return
-	player.coleta_moedas()
+	player.coletar_moeda()
 	queue_free()

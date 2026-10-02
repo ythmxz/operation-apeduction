@@ -7,6 +7,9 @@
 [ext_resource type="Script" uid="uid://86sav2cggk8" path="res://Objects/Player/state_jump.gd" id="4_0ar0x"]
 [ext_resource type="Script" uid="uid://bw2ktrwamgm1f" path="res://Objects/Player/state_slide_down.gd" id="4_x20fu"]
 [ext_resource type="Script" uid="uid://yv1yyule1c22" path="res://Objects/Player/state_dash_down.gd" id="6_0ar0x"]
+[ext_resource type="AudioStream" uid="uid://8knxe6nuusel" path="res://Assets/Sound/sfx_coin.mp3" id="8_jllbl"]
+[ext_resource type="AudioStream" uid="uid://h3745ev58uup" path="res://Assets/Sound/sfx_jump.mp3" id="9_thffa"]
+[ext_resource type="AudioStream" uid="uid://cour3rfqe4rig" path="res://Assets/Sound/sfx_swipe.mp3" id="10_xtia4"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_u7612"]
 radius = 0.48327637
@@ -65,6 +68,7 @@ transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 0, -1, 0)
 
 [node name="PlaceholderModelCrouch" type="MeshInstance3D" parent="." unique_id=601452220]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.44580078, 0)
+visible = false
 mesh = SubResource("CapsuleMesh_ufa0x")
 
 [node name="GPUParticles3D" type="GPUParticles3D" parent="PlaceholderModelCrouch" unique_id=1224981918]
@@ -139,6 +143,15 @@ script = ExtResource("4_x20fu")
 
 [node name="DashDown" type="Node" parent="StateMachine" unique_id=969542516]
 script = ExtResource("6_0ar0x")
+
+[node name="CoinSfxPlayer" type="AudioStreamPlayer3D" parent="." unique_id=745568365]
+stream = ExtResource("8_jllbl")
+
+[node name="JumpSfxPlayer" type="AudioStreamPlayer3D" parent="." unique_id=816434409]
+stream = ExtResource("9_thffa")
+
+[node name="SwipeSfxPlayer" type="AudioStreamPlayer3D" parent="." unique_id=1488166571]
+stream = ExtResource("10_xtia4")
 
 [connection signal="body_entered" from="AreaLF" to="." method="_on_lower_front_area_body_entered"]
 [connection signal="body_entered" from="AreaUF" to="." method="_on_upper_front_area_body_entered"]
