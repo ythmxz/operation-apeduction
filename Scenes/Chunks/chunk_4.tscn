@@ -1,18 +1,17 @@
 [gd_scene format=3 uid="uid://can1ounieipe8"]
 
-[ext_resource type="PackedScene" uid="uid://cc5ttjbjp8211" path="res://Objects/Cadeira.tscn" id="1_6rloh"]
 [ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Objects/parede.tscn" id="2_miyvi"]
 [ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Objects/chao.tscn" id="3_3fif4"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_nni6h"]
+[ext_resource type="PackedScene" uid="uid://ddltpqjw05ifr" path="res://Models/Static/SM_cenario_ironape.glb" id="4_smvuv"]
+[ext_resource type="PackedScene" uid="uid://cfk0lippyh2vx" path="res://Models/Static/pilar_quadrado_sem_textura.glb" id="5_4rqf3"]
 [ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="5_5aodm"]
+[ext_resource type="PackedScene" uid="uid://clxy4mibufykd" path="res://Objects/gaiola_pendurada.tscn" id="6_slgrd"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 
 [node name="EndIndicator" type="Node3D" parent="." unique_id=1356905720]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -41.821365)
-
-[node name="Parede" parent="." unique_id=1401096791 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -11.632474)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -37.14158)
 
 [node name="Parede2" parent="." unique_id=1698974760 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -6.973791)
@@ -20,20 +19,11 @@ transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.81
 [node name="Parede5" parent="." unique_id=1498072805 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -2.3216562)
 
-[node name="Parede6" parent="." unique_id=1547704443 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -11.632474)
-
 [node name="Parede7" parent="." unique_id=1017898180 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -6.973791)
 
-[node name="Parede3" parent="." unique_id=581778181 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -11.632474)
-
 [node name="Parede4" parent="." unique_id=314216153 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -6.973791)
-
-[node name="Parede20" parent="." unique_id=911723351 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -11.632474)
 
 [node name="Parede21" parent="." unique_id=1743781471 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -6.973791)
@@ -41,17 +31,11 @@ transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7
 [node name="Parede8" parent="." unique_id=1490072073 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -2.3216562)
 
-[node name="Parede17" parent="." unique_id=1976170008 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -11.632474)
-
 [node name="Parede18" parent="." unique_id=65348133 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -6.973791)
 
 [node name="Parede19" parent="." unique_id=340578087 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -2.3216562)
-
-[node name="Parede22" parent="." unique_id=1775691857 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -11.632474)
 
 [node name="Parede23" parent="." unique_id=1434052922 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -6.973791)
@@ -59,23 +43,77 @@ transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7
 [node name="Parede24" parent="." unique_id=2066653377 instance=ExtResource("2_miyvi")]
 transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -2.3216562)
 
-[node name="Chao" parent="." unique_id=1347438477 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -11.632474)
-
-[node name="Chao3" parent="." unique_id=1110530299 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -11.632474)
-
-[node name="Chao2" parent="." unique_id=1131062967 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -11.632474)
-
-[node name="Chao4" parent="." unique_id=402924268 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -3.75, -2.5523643, -9.526011)
-
-[node name="Chao5" parent="." unique_id=1294854017 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 3.75, -2.5523643, -9.526011)
-
 [node name="Chao19" parent="." unique_id=360946482 instance=ExtResource("3_3fif4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -7.051386)
+
+[node name="Parede3" parent="." unique_id=1401096791 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -11.617981)
+
+[node name="Parede9" parent="." unique_id=1910281342 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -11.617981)
+
+[node name="Parede6" parent="." unique_id=865073367 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -11.617981)
+
+[node name="Parede22" parent="." unique_id=750612805 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -11.617981)
+
+[node name="Parede20" parent="." unique_id=1922148581 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -11.617981)
+
+[node name="Parede25" parent="." unique_id=661884380 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -11.617981)
+
+[node name="Chao20" parent="." unique_id=1646085741 instance=ExtResource("3_3fif4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -11.695576)
+
+[node name="Parede10" parent="." unique_id=1937603040 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -16.267117)
+
+[node name="Parede11" parent="." unique_id=900538310 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -16.267117)
+
+[node name="Parede12" parent="." unique_id=382484434 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -16.267117)
+
+[node name="Parede26" parent="." unique_id=1103112045 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -16.267117)
+
+[node name="Parede27" parent="." unique_id=299365930 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -16.267117)
+
+[node name="Parede28" parent="." unique_id=665773581 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -16.267117)
+
+[node name="Chao21" parent="." unique_id=1067921592 instance=ExtResource("3_3fif4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -16.344711)
+
+[node name="Parede13" parent="." unique_id=613046407 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -20.911308)
+
+[node name="Parede14" parent="." unique_id=1580514367 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -20.911308)
+
+[node name="Parede15" parent="." unique_id=1546523220 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -20.911308)
+
+[node name="Parede29" parent="." unique_id=1345033726 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -20.911308)
+
+[node name="Parede30" parent="." unique_id=211333596 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -20.911308)
+
+[node name="Parede31" parent="." unique_id=153839856 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -20.911308)
+
+[node name="Chao25" parent="." unique_id=1998632066 instance=ExtResource("3_3fif4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -20.988903)
+
+[node name="Chao26" parent="." unique_id=353841432 instance=ExtResource("3_3fif4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -25.562565)
+
+[node name="Chao27" parent="." unique_id=923402402 instance=ExtResource("3_3fif4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.4940127, 0, -0.2035551, -29.024364)
 
 [node name="Chao22" parent="." unique_id=1055127426 instance=ExtResource("3_3fif4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -2.4178095)
@@ -86,298 +124,128 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -2.4178095
 [node name="Chao24" parent="." unique_id=1220807874 instance=ExtResource("3_3fif4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -2.4178095)
 
-[node name="Tocha" parent="." unique_id=1044915645 instance=ExtResource("4_nni6h")]
-transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, -5.209629, 4.3588905, -11.632474)
-
 [node name="Tocha2" parent="." unique_id=1823874004 instance=ExtResource("4_nni6h")]
-transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.196619, 4.3588905, -11.632474)
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.325433, 4.3588905, -11.632474)
 
-[node name="Coin?18" parent="." unique_id=1893719922 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8425248, 0.7130476, -13.174659)
+[node name="Tocha3" parent="." unique_id=1044915645 instance=ExtResource("4_nni6h")]
+transform = Transform3D(7.1054274e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 7.1054274e-15, -5.2667074, 4.3588905, -11.632474)
 
-[node name="Coin?19" parent="." unique_id=944010965 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7678683, 0.64816654, -11.662718)
+[node name="Tocha4" parent="." unique_id=1494561016 instance=ExtResource("4_nni6h")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.325433, 4.3588905, -16.119253)
 
-[node name="Coin?22" parent="." unique_id=2142745181 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8425248, 0.7130476, -16.161964)
+[node name="Tocha5" parent="." unique_id=358654784 instance=ExtResource("4_nni6h")]
+transform = Transform3D(7.1054274e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 7.1054274e-15, -5.2667074, 4.3588905, -16.119253)
 
-[node name="Coin?23" parent="." unique_id=562284680 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7678683, 0.64816654, -14.650023)
+[node name="Tocha6" parent="." unique_id=863607673 instance=ExtResource("4_nni6h")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.325433, 4.3588905, -20.249466)
 
-[node name="Coin?27" parent="." unique_id=2060001190 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7678683, 0.64816654, -18.226173)
+[node name="Tocha7" parent="." unique_id=676350118 instance=ExtResource("4_nni6h")]
+transform = Transform3D(7.1054274e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 7.1054274e-15, -5.2667074, 4.3588905, -20.249466)
 
-[node name="Coin?28" parent="." unique_id=59412710 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.031233072, 0.64816654, -20.533451)
+[node name="SM_cenario_ironape" parent="." unique_id=1897951776 instance=ExtResource("4_smvuv")]
+transform = Transform3D(0.3401254, 0, -0.9403801, 0, 1, 0, 0.9403801, 0, 0.3401254, -3.6542354, 0.5361357, -14.676593)
 
-[node name="Parede9" parent="." unique_id=1214189372 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -16.181957)
+[node name="SM_cenario_ironape2" parent="." unique_id=780330909 instance=ExtResource("4_smvuv")]
+transform = Transform3D(-0.5190412, 0, -0.8547493, 0, 1, 0, 0.8547493, 0, -0.5190412, 4.4370594, 0.5361357, -18.365547)
 
-[node name="Parede12" parent="." unique_id=1382735684 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -16.181957)
+[node name="Parede16" parent="." unique_id=1841734435 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -34.777)
 
-[node name="Parede25" parent="." unique_id=374567555 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -16.181957)
+[node name="Parede17" parent="." unique_id=1182203074 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -34.777)
 
-[node name="Parede28" parent="." unique_id=1725462256 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -16.181957)
+[node name="Parede32" parent="." unique_id=1341548307 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -34.777)
 
-[node name="Chao28" parent="." unique_id=1432000358 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 1.0772247, -2.3634791, -16.27811)
+[node name="Parede33" parent="." unique_id=1407880423 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -34.777)
 
-[node name="Chao37" parent="." unique_id=565035767 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.1151354, -2.3634791, -16.27811)
+[node name="Parede34" parent="." unique_id=1276677845 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -34.777)
 
-[node name="Chao29" parent="." unique_id=1316475262 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -16.27811)
+[node name="Parede35" parent="." unique_id=464310186 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -34.777)
 
-[node name="Chao34" parent="." unique_id=1365531911 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, -1.372968, -0.2035551, -16.27811)
+[node name="Chao28" parent="." unique_id=1593844477 instance=ExtResource("3_3fif4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2035551, -34.85459)
 
-[node name="Chao35" parent="." unique_id=1961698861 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, 1.3644984, -0.2035551, -16.27811)
+[node name="Tocha8" parent="." unique_id=2126392135 instance=ExtResource("4_nni6h")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.325433, 4.3588905, -34.115158)
 
-[node name="Chao30" parent="." unique_id=1320855744 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -16.27811)
+[node name="Tocha9" parent="." unique_id=243121439 instance=ExtResource("4_nni6h")]
+transform = Transform3D(7.1054274e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 7.1054274e-15, -5.2667074, 4.3588905, -34.115158)
 
-[node name="Parede10" parent="." unique_id=1051657643 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -20.833858)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede36" parent="." unique_id=1922443611 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -30.089983)
 
-[node name="Parede13" parent="." unique_id=440497301 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -20.833858)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede37" parent="." unique_id=187467367 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -30.089983)
 
-[node name="Parede26" parent="." unique_id=1622038881 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -20.833858)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede38" parent="." unique_id=136794312 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -30.089983)
 
-[node name="Parede29" parent="." unique_id=1500948981 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -20.833858)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede39" parent="." unique_id=812917968 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -30.089983)
 
-[node name="Chao31" parent="." unique_id=2134671024 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 1.0772247, -2.3634791, -20.930012)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede40" parent="." unique_id=539360613 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -30.089983)
 
-[node name="Chao38" parent="." unique_id=736722014 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.1151354, -2.3634791, -20.930012)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede41" parent="." unique_id=2054041824 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -30.089983)
 
-[node name="Chao32" parent="." unique_id=1765954726 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -20.930012)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Tocha10" parent="." unique_id=1999127595 instance=ExtResource("4_nni6h")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.325433, 4.3588905, -29.42814)
 
-[node name="Chao36" parent="." unique_id=1845138662 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, -1.372968, -0.2035551, -20.930012)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Tocha11" parent="." unique_id=692886098 instance=ExtResource("4_nni6h")]
+transform = Transform3D(7.1054274e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 7.1054274e-15, -5.2667074, 4.3588905, -29.42814)
 
-[node name="Chao39" parent="." unique_id=276503140 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, 1.3644984, -0.2035551, -20.930012)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede42" parent="." unique_id=216386873 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -25.443369)
 
-[node name="Chao33" parent="." unique_id=414731893 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -20.930012)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede43" parent="." unique_id=1569306654 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -25.443369)
 
-[node name="Coin?32" parent="." unique_id=1000174464 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6241512, 0.7130476, -24.386894)
+[node name="Parede44" parent="." unique_id=1465753692 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, -1.8991566, -25.443369)
 
-[node name="Coin?33" parent="." unique_id=926410214 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6988077, 0.64816654, -22.874954)
+[node name="Parede45" parent="." unique_id=811133589 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, -1.8991566, -25.443369)
 
-[node name="Parede11" parent="." unique_id=1816767552 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -25.48264)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede46" parent="." unique_id=1543268435 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -25.443369)
 
-[node name="Parede14" parent="." unique_id=1300933797 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -25.48264)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Parede47" parent="." unique_id=325708091 instance=ExtResource("2_miyvi")]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -25.443369)
 
-[node name="Parede15" parent="." unique_id=326288738 instance=ExtResource("2_miyvi")]
-transform = Transform3D(0.45805323, 0, 0, 0, 1, 0, 0, 0, 1, 0.010375857, -0.22820246, -20.845425)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Tocha12" parent="." unique_id=1243071715 instance=ExtResource("4_nni6h")]
+transform = Transform3D(-8.7422784e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.7422784e-08, 5.325433, 4.3588905, -24.781527)
 
-[node name="Parede16" parent="." unique_id=1215833662 instance=ExtResource("2_miyvi")]
-transform = Transform3D(0.45805323, 0, 0, 0, 1, 0, 0, 0, 1, 0.010375857, -0.22820246, -25.4953)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Tocha13" parent="." unique_id=2006456948 instance=ExtResource("4_nni6h")]
+transform = Transform3D(7.1054274e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 7.1054274e-15, -5.2667074, 4.3588905, -24.781527)
 
-[node name="Parede27" parent="." unique_id=1316170860 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -25.48264)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="SM_cenario_ironape3" parent="." unique_id=1266356206 instance=ExtResource("4_smvuv")]
+transform = Transform3D(-0.5190412, 0, -0.8547493, 0, 1, 0, 0.8547493, 0, -0.5190412, 4.4370594, 0.5361357, -32.23124)
 
-[node name="Parede30" parent="." unique_id=1211757975 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -25.48264)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="pilar_quadrado_sem_textura" parent="." unique_id=586643911 instance=ExtResource("5_4rqf3")]
+transform = Transform3D(1, 0, 0, 0, 1.908205, 0, 0, 0, 1, 3.0984743, -7.123872, -8.21797)
 
-[node name="Chao40" parent="." unique_id=1415096745 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 1.0772247, -2.3634791, -25.578793)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="pilar_quadrado_sem_textura2" parent="." unique_id=989586382 instance=ExtResource("5_4rqf3")]
+transform = Transform3D(1, 0, 0, 0, 1.908205, 0, 0, 0, 1, -3.3815439, -7.123872, -8.21797)
 
-[node name="Chao41" parent="." unique_id=47014459 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.1151354, -2.3634791, -25.578793)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="pilar_quadrado_sem_textura3" parent="." unique_id=189488428 instance=ExtResource("5_4rqf3")]
+transform = Transform3D(1, 0, 0, 0, 1.908205, 0, 0, 0, 1, 3.0984743, -7.123872, -23.12754)
 
-[node name="Chao42" parent="." unique_id=441380833 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -25.578793)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="pilar_quadrado_sem_textura4" parent="." unique_id=457680986 instance=ExtResource("5_4rqf3")]
+transform = Transform3D(1, 0, 0, 0, 1.908205, 0, 0, 0, 1, -3.3815439, -7.123872, -23.12754)
 
-[node name="Chao43" parent="." unique_id=249176186 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, -1.372968, -0.2035551, -25.578793)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="GaiolaPendurada" parent="." unique_id=775440262 instance=ExtResource("6_slgrd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0164285, 1.9650927, -10.863792)
 
-[node name="Chao44" parent="." unique_id=1399937930 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, 1.3644984, -0.2035551, -25.578793)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Coin?" parent="." unique_id=1610124163 instance=ExtResource("5_5aodm")]
+transform = Transform3D(0.9999958, -0.0010401261, 0.002683874, 0.0010553006, 0.99998343, -0.005651546, -0.0026779438, 0.005654359, 0.9999804, 0.14939807, 3.2456977, -31.344707)
 
-[node name="Chao45" parent="." unique_id=1168361081 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -25.578793)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
+[node name="Coin?2" parent="." unique_id=1664164397 instance=ExtResource("5_5aodm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14939807, 2.7607687, -30.404558)
 
-[node name="Cadeira40" parent="." unique_id=174166173 instance=ExtResource("1_6rloh")]
-transform = Transform3D(-0.19435197, 0, 0.46068135, 0, 0.5, 0, -0.46068135, 0, -0.19435197, 4.350316, -0.2035551, -11.498995)
-
-[node name="Cadeira41" parent="." unique_id=1463673294 instance=ExtResource("1_6rloh")]
-transform = Transform3D(-0.37401372, 0, -0.33183402, 0, 0.5, 0, 0.33183402, 0, -0.37401372, -4.748973, -0.2035551, -11.498995)
-
-[node name="Cadeira42" parent="." unique_id=490674536 instance=ExtResource("1_6rloh")]
-transform = Transform3D(-0.37401372, 0, -0.33183402, 0, 0.5, 0, 0.33183402, 0, -0.37401372, 4.564571, -0.2035551, -18.901745)
-
-[node name="Coin?24" parent="." unique_id=1610124163 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6220376, 0.7130476, -30.082436)
-
-[node name="Coin?25" parent="." unique_id=1475950640 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6966941, 0.64816654, -28.570494)
-
-[node name="Coin?29" parent="." unique_id=1454062244 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6966941, 0.64816654, -32.146645)
-
-[node name="Coin?30" parent="." unique_id=158204973 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.031233072, 0.64816654, -34.45392)
-
-[node name="Parede31" parent="." unique_id=628438656 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -30.102428)
-
-[node name="Parede32" parent="." unique_id=1490915138 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -30.102428)
-
-[node name="Parede33" parent="." unique_id=1426325170 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -30.102428)
-
-[node name="Parede34" parent="." unique_id=294674709 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -30.102428)
-
-[node name="Chao46" parent="." unique_id=357153700 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 1.0772247, -2.3634791, -30.198582)
-
-[node name="Chao47" parent="." unique_id=830738331 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.1151354, -2.3634791, -30.198582)
-
-[node name="Chao48" parent="." unique_id=860178340 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -30.198582)
-
-[node name="Chao49" parent="." unique_id=415546683 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, -1.372968, -0.2035551, -30.198582)
-
-[node name="Chao50" parent="." unique_id=340418640 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, 1.3644984, -0.2035551, -30.198582)
-
-[node name="Chao51" parent="." unique_id=101053716 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -30.198582)
-
-[node name="Parede35" parent="." unique_id=794036551 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -34.754326)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede36" parent="." unique_id=2054478815 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -34.754326)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede37" parent="." unique_id=93272361 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -34.754326)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede38" parent="." unique_id=366518451 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -34.754326)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao52" parent="." unique_id=707957696 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 1.0772247, -2.3634791, -34.85048)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao53" parent="." unique_id=436320495 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.1151354, -2.3634791, -34.85048)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao54" parent="." unique_id=2026728954 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -34.85048)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao55" parent="." unique_id=486022687 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, -1.372968, -0.2035551, -34.85048)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao56" parent="." unique_id=1342540134 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, 1.3644984, -0.2035551, -34.85048)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao57" parent="." unique_id=1898325363 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -34.85048)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Coin?34" parent="." unique_id=1170800193 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0951567, 0.7130476, -38.307365)
-
-[node name="Coin?35" parent="." unique_id=1999465489 instance=ExtResource("5_5aodm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0205002, 0.64816654, -36.795425)
-
-[node name="Parede39" parent="." unique_id=973365777 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 1.9389606, -39.403107)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede40" parent="." unique_id=1451772679 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 1.9389606, -39.403107)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede41" parent="." unique_id=294928560 instance=ExtResource("2_miyvi")]
-transform = Transform3D(0.45805323, 0, 0, 0, 1, 0, 0, 0, 1, 0.010375857, -0.22820246, -34.765892)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede42" parent="." unique_id=1888654647 instance=ExtResource("2_miyvi")]
-transform = Transform3D(0.45805323, 0, 0, 0, 1, 0, 0, 0, 1.0187918, 0.010375857, -0.22820246, -39.4433)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede43" parent="." unique_id=1242400635 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 5.8100233, 5.725513, -39.403107)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Parede44" parent="." unique_id=1050894656 instance=ExtResource("2_miyvi")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -5.7397356, 5.725513, -39.403107)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao58" parent="." unique_id=815947337 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 1.0772247, -2.3634791, -39.49926)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao59" parent="." unique_id=895161976 instance=ExtResource("3_3fif4")]
-transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.1151354, -2.3634791, -39.49926)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao60" parent="." unique_id=2066648652 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75, -0.2035551, -39.49926)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao61" parent="." unique_id=681106859 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, -1.372968, -0.2035551, -39.49926)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao62" parent="." unique_id=1300725385 instance=ExtResource("3_3fif4")]
-transform = Transform3D(0.2687356, 0, 0, 0, 1, 0, 0, 0, 1, 1.3644984, -0.2035551, -39.49926)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Chao63" parent="." unique_id=420629853 instance=ExtResource("3_3fif4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.75, -0.2035551, -39.49926)
-constant_angular_velocity = Vector3(-0.0010471975, 0, 0)
-
-[node name="Cadeira43" parent="." unique_id=858825143 instance=ExtResource("1_6rloh")]
-transform = Transform3D(-0.37401372, 0, -0.33183402, 0, 0.5, 0, 0.33183402, 0, -0.37401372, 4.564571, -0.2035551, -32.822212)
+[node name="Coin?3" parent="." unique_id=64300741 instance=ExtResource("5_5aodm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14939807, 2.7607687, -32.286873)
