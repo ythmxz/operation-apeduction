@@ -1,15 +1,15 @@
 extends Control
 
 @export var first_button: Button = null
-@onready var top_1: Label = $MarginContainer/VBoxContainer/Top1
-@onready var top_2: Label = $MarginContainer/VBoxContainer/Top2
-@onready var top_3: Label = $MarginContainer/VBoxContainer/Top3
-@onready var top_4: Label = $MarginContainer/VBoxContainer/Top4
-@onready var top_5: Label = $MarginContainer/VBoxContainer/Top5
+@onready var top_1: Label = $MarginContainer/VBoxContainer/VBoxContainer/Top1
+@onready var top_2: Label = $MarginContainer/VBoxContainer/VBoxContainer/Top2
+@onready var top_3: Label = $MarginContainer/VBoxContainer/VBoxContainer/Top3
+@onready var top_4: Label = $MarginContainer/VBoxContainer/VBoxContainer/Top4
+@onready var top_5: Label = $MarginContainer/VBoxContainer/VBoxContainer/Top5
 
 func _ready() -> void:
 	first_button.grab_focus()
-	
+
 	top_1.text = Global.leaderboard_names[0] + " : " + str(Global.leaderboard_pont[0])
 	top_2.text = Global.leaderboard_names[1] + " : " + str(Global.leaderboard_pont[1])
 	top_3.text = Global.leaderboard_names[2] + " : " + str(Global.leaderboard_pont[2])

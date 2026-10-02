@@ -1,8 +1,10 @@
 extends Control
 
 @export var first_button: Button = null
+@export var version: Label = null
 
 func _ready() -> void:
+	version.text = ProjectSettings.get_setting("application/config/version")
 	first_button.grab_focus()
 
 func _on_start_button_pressed() -> void:

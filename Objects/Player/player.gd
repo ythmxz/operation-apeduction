@@ -92,8 +92,11 @@ func _physics_process(delta: float) -> void:
 
 	cur_lane = clampi(cur_lane, min_lane, max_lane)
 
-	if Input.is_action_just_pressed("debug_restart") or Input.is_action_just_pressed("restart"):
+	if Input.is_action_just_pressed("restart"):
 		Global.game.switch_context(&"world_3d", "uid://c0g4l4d2g20kq", Transitions.FADE_BLACK)
+
+	if Input.is_action_just_pressed("debug_restart"):
+		Global.game.switch_context(&"gui", "uid://bf62aaybcwjik", Transitions.FADE_BLACK)
 
 func handle_input():
 	if Input.is_action_just_pressed("move_right"):
