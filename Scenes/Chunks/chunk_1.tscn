@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_8u3e7"]
 [ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="5_al6ls"]
 [ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://Models/Static/SM_barril.glb" id="6_if764"]
-[ext_resource type="PackedScene" uid="uid://c8d2cgev8ccpn" path="res://Models/Static/SM_Caixa_Gaiola.glb" id="7_8u3e7"]
+[ext_resource type="PackedScene" uid="uid://clxy4mibufykd" path="res://Objects/gaiola_pendurada.tscn" id="7_if764"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 
@@ -20,7 +20,7 @@ transform = Transform3D(-0.41822535, 0, 0.27402112, 0, 0.5, 0, -0.27402112, 0, -
 transform = Transform3D(-0.42897964, 0, -0.25685886, 0, 0.5, 0, 0.25685886, 0, -0.42897964, -2.4499109, -0.2035551, -50.317307)
 
 [node name="Cadeira5" parent="." unique_id=186154459 instance=ExtResource("1_yob6a")]
-transform = Transform3D(-0.19435197, 0, 0.46068135, 0, 0.5, 0, -0.46068135, 0, -0.19435197, 3.8417158, -0.2035551, -16.578253)
+transform = Transform3D(-0.19435197, 0, 0.46068135, 0, 0.5, 0, -0.46068135, 0, -0.19435197, 3.2937655, -0.2035551, -16.578253)
 
 [node name="Cadeira40" parent="." unique_id=78505278 instance=ExtResource("1_yob6a")]
 transform = Transform3D(-0.19435197, 0, 0.46068135, 0, 0.5, 0, -0.46068135, 0, -0.19435197, 4.350316, -0.2035551, -15.332181)
@@ -523,17 +523,32 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7165755, 1.9174769, -57.777
 [node name="Coin?4" parent="." unique_id=1212839433 instance=ExtResource("5_al6ls")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03905329, 0.64816654, -21.192314)
 
+[node name="Coin?17" parent="." unique_id=1955400933 instance=ExtResource("5_al6ls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7991595, 0.64816654, -14.775589)
+
+[node name="Coin?18" parent="." unique_id=1893719922 instance=ExtResource("5_al6ls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8425248, 0.64816654, -13.174659)
+
+[node name="Coin?19" parent="." unique_id=944010965 instance=ExtResource("5_al6ls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7678683, 0.64816654, -11.662718)
+
 [node name="Coin?5" parent="." unique_id=1841555339 instance=ExtResource("5_al6ls")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03905329, 0.64816654, -22.635698)
 
 [node name="Coin?6" parent="." unique_id=1133833321 instance=ExtResource("5_al6ls")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03905329, 0.64816654, -24.10658)
 
-[node name="SM_barril" parent="." unique_id=89073483 instance=ExtResource("6_if764")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9655042, -0.0020170212, -24.130789)
+[node name="Coin?16" parent="." unique_id=1457297108 instance=ExtResource("5_al6ls")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03905329, 0.64816654, -28.324749)
 
 [node name="SM_barril2" parent="." unique_id=1075797599 instance=ExtResource("6_if764")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -1.9655042, 0.103931665, -44.18446)
+
+[node name="SM_barril7" parent="." unique_id=348542896 instance=ExtResource("6_if764")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -1.9655042, 0.103931665, -26.387617)
+
+[node name="SM_barril8" parent="." unique_id=1370456857 instance=ExtResource("6_if764")]
+transform = Transform3D(-0.100092016, 1.335391, -0.6758046, -1.495804, -0.112115495, 0, -0.050512116, 0.6739142, 1.339137, -3.8350697, 0.31421018, -26.061188)
 
 [node name="SM_barril6" parent="." unique_id=1529493229 instance=ExtResource("6_if764")]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, -3.480285, 0.103931665, -45.056496)
@@ -547,5 +562,5 @@ transform = Transform3D(0.16909127, 0.39612633, -1.436834, -1.4631009, 0.3198079
 [node name="SM_barril5" parent="." unique_id=1141753201 instance=ExtResource("6_if764")]
 transform = Transform3D(0.1012082, 0.070304096, -1.4949293, -1.4631008, 0.31980792, -0.084013365, 0.31478924, 1.4638237, 0.09015274, -3.3571496, 0.103931665, -43.640556)
 
-[node name="SM_Caixa_Gaiola" parent="." unique_id=1309724946 instance=ExtResource("7_8u3e7")]
+[node name="GaiolaPendurada" parent="." unique_id=775440262 instance=ExtResource("7_if764")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.033245564, 1.8856337, -28.394592)
