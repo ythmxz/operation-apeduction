@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4800coxyuprr"
 path.s3tc="res://.godot/imported/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png-8db457ff514f9557158ebe416d363ded.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png-8db457ff514f9557158ebe416d363ded.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Static/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png"
-dest_files=["res://.godot/imported/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png-8db457ff514f9557158ebe416d363ded.s3tc.ctex"]
+dest_files=["res://.godot/imported/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png-8db457ff514f9557158ebe416d363ded.s3tc.ctex", "res://.godot/imported/SM_cenario_tapetecorredor_TX_Cenario_TapeteCorredor.png-8db457ff514f9557158ebe416d363ded.etc2.ctex"]
 
 [params]
 

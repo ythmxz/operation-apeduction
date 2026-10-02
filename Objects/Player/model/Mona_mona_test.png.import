@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0ncusw2moqij"
 path.s3tc="res://.godot/imported/Mona_mona_test.png-34285f74d903ce1ae8df894665036b4a.s3tc.ctex"
+path.etc2="res://.godot/imported/Mona_mona_test.png-34285f74d903ce1ae8df894665036b4a.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Objects/Player/model/Mona_mona_test.png"
-dest_files=["res://.godot/imported/Mona_mona_test.png-34285f74d903ce1ae8df894665036b4a.s3tc.ctex"]
+dest_files=["res://.godot/imported/Mona_mona_test.png-34285f74d903ce1ae8df894665036b4a.s3tc.ctex", "res://.godot/imported/Mona_mona_test.png-34285f74d903ce1ae8df894665036b4a.etc2.ctex"]
 
 [params]
 

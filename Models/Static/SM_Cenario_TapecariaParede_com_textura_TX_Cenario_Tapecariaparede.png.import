@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ro8c0b3kpv20"
 path.s3tc="res://.godot/imported/SM_Cenario_TapecariaParede_com_textura_TX_Cenario_Tapecariaparede.png-4d472aa5de7d628d34ecf4c64d9b2b66.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_Cenario_TapecariaParede_com_textura_TX_Cenario_Tapecariaparede.png-4d472aa5de7d628d34ecf4c64d9b2b66.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Static/SM_Cenario_TapecariaParede_com_textura_TX_Cenario_Tapecariaparede.png"
-dest_files=["res://.godot/imported/SM_Cenario_TapecariaParede_com_textura_TX_Cenario_Tapecariaparede.png-4d472aa5de7d628d34ecf4c64d9b2b66.s3tc.ctex"]
+dest_files=["res://.godot/imported/SM_Cenario_TapecariaParede_com_textura_TX_Cenario_Tapecariaparede.png-4d472aa5de7d628d34ecf4c64d9b2b66.s3tc.ctex", "res://.godot/imported/SM_Cenario_TapecariaParede_com_textura_TX_Cenario_Tapecariaparede.png-4d472aa5de7d628d34ecf4c64d9b2b66.etc2.ctex"]
 
 [params]
 

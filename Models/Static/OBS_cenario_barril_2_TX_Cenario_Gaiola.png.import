@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://w1uhp6x8ty0o"
 path.s3tc="res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_Gaiola.png-5efef537fc74cb59c452c17c5e28d481.s3tc.ctex"
+path.etc2="res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_Gaiola.png-5efef537fc74cb59c452c17c5e28d481.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Static/OBS_cenario_barril_2_TX_Cenario_Gaiola.png"
-dest_files=["res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_Gaiola.png-5efef537fc74cb59c452c17c5e28d481.s3tc.ctex"]
+dest_files=["res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_Gaiola.png-5efef537fc74cb59c452c17c5e28d481.s3tc.ctex", "res://.godot/imported/OBS_cenario_barril_2_TX_Cenario_Gaiola.png-5efef537fc74cb59c452c17c5e28d481.etc2.ctex"]
 
 [params]
 
