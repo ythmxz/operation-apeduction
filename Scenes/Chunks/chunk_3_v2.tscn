@@ -127,6 +127,15 @@ transform = Transform3D(-1.4, 0, 2.1139412e-07, 0, 1.4, 0, -2.1139412e-07, 0, -1
 [node name="SM_barril3" parent="Obstacles" unique_id=930246555 instance=ExtResource("5_d0kcw")]
 transform = Transform3D(-1.4, 0, 2.1139412e-07, 0, 1.4, 0, -2.1139412e-07, 0, -1.4, 0.52811754, -2.6296191, 21.305372)
 
+[node name="SM_barril5" parent="Obstacles" unique_id=348542896 instance=ExtResource("5_d0kcw")]
+transform = Transform3D(-9.674451, -2.5308106, 1.4892618e-06, -2.5308106, 9.674451, 1.6089126e-07, -1.4814975e-06, -2.2125049e-07, -10, -5.051904, -11.251692, 20.866013)
+
+[node name="SM_barril7" parent="Obstacles" unique_id=87701047 instance=ExtResource("5_d0kcw")]
+transform = Transform3D(-9.674452, -2.5308106, 1.3542411e-06, -2.1399384, 8.180273, -5.3388968, 1.3511721, -5.1650887, -8.455542, -3.3974092, -9.453621, 8.886805)
+
+[node name="SM_barril6" parent="Obstacles" unique_id=1265095128 instance=ExtResource("5_d0kcw")]
+transform = Transform3D(-4.5678415, 8.895777, 1.1646193e-06, 8.895777, 4.5678415, -5.655312e-07, -1.0350635e-06, 7.776935e-07, -10, 3.6996691, -6.751104, 25.088657)
+
 [node name="SM_barril4" parent="Obstacles" unique_id=1529493229 instance=ExtResource("5_d0kcw")]
 transform = Transform3D(-6.119593e-08, -1.4, -1.223919e-07, 1.4, -6.119594e-08, 1.223919e-07, -1.2239188e-07, -1.2239188e-07, 1.4000001, 0.27816668, -2.301497, 22.05892)
 

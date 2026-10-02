@@ -11,6 +11,3 @@ script = ExtResource("1_13v68")
 
 [node name="AnelCorrente" parent="." unique_id=868653436 instance=ExtResource("2_cyufy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7911868, 0)
-
-[node name="Camera3D" type="Camera3D" parent="." unique_id=1603294794]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0065603256, 3.3640094, 4.8508625)

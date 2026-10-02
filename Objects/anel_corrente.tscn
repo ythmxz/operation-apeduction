@@ -522,38 +522,6 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_t2txs")
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_fva6t"]
-_surfaces = [{
-"aabb": AABB(-1.5128481, -0.2689987, 0.23789491, 0.6312814, 0.21650635, 0.88388336),
-"format": 34896613377,
-"index_count": 6,
-"index_data": PackedByteArray(0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0),
-"name": "Materiais",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 4,
-"vertex_data": PackedByteArray(17, 152, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 119, 148, 255, 255, 255, 255, 0, 0, 255, 255, 0, 0, 50, 179, 0, 0)
-}]
-blend_shape_mode = 0
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_i1tl1"]
-resource_name = "SM_cenario_corrente_Toróide_041"
-_surfaces = [{
-"aabb": AABB(-1.5128481, -0.2689987, 0.23789491, 0.6312814, 0.21650635, 0.88388336),
-"attribute_data": PackedByteArray(0, 0, 169, 170, 0, 0, 84, 85, 255, 31, 84, 85, 255, 31, 169, 170),
-"format": 34896613399,
-"index_count": 6,
-"index_data": PackedByteArray(0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0),
-"material": SubResource("StandardMaterial3D_reody"),
-"name": "Materiais",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 4,
-"vertex_data": PackedByteArray(17, 152, 0, 0, 0, 0, 164, 189, 0, 0, 255, 255, 0, 0, 164, 189, 119, 148, 255, 255, 255, 255, 164, 189, 255, 255, 0, 0, 50, 179, 164, 189, 177, 53, 116, 211, 177, 53, 116, 211, 177, 53, 116, 211, 177, 53, 116, 211)
-}]
-blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_fva6t")
-
 [sub_resource type="ArrayMesh" id="ArrayMesh_46wkj"]
 _surfaces = [{
 "aabb": AABB(-1.1378481, -0.2689987, 0.23789494, 0.25628138, 0.4330127, 0.6187183),
@@ -617,38 +585,6 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_tmhk7")
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_nhk6k"]
-_surfaces = [{
-"aabb": AABB(-1.1467319, -0.2689987, 0.8566133, 0.8838837, 0.21650635, 0.63128173),
-"format": 34896613377,
-"index_count": 6,
-"index_data": PackedByteArray(0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0),
-"name": "Materiais",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 4,
-"vertex_data": PackedByteArray(204, 76, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 135, 107, 0, 0, 255, 255, 255, 255, 255, 255, 0, 0, 255, 255, 0, 0, 237, 103, 0, 0)
-}]
-blend_shape_mode = 0
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_e0cce"]
-resource_name = "SM_cenario_corrente_Toróide_044"
-_surfaces = [{
-"aabb": AABB(-1.1467319, -0.2689987, 0.8566133, 0.8838837, 0.21650635, 0.63128173),
-"attribute_data": PackedByteArray(255, 31, 169, 170, 255, 31, 84, 85, 255, 63, 84, 85, 255, 63, 169, 170),
-"format": 34896613399,
-"index_count": 6,
-"index_data": PackedByteArray(0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0),
-"material": SubResource("StandardMaterial3D_reody"),
-"name": "Materiais",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 4,
-"vertex_data": PackedByteArray(204, 76, 0, 0, 0, 0, 251, 171, 0, 0, 255, 255, 135, 107, 251, 171, 255, 255, 255, 255, 255, 255, 251, 171, 255, 255, 0, 0, 237, 103, 251, 171, 124, 29, 212, 173, 124, 29, 212, 173, 124, 29, 212, 173, 124, 29, 212, 173)
-}]
-blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_nhk6k")
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_5akp5"]
 _surfaces = [{
@@ -714,52 +650,6 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_orfol")
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_akkxw"]
-_surfaces = [{
-"aabb": AABB(-0.26284814, -0.2689987, 0.8566138, 0.88388294, 0.21650635, 0.6312812),
-"format": 34896613377,
-"index_count": 6,
-"index_data": PackedByteArray(0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0),
-"name": "Materiais",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 4,
-"vertex_data": PackedByteArray(0, 0, 0, 0, 237, 103, 0, 0, 0, 0, 255, 255, 255, 255, 0, 0, 255, 255, 255, 255, 135, 107, 0, 0, 50, 179, 0, 0, 0, 0, 0, 0)
-}]
-blend_shape_mode = 0
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_dvyls"]
-resource_name = "SM_cenario_corrente_Toróide_047"
-_surfaces = [{
-"aabb": AABB(-0.26284814, -0.2689987, 0.8566138, 0.88388294, 0.21650635, 0.6312812),
-"attribute_data": PackedByteArray(255, 63, 169, 170, 255, 63, 84, 85, 255, 95, 84, 85, 255, 95, 169, 170),
-"format": 34896613399,
-"index_count": 6,
-"index_data": PackedByteArray(0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0),
-"material": SubResource("StandardMaterial3D_reody"),
-"name": "Materiais",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 4,
-"vertex_data": PackedByteArray(0, 0, 0, 0, 237, 103, 251, 171, 0, 0, 255, 255, 255, 255, 251, 171, 255, 255, 255, 255, 135, 107, 251, 171, 50, 179, 0, 0, 0, 0, 251, 171, 212, 45, 130, 98, 212, 45, 130, 98, 212, 45, 130, 98, 212, 45, 130, 98)
-}]
-blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_akkxw")
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_hyvqh"]
-_surfaces = [{
-"aabb": AABB(-0.26284814, -0.2689987, 0.8566138, 0.618718, 0.4330127, 0.2562812),
-"format": 34896613377,
-"index_count": 6,
-"index_data": PackedByteArray(0, 0, 1, 0, 2, 0, 0, 0, 2, 0, 3, 0),
-"name": "Materiais",
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 4,
-"vertex_data": PackedByteArray(0, 0, 255, 255, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 255, 255, 0, 0, 0, 0)
-}]
-blend_shape_mode = 0
-
 [sub_resource type="ArrayMesh" id="ArrayMesh_55afo"]
 resource_name = "SM_cenario_corrente_Toróide_048"
 _surfaces = [{
@@ -776,7 +666,6 @@ _surfaces = [{
 "vertex_data": PackedByteArray(0, 0, 255, 255, 255, 255, 255, 255, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255, 0, 0, 255, 255, 255, 255, 60, 149, 255, 255, 60, 149, 255, 255, 60, 149, 255, 255, 60, 149)
 }]
 blend_shape_mode = 0
-shadow_mesh = SubResource("ArrayMesh_hyvqh")
 
 [node name="AnelCorrente" type="Node3D" unique_id=868653436]
 
@@ -846,7 +735,6 @@ mesh = SubResource("ArrayMesh_rigbf")
 
 [node name="Toróide_041" type="MeshInstance3D" parent="." unique_id=274783721]
 transform = Transform3D(-3.985787e-08, 0.33435202, 0, -0.33435202, -3.985787e-08, 0, 0, 0, 0.33435202, 0.017550915, -0.08788384, -0.07954068)
-mesh = SubResource("ArrayMesh_i1tl1")
 
 [node name="Toróide_042" type="MeshInstance3D" parent="." unique_id=694356181]
 transform = Transform3D(-3.985787e-08, 0.33435202, 0, -0.33435202, -3.985787e-08, 0, 0, 0, 0.33435202, 0.017550915, -0.08788384, -0.07954068)
@@ -858,7 +746,6 @@ mesh = SubResource("ArrayMesh_4p0nx")
 
 [node name="Toróide_044" type="MeshInstance3D" parent="." unique_id=1674966821]
 transform = Transform3D(-3.985787e-08, 0.33435202, 0, -0.33435202, -3.985787e-08, 0, 0, 0, 0.33435202, 0.017550915, -0.08788384, -0.07954068)
-mesh = SubResource("ArrayMesh_e0cce")
 
 [node name="Toróide_045" type="MeshInstance3D" parent="." unique_id=13429686]
 transform = Transform3D(-3.985787e-08, 0.33435202, 0, -0.33435202, -3.985787e-08, 0, 0, 0, 0.33435202, 0.017550915, -0.08788384, -0.07954068)
@@ -870,7 +757,6 @@ mesh = SubResource("ArrayMesh_j0qb5")
 
 [node name="Toróide_047" type="MeshInstance3D" parent="." unique_id=920896005]
 transform = Transform3D(-3.985787e-08, 0.33435202, 0, -0.33435202, -3.985787e-08, 0, 0, 0, 0.33435202, 0.017550915, -0.08788384, -0.07954068)
-mesh = SubResource("ArrayMesh_dvyls")
 
 [node name="Toróide_048" type="MeshInstance3D" parent="." unique_id=1007228140]
 transform = Transform3D(-3.985787e-08, 0.33435202, 0, -0.33435202, -3.985787e-08, 0, 0, 0, 0.33435202, 0.017550915, -0.08788384, -0.07954068)

@@ -19,7 +19,7 @@ func _ready() -> void:
 	register_anel(anel0)
 
 	var p := anel0.position
-	for i in range(1, 20):
+	for i in range(1, 10):
 		p.y += 0.5
 		var ac := ANEL_CORRENTE.instantiate()
 		add_child(ac)
