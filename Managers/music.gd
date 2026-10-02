@@ -1,9 +1,9 @@
 extends Node
 
 var songs: Dictionary[StringName, Variant] = {
-	# cada entry aqui tem como valor: [uid, stream]
+	# cada entry aqui tem como valor: [resource_path, stream]
 	# stream começa como nulo mas em _ready() a gente seta ele
-	# &"TitleScreen": ["uid://8knxe6nuusel", null],
+	&"TitleScreen": ["res://Assets/Sound/mus_title_screen.mp3", null],
 }
 
 var current_stream: AudioStreamPlayer = null

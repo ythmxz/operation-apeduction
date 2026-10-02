@@ -6,7 +6,7 @@ extends Control
 func _ready() -> void:
 	version.text = ProjectSettings.get_setting("application/config/version")
 	first_button.grab_focus()
-	# Music.play(&"TitleScreen")
+	Music.play(&"TitleScreen")
 
 func _on_start_button_pressed() -> void:
 	Global.game.switch_context(&"world_3d", "uid://c0g4l4d2g20kq", Transitions.FADE_BLACK)
