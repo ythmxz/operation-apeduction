@@ -104,27 +104,68 @@ func _physics_process(delta: float) -> void:
 
 func handle_input():
 	if Input.is_action_just_pressed("move_right"):
-		shift_lane(&"Right")
-
+		_handle_move_right()
 	if Input.is_action_just_pressed("move_left"):
-		shift_lane(&"Left")
+		_handle_move_left()
 
-	if Input.is_action_pressed("jump") and is_on_floor():
+	if Input.is_action_pressed("jump"):
+		_handle_jump()
+
+	if Input.is_action_just_pressed("slide"):
+		_handle_slide()
+
+func _handle_move_right():
+	shift_lane(&"Right")
+
+func _handle_move_left():
+	shift_lane(&"Left")
+
+func _handle_jump():
+	if is_on_floor():
 		velocity.y = 15
 		jump_sfx_player.stop()
 		jump_sfx_player.play()
 		sm.transition(^"Jump")
 
-	if sm.get_state_name() == &"Jump" and Input.is_action_just_pressed("slide"):
+func _handle_slide():
+	if sm.get_state_name() == &"Jump":
 		velocity.y = minf(velocity.y, -30)
-		swipe_sfx_player.stop()
-		swipe_sfx_player.play()
 		sm.transition(^"DashDown")
-
-	if sm.get_state_name() == &"Walk" and Input.is_action_just_pressed("slide"):
-		swipe_sfx_player.stop()
-		swipe_sfx_player.play()
+	elif sm.get_state_name() == &"Walk":
 		sm.transition(^"SlideDown")
+
+	swipe_sfx_player.stop()
+	swipe_sfx_player.play()
+
+var swipe_start_pos := Vector2.ZERO
+var swiping := false
+const SWIPE_THRESHOLD := 50.0
+
+func _input(event: InputEvent) -> void:
+	if is_dead:
+		return
+
+	if event is InputEventScreenTouch or (event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT):
+		if event.pressed:
+			swiping = true
+			swipe_start_pos = event.position
+		else:
+			swiping = false
+
+	if (event is InputEventScreenDrag or (event is InputEventMouseMotion and Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT))) and swiping:
+		var swipe_dir = event.position - swipe_start_pos
+		if swipe_dir.length() > SWIPE_THRESHOLD:
+			if abs(swipe_dir.x) > abs(swipe_dir.y):
+				if swipe_dir.x > 0:
+					_handle_move_right()
+				else:
+					_handle_move_left()
+			else:
+				if swipe_dir.y > 0:
+					_handle_slide()
+				else:
+					_handle_jump()
+			swiping = false
 
 func has_upper_collision() -> bool:
 	for a in areas_upper:

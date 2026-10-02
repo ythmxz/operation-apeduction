@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dndse5vswdd2t"
 path.s3tc="res://.godot/imported/SM_barril_Barril.png-fd501e8f8d93d6a4379841ba8c6ef7b0.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_barril_Barril.png-fd501e8f8d93d6a4379841ba8c6ef7b0.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Static/SM_barril_Barril.png"
-dest_files=["res://.godot/imported/SM_barril_Barril.png-fd501e8f8d93d6a4379841ba8c6ef7b0.s3tc.ctex"]
+dest_files=["res://.godot/imported/SM_barril_Barril.png-fd501e8f8d93d6a4379841ba8c6ef7b0.s3tc.ctex", "res://.godot/imported/SM_barril_Barril.png-fd501e8f8d93d6a4379841ba8c6ef7b0.etc2.ctex"]
 
 [params]
 

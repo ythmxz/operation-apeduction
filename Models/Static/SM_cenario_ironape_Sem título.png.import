@@ -2,18 +2,21 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1beufe44tqwh"
-path.s3tc="res://.godot/imported/wood.png-5644a46ff2f5a24d6ebbaf579af6e32b.s3tc.ctex"
-path.etc2="res://.godot/imported/wood.png-5644a46ff2f5a24d6ebbaf579af6e32b.etc2.ctex"
+uid="uid://xa81opqdavgy"
+path.s3tc="res://.godot/imported/SM_cenario_ironape_Sem título.png-25cc1a23e703576c8cdaeed764fa58ca.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_cenario_ironape_Sem título.png-25cc1a23e703576c8cdaeed764fa58ca.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "e9b038c745a67128051f447053c1199b"
+}
 
 [deps]
 
-source_file="res://Assets/wood.png"
-dest_files=["res://.godot/imported/wood.png-5644a46ff2f5a24d6ebbaf579af6e32b.s3tc.ctex", "res://.godot/imported/wood.png-5644a46ff2f5a24d6ebbaf579af6e32b.etc2.ctex"]
+source_file="res://Models/Static/SM_cenario_ironape_Sem título.png"
+dest_files=["res://.godot/imported/SM_cenario_ironape_Sem título.png-25cc1a23e703576c8cdaeed764fa58ca.s3tc.ctex", "res://.godot/imported/SM_cenario_ironape_Sem título.png-25cc1a23e703576c8cdaeed764fa58ca.etc2.ctex"]
 
 [params]
 
