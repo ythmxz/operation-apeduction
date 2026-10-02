@@ -7,6 +7,7 @@ var choices: Array[PackedScene] = [
 	preload("res://Scenes/Chunks/chunk_2.tscn"),
 	preload("res://Scenes/Chunks/chunk_3.tscn"),
 	preload("res://Scenes/Chunks/chunk_3_v2.tscn"),
+	preload("res://Scenes/Chunks/chunk_4.tscn"),
 ]
 
 # Distâncias p/ spawnar e despawnar.
