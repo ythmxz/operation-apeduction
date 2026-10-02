@@ -12,11 +12,14 @@ var state := State.Playing
 
 var player: Node3D = null
 
+var song_choices: Array[StringName] = [&"Tmp1", &"Tmp2", &"Tmp3", &"Tmp4", &"Tmp5", &"Tmp6"]
+
 func _ready() -> void:
 	_push_ui()
 	player = $"Player"
 	player.died.connect(on_died)
 	chunks.scroll_speed = SCROLL_SPEED
+	Music.play(song_choices.pick_random(), -5)
 
 func on_died() -> void:
 	state = State.Died
