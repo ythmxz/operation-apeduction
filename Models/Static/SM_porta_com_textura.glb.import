@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://idb2224gvgo4"
-path="res://.godot/imported/SM_porta_com_textura.glb-fbc4b7da90d0d3f41d913800b25faed6.scn"
+path="res://.godot/imported/SM_porta_com_textura.glb-d487ec2d821d64d5971301433eb183aa.scn"
 
 [deps]
 
-source_file="res://Models/Static/SM_porta_com_textura.glb"
-dest_files=["res://.godot/imported/SM_porta_com_textura.glb-fbc4b7da90d0d3f41d913800b25faed6.scn"]
+source_file="res://models/Static/SM_porta_com_textura.glb"
+dest_files=["res://.godot/imported/SM_porta_com_textura.glb-d487ec2d821d64d5971301433eb183aa.scn"]
 
 [params]
 

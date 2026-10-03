@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8d2cgev8ccpn"
-path="res://.godot/imported/SM_Caixa_Gaiola.glb-9c4aa7ac5152d817787954bd034ee304.scn"
+path="res://.godot/imported/SM_Caixa_Gaiola.glb-ac3d5706379ed4ac1e66fa2e424bd1c3.scn"
 
 [deps]
 
-source_file="res://Models/Static/SM_Caixa_Gaiola.glb"
-dest_files=["res://.godot/imported/SM_Caixa_Gaiola.glb-9c4aa7ac5152d817787954bd034ee304.scn"]
+source_file="res://models/Static/SM_Caixa_Gaiola.glb"
+dest_files=["res://.godot/imported/SM_Caixa_Gaiola.glb-ac3d5706379ed4ac1e66fa2e424bd1c3.scn"]
 
 [params]
 

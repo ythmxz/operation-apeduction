@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drviunf7gu8m5"
-path.s3tc="res://.godot/imported/SM_tocha_binga.png-d21b96a8a073b192b146dbdacc7ffce8.s3tc.ctex"
-path.etc2="res://.godot/imported/SM_tocha_binga.png-d21b96a8a073b192b146dbdacc7ffce8.etc2.ctex"
+path.s3tc="res://.godot/imported/SM_tocha_binga.png-d6e956fc942c8ce70a0d4507a1c5498f.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_tocha_binga.png-d6e956fc942c8ce70a0d4507a1c5498f.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Static/SM_tocha_binga.png"
-dest_files=["res://.godot/imported/SM_tocha_binga.png-d21b96a8a073b192b146dbdacc7ffce8.s3tc.ctex", "res://.godot/imported/SM_tocha_binga.png-d21b96a8a073b192b146dbdacc7ffce8.etc2.ctex"]
+source_file="res://models/Static/SM_tocha_binga.png"
+dest_files=["res://.godot/imported/SM_tocha_binga.png-d6e956fc942c8ce70a0d4507a1c5498f.s3tc.ctex", "res://.godot/imported/SM_tocha_binga.png-d6e956fc942c8ce70a0d4507a1c5498f.etc2.ctex"]
 
 [params]
 

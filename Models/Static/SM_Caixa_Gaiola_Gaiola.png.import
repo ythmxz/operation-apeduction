@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj24rnm5nr3r7"
-path.s3tc="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-5acfdf004d468151623d406c1ee4f44e.s3tc.ctex"
-path.etc2="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-5acfdf004d468151623d406c1ee4f44e.etc2.ctex"
+path.s3tc="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Static/SM_Caixa_Gaiola_Gaiola.png"
-dest_files=["res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-5acfdf004d468151623d406c1ee4f44e.s3tc.ctex", "res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-5acfdf004d468151623d406c1ee4f44e.etc2.ctex"]
+source_file="res://models/Static/SM_Caixa_Gaiola_Gaiola.png"
+dest_files=["res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.s3tc.ctex", "res://.godot/imported/SM_Caixa_Gaiola_Gaiola.png-7590f81f7e015e3b609ec4e3ae6cf281.etc2.ctex"]
 
 [params]
 

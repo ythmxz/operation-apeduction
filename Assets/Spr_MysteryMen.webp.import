@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd8gwmdb2xyq2"
-path="res://.godot/imported/Spr_MysteryMen.webp-47ceb676c11268a0e781a36d63b4eb3e.ctex"
+path="res://.godot/imported/Spr_MysteryMen.webp-c63f9fe1031528d79051769d081988c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Spr_MysteryMen.webp"
-dest_files=["res://.godot/imported/Spr_MysteryMen.webp-47ceb676c11268a0e781a36d63b4eb3e.ctex"]
+source_file="res://assets/Spr_MysteryMen.webp"
+dest_files=["res://.godot/imported/Spr_MysteryMen.webp-c63f9fe1031528d79051769d081988c5.ctex"]
 
 [params]
 

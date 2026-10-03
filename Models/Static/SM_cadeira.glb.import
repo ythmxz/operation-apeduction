@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qdux25glnw3i"
-path="res://.godot/imported/SM_cadeira.glb-566e8cbbe0eb132551f93fcf9d688c37.scn"
+path="res://.godot/imported/SM_cadeira.glb-46a1712e434fb4de36fe0eadaeb47297.scn"
 
 [deps]
 
-source_file="res://Models/Static/SM_cadeira.glb"
-dest_files=["res://.godot/imported/SM_cadeira.glb-566e8cbbe0eb132551f93fcf9d688c37.scn"]
+source_file="res://models/Static/SM_cadeira.glb"
+dest_files=["res://.godot/imported/SM_cadeira.glb-46a1712e434fb4de36fe0eadaeb47297.scn"]
 
 [params]
 

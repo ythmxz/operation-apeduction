@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvg2ynm801xak"
-path.s3tc="res://.godot/imported/SM_cenario_corrente1_Sem título.png-073919075bbe74820b186167972b64aa.s3tc.ctex"
-path.etc2="res://.godot/imported/SM_cenario_corrente1_Sem título.png-073919075bbe74820b186167972b64aa.etc2.ctex"
+path.s3tc="res://.godot/imported/SM_cenario_corrente1_Sem título.png-f093dd71c81d9498b73f1ec5530a3305.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_cenario_corrente1_Sem título.png-f093dd71c81d9498b73f1ec5530a3305.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/Static/SM_cenario_corrente1_Sem título.png"
-dest_files=["res://.godot/imported/SM_cenario_corrente1_Sem título.png-073919075bbe74820b186167972b64aa.s3tc.ctex", "res://.godot/imported/SM_cenario_corrente1_Sem título.png-073919075bbe74820b186167972b64aa.etc2.ctex"]
+source_file="res://models/Static/SM_cenario_corrente1_Sem título.png"
+dest_files=["res://.godot/imported/SM_cenario_corrente1_Sem título.png-f093dd71c81d9498b73f1ec5530a3305.s3tc.ctex", "res://.godot/imported/SM_cenario_corrente1_Sem título.png-f093dd71c81d9498b73f1ec5530a3305.etc2.ctex"]
 
 [params]
 
