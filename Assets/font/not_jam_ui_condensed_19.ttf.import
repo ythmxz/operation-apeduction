@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://d2at7u3mfr60n"
-path="res://.godot/imported/Not Jam Glasgow 16.ttf-b1581bbff480926d5f647deb570b9742.fontdata"
+uid="uid://h1ktg56kwi85"
+path="res://.godot/imported/not_jam_ui_condensed_19.ttf-e359d30ea8badd1cae8376b179bd3a70.fontdata"
 
 [deps]
 
-source_file="res://Assets/Not Jam Glasgow 16.ttf"
-dest_files=["res://.godot/imported/Not Jam Glasgow 16.ttf-b1581bbff480926d5f647deb570b9742.fontdata"]
+source_file="res://assets/font/not_jam_ui_condensed_19.ttf"
+dest_files=["res://.godot/imported/not_jam_ui_condensed_19.ttf-e359d30ea8badd1cae8376b179bd3a70.fontdata"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bglqgexsqaed1"
-path.s3tc="res://.godot/imported/SM_porta_com_textura_porta.png-2a4118855a847371db3258f2aa5d4931.s3tc.ctex"
-path.etc2="res://.godot/imported/SM_porta_com_textura_porta.png-2a4118855a847371db3258f2aa5d4931.etc2.ctex"
+path.s3tc="res://.godot/imported/SM_porta_com_textura_porta.png-3212fe32a9e0c7e469c4602039e186e8.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_porta_com_textura_porta.png-3212fe32a9e0c7e469c4602039e186e8.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Static/SM_porta_com_textura_porta.png"
-dest_files=["res://.godot/imported/SM_porta_com_textura_porta.png-2a4118855a847371db3258f2aa5d4931.s3tc.ctex", "res://.godot/imported/SM_porta_com_textura_porta.png-2a4118855a847371db3258f2aa5d4931.etc2.ctex"]
+source_file="res://models/Static/SM_porta_com_textura_porta.png"
+dest_files=["res://.godot/imported/SM_porta_com_textura_porta.png-3212fe32a9e0c7e469c4602039e186e8.s3tc.ctex", "res://.godot/imported/SM_porta_com_textura_porta.png-3212fe32a9e0c7e469c4602039e186e8.etc2.ctex"]
 
 [params]
 

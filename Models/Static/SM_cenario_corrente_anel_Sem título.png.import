@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sq044h4sp6er"
-path.s3tc="res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-d7d0dcad54490f713aa85c30a753e512.s3tc.ctex"
-path.etc2="res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-d7d0dcad54490f713aa85c30a753e512.etc2.ctex"
+path.s3tc="res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-370b1e38b04b246b2218e2f365828d7d.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-370b1e38b04b246b2218e2f365828d7d.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/Static/SM_cenario_corrente_anel_Sem título.png"
-dest_files=["res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-d7d0dcad54490f713aa85c30a753e512.s3tc.ctex", "res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-d7d0dcad54490f713aa85c30a753e512.etc2.ctex"]
+source_file="res://models/Static/SM_cenario_corrente_anel_Sem título.png"
+dest_files=["res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-370b1e38b04b246b2218e2f365828d7d.s3tc.ctex", "res://.godot/imported/SM_cenario_corrente_anel_Sem título.png-370b1e38b04b246b2218e2f365828d7d.etc2.ctex"]
 
 [params]
 

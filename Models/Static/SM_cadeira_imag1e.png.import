@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmjg5w615fumu"
-path.s3tc="res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.s3tc.ctex"
-path.etc2="res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.etc2.ctex"
+path.s3tc="res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Static/SM_cadeira_imag1e.png"
-dest_files=["res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.s3tc.ctex", "res://.godot/imported/SM_cadeira_imag1e.png-4e4c05d818f874a542cf04935bb7c120.etc2.ctex"]
+source_file="res://models/Static/SM_cadeira_imag1e.png"
+dest_files=["res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.s3tc.ctex", "res://.godot/imported/SM_cadeira_imag1e.png-3f2812423d439c3235b046fab3bc5208.etc2.ctex"]
 
 [params]
 

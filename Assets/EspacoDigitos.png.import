@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn5l8fl32dd83"
-path="res://.godot/imported/EspacoDigitos.png-33f1236a06352b9d800d5210f53f9a5e.ctex"
+path="res://.godot/imported/EspacoDigitos.png-ee8e0edcd9e55ff319ee183ab4573560.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/EspacoDigitos.png"
-dest_files=["res://.godot/imported/EspacoDigitos.png-33f1236a06352b9d800d5210f53f9a5e.ctex"]
+source_file="res://assets/EspacoDigitos.png"
+dest_files=["res://.godot/imported/EspacoDigitos.png-ee8e0edcd9e55ff319ee183ab4573560.ctex"]
 
 [params]
 

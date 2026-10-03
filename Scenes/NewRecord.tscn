@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://bsykrsga2gh2b"]
 
-[ext_resource type="Texture2D" uid="uid://dbrap87gubdib" path="res://Assets/LayoutRecorde.png" id="1_lmq6p"]
+[ext_resource type="Texture2D" uid="uid://dbrap87gubdib" path="res://assets/LayoutRecorde.png" id="1_lmq6p"]
 [ext_resource type="Script" uid="uid://de7cjk3oq2ial" path="res://Lib/new_record.gd" id="2_768e0"]
-[ext_resource type="Theme" uid="uid://c3ojic6fyhlqj" path="res://Assets/tema_ui.tres" id="2_c2s8d"]
-[ext_resource type="Texture2D" uid="uid://dcqxngmul8o58" path="res://Assets/Icone Avancar.png" id="3_768e0"]
+[ext_resource type="Theme" uid="uid://c3ojic6fyhlqj" path="res://resources/main_theme.tres" id="2_c2s8d"]
+[ext_resource type="Texture2D" uid="uid://dcqxngmul8o58" path="res://assets/Icone Avancar.png" id="3_768e0"]
 
 [node name="NewRecord" type="TextureRect" unique_id=280940861 node_paths=PackedStringArray("texto_label", "avancar_button")]
 offset_right = 40.0

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5rrqb8m2sar1"
-path="res://.godot/imported/Icone Reset.png-9bce91fdb08e38c960076fe84c256bb8.ctex"
+path="res://.godot/imported/Icone Reset.png-0410d73e01a100ced065d42aa7347ba1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Icone Reset.png"
-dest_files=["res://.godot/imported/Icone Reset.png-9bce91fdb08e38c960076fe84c256bb8.ctex"]
+source_file="res://assets/Icone Reset.png"
+dest_files=["res://.godot/imported/Icone Reset.png-0410d73e01a100ced065d42aa7347ba1.ctex"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvcsowawmvc6i"
-path.s3tc="res://.godot/imported/SM_cenario_corrente_metal.png-5a6e9934cb8cacb167f7ea423257ba82.s3tc.ctex"
-path.etc2="res://.godot/imported/SM_cenario_corrente_metal.png-5a6e9934cb8cacb167f7ea423257ba82.etc2.ctex"
+path.s3tc="res://.godot/imported/SM_cenario_corrente_metal.png-93628d13284e679b523390482c6fe5e6.s3tc.ctex"
+path.etc2="res://.godot/imported/SM_cenario_corrente_metal.png-93628d13284e679b523390482c6fe5e6.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Models/Static/SM_cenario_corrente_metal.png"
-dest_files=["res://.godot/imported/SM_cenario_corrente_metal.png-5a6e9934cb8cacb167f7ea423257ba82.s3tc.ctex", "res://.godot/imported/SM_cenario_corrente_metal.png-5a6e9934cb8cacb167f7ea423257ba82.etc2.ctex"]
+source_file="res://models/Static/SM_cenario_corrente_metal.png"
+dest_files=["res://.godot/imported/SM_cenario_corrente_metal.png-93628d13284e679b523390482c6fe5e6.s3tc.ctex", "res://.godot/imported/SM_cenario_corrente_metal.png-93628d13284e679b523390482c6fe5e6.etc2.ctex"]
 
 [params]
 

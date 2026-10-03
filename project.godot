@@ -11,10 +11,9 @@ config_version=5
 [application]
 
 config/name="Operation Apeduction"
-config/version="1.0.4"
+config/version="1.0.5"
 run/main_scene="uid://b74o5nov317re"
 config/features=PackedStringArray("4.7")
-config/icon="uid://vcsha1lkb2hl"
 
 [autoload]
 
@@ -27,8 +26,13 @@ Music="*uid://lbf8irit03ll"
 
 window/size/viewport_width=540
 window/size/viewport_height=960
-window/stretch/mode="viewport"
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 window/handheld/orientation=1
+
+[gui]
+
+theme/custom="uid://c3ojic6fyhlqj"
 
 [input]
 
@@ -99,10 +103,11 @@ start={
 
 [layer_names]
 
-3d_physics/layer_1="objects"
-3d_physics/layer_2="player"
+3d_physics/layer_1="Objects"
+3d_physics/layer_2="Player"
 
 [rendering]
 
-textures/canvas_textures/default_texture_filter=3
+textures/canvas_textures/default_texture_filter=0
 textures/vram_compression/import_etc2_astc=true
+textures/lossless_compression/force_png=true

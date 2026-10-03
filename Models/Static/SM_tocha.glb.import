@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://18ti0aem67de"
-path="res://.godot/imported/SM_tocha.glb-f4b5bbd06db3be75957faabb52ae9903.scn"
+path="res://.godot/imported/SM_tocha.glb-b44b4e7acc45fc4767c5e191de4fb7d5.scn"
 
 [deps]
 
-source_file="res://Models/Static/SM_tocha.glb"
-dest_files=["res://.godot/imported/SM_tocha.glb-f4b5bbd06db3be75957faabb52ae9903.scn"]
+source_file="res://models/Static/SM_tocha.glb"
+dest_files=["res://.godot/imported/SM_tocha.glb-b44b4e7acc45fc4767c5e191de4fb7d5.scn"]
 
 [params]
 

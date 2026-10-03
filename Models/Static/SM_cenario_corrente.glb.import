@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bp68cfi7gp6lo"
-path="res://.godot/imported/SM_cenario_corrente.glb-35392efa3b2e806ee3a936f7920dca11.scn"
+path="res://.godot/imported/SM_cenario_corrente.glb-0b26f4985bb957b15493cf60eb76c71b.scn"
 
 [deps]
 
-source_file="res://Models/Static/SM_cenario_corrente.glb"
-dest_files=["res://.godot/imported/SM_cenario_corrente.glb-35392efa3b2e806ee3a936f7920dca11.scn"]
+source_file="res://models/Static/SM_cenario_corrente.glb"
+dest_files=["res://.godot/imported/SM_cenario_corrente.glb-0b26f4985bb957b15493cf60eb76c71b.scn"]
 
 [params]
 

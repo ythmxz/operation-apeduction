@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw38nwtxdyc5f"
-path="res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.ctex"
+path="res://.godot/imported/SM_moeda_Moeda.png-1cb08e299be151d9b092d358dc75e56a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Models/SM_moeda_Moeda.png"
-dest_files=["res://.godot/imported/SM_moeda_Moeda.png-5f8949ddab91cf9dffdb3f3ff3292abc.ctex"]
+source_file="res://models/SM_moeda_Moeda.png"
+dest_files=["res://.godot/imported/SM_moeda_Moeda.png-1cb08e299be151d9b092d358dc75e56a.ctex"]
 
 [params]
 

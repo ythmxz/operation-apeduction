@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dosven0seta2x"
-path="res://.godot/imported/Icone Casinha.png-e0c635a326e8729367e1c59800f8922a.ctex"
+path="res://.godot/imported/Icone Casinha.png-48b191db4ed336f4ed2cdb470dc3e860.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Icone Casinha.png"
-dest_files=["res://.godot/imported/Icone Casinha.png-e0c635a326e8729367e1c59800f8922a.ctex"]
+source_file="res://assets/Icone Casinha.png"
+dest_files=["res://.godot/imported/Icone Casinha.png-48b191db4ed336f4ed2cdb470dc3e860.ctex"]
 
 [params]
 

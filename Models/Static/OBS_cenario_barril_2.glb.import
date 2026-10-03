@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ba0fn2kywqinh"
-path="res://.godot/imported/OBS_cenario_barril_2.glb-2bfb3cd827f0c6cbd06e6c6a9b449286.scn"
+path="res://.godot/imported/OBS_cenario_barril_2.glb-de54f743ad438adef00e69420f2a9fe4.scn"
 
 [deps]
 
-source_file="res://Models/Static/OBS_cenario_barril_2.glb"
-dest_files=["res://.godot/imported/OBS_cenario_barril_2.glb-2bfb3cd827f0c6cbd06e6c6a9b449286.scn"]
+source_file="res://models/Static/OBS_cenario_barril_2.glb"
+dest_files=["res://.godot/imported/OBS_cenario_barril_2.glb-de54f743ad438adef00e69420f2a9fe4.scn"]
 
 [params]
 

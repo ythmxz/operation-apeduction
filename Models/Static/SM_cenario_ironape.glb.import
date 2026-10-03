@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ddltpqjw05ifr"
-path="res://.godot/imported/SM_cenario_ironape.glb-a3ff58aee0800a59593c9d50692b544f.scn"
+path="res://.godot/imported/SM_cenario_ironape.glb-da53df2ac41aca0765a4fa40804d8c07.scn"
 
 [deps]
 
-source_file="res://Models/Static/SM_cenario_ironape.glb"
-dest_files=["res://.godot/imported/SM_cenario_ironape.glb-a3ff58aee0800a59593c9d50692b544f.scn"]
+source_file="res://models/Static/SM_cenario_ironape.glb"
+dest_files=["res://.godot/imported/SM_cenario_ironape.glb-da53df2ac41aca0765a4fa40804d8c07.scn"]
 
 [params]
 
