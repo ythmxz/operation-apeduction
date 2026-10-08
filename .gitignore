@@ -24,4 +24,4 @@ mono_crash.*.json
 .DS_Store
 Thumbs.db
 
-Exports/
+_exports/
