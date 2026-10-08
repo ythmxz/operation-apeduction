@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://cmijrem5ewje6"]
 
-[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Objects/parede.tscn" id="2_hagbw"]
-[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Objects/chao.tscn" id="3_3esqc"]
-[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_5xnqh"]
-[ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="5_yvyln"]
-[ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://Models/Static/SM_barril.glb" id="6_g5ma0"]
-[ext_resource type="PackedScene" uid="uid://qdux25glnw3i" path="res://Models/Static/SM_cadeira.glb" id="6_vbtkr"]
-[ext_resource type="PackedScene" uid="uid://bffbqe51ta3nx" path="res://Models/Static/SM_cenario_tapetecorredor.glb" id="8_hagbw"]
-[ext_resource type="PackedScene" uid="uid://clxy4mibufykd" path="res://Objects/gaiola_pendurada.tscn" id="9_3esqc"]
+[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://objects/wall/wall.tscn" id="2_hagbw"]
+[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://objects/floor/floor.tscn" id="3_3esqc"]
+[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://objects/torch.tscn" id="4_5xnqh"]
+[ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://objects/coin/coin.tscn" id="5_yvyln"]
+[ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://models/static/sm_barrel.glb" id="6_g5ma0"]
+[ext_resource type="PackedScene" uid="uid://qdux25glnw3i" path="res://models/static/sm_chair.glb" id="6_vbtkr"]
+[ext_resource type="PackedScene" uid="uid://bffbqe51ta3nx" path="res://models/static/sm_hall_rug.glb" id="8_hagbw"]
+[ext_resource type="PackedScene" uid="uid://clxy4mibufykd" path="res://objects/hanged_cage/hanged_cage.tscn" id="9_3esqc"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 

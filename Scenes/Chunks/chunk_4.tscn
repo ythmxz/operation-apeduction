@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://can1ounieipe8"]
 
-[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Objects/parede.tscn" id="2_miyvi"]
-[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Objects/chao.tscn" id="3_3fif4"]
-[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="4_nni6h"]
-[ext_resource type="PackedScene" uid="uid://ddltpqjw05ifr" path="res://Models/Static/SM_cenario_ironape.glb" id="4_smvuv"]
-[ext_resource type="PackedScene" uid="uid://cfk0lippyh2vx" path="res://Models/Static/pilar_quadrado_sem_textura.glb" id="5_4rqf3"]
-[ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="5_5aodm"]
-[ext_resource type="PackedScene" uid="uid://clxy4mibufykd" path="res://Objects/gaiola_pendurada.tscn" id="6_slgrd"]
+[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://objects/wall/wall.tscn" id="2_miyvi"]
+[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://objects/floor/floor.tscn" id="3_3fif4"]
+[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://objects/torch.tscn" id="4_nni6h"]
+[ext_resource type="PackedScene" uid="uid://ddltpqjw05ifr" path="res://models/static/sm_ironape.glb" id="4_smvuv"]
+[ext_resource type="PackedScene" uid="uid://cfk0lippyh2vx" path="res://models/static/pillar.glb" id="5_4rqf3"]
+[ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://objects/coin/coin.tscn" id="5_5aodm"]
+[ext_resource type="PackedScene" uid="uid://clxy4mibufykd" path="res://objects/hanged_cage/hanged_cage.tscn" id="6_slgrd"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 

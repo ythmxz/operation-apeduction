@@ -6,8 +6,8 @@ extends Control
 
 
 func _ready() -> void:
+	default_button.grab_focus(true)
 	version_label.text = ProjectSettings.get_setting("application/config/version")
-	default_button.grab_focus()
 	Music.play(&"TitleScreen")
 
 

@@ -1,4 +1,5 @@
-class_name SceneTransition extends Resource
+class_name SceneTransition
+extends Resource
 
 
 ## The total duration of the transition in seconds, split between

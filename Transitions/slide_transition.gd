@@ -1,4 +1,5 @@
-class_name SlideTransition extends SceneTransition
+class_name SlideTransition
+extends SceneTransition
 
 
 ## The direction the old scene exits toward during [method transition_out].

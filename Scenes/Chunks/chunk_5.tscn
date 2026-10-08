@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://ctfwve2705b31"]
 
-[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://Objects/parede.tscn" id="1_7vsx2"]
-[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://Objects/chao.tscn" id="2_otjcm"]
-[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://Objects/Tocha.tscn" id="3_md46h"]
-[ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://Objects/Coin.tscn" id="4_w21e0"]
-[ext_resource type="PackedScene" uid="uid://cc5ttjbjp8211" path="res://Objects/Cadeira.tscn" id="5_glbuu"]
+[ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://objects/wall/wall.tscn" id="1_7vsx2"]
+[ext_resource type="PackedScene" uid="uid://beeali7widmrl" path="res://objects/floor/floor.tscn" id="2_otjcm"]
+[ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://objects/torch.tscn" id="3_md46h"]
+[ext_resource type="PackedScene" uid="uid://cehjs3lwrjnox" path="res://objects/coin/coin.tscn" id="4_w21e0"]
+[ext_resource type="PackedScene" uid="uid://cc5ttjbjp8211" path="res://objects/chair.tscn" id="5_glbuu"]
 
 [node name="Chunk1" type="Node3D" unique_id=178818462]
 

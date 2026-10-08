@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://i1gabpl40lvk" path="res://scenes/menus/leaderboard_screen.gd" id="1_bgrhn"]
 [ext_resource type="Shader" uid="uid://csqfbfxoy2tif" path="res://shaders/scrolling_texture.gdshader" id="2_8lho1"]
-[ext_resource type="Texture2D" uid="uid://bcsg61h2m28mj" path="res://assets/square_tile.png" id="3_8cihe"]
+[ext_resource type="Texture2D" uid="uid://bcsg61h2m28mj" path="res://assets/tiles/tile_checkerboard.png" id="3_8cihe"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_m2eu1"]
 shader = ExtResource("2_8lho1")
@@ -49,7 +49,7 @@ alignment = 1
 
 [node name="LeaderBoardTitle" type="Label" parent="MarginContainer/MenuVBox" unique_id=1609645773]
 layout_mode = 2
-size_flags_vertical = 1
+size_flags_vertical = 3
 theme_type_variation = &"TitleLabel"
 text = "PLACAR"
 horizontal_alignment = 1
@@ -57,10 +57,9 @@ vertical_alignment = 1
 
 [node name="PositionsVBox" type="VBoxContainer" parent="MarginContainer/MenuVBox" unique_id=2102833333]
 layout_mode = 2
-size_flags_vertical = 3
 alignment = 1
 
-[node name="Top1" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=1585220980]
+[node name="Top1" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=1585220980 groups=["Position"]]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
@@ -68,7 +67,7 @@ text = "1. ??? : 0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Top2" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=597100719]
+[node name="Top2" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=597100719 groups=["Position"]]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
@@ -76,7 +75,7 @@ text = "2. ??? : 0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Top3" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=837903476]
+[node name="Top3" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=837903476 groups=["Position"]]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
@@ -84,7 +83,7 @@ text = "3. ??? : 0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Top4" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=181242393]
+[node name="Top4" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=181242393 groups=["Position"]]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
@@ -92,7 +91,7 @@ text = "4. ??? : 0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Top5" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=33978886]
+[node name="Top5" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=33978886 groups=["Position"]]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
@@ -102,6 +101,7 @@ vertical_alignment = 1
 
 [node name="BackButton" type="Button" parent="MarginContainer/MenuVBox" unique_id=282262731]
 layout_mode = 2
+size_flags_vertical = 3
 text = "Voltar"
 
 [connection signal="pressed" from="MarginContainer/MenuVBox/BackButton" to="." method="_on_back_button_pressed"]

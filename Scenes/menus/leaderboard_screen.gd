@@ -10,19 +10,17 @@ extends Control
 @export var top_4: Label = null
 @export var top_5: Label = null
 
+var positions: Array[Label] = []
+
 
 func _ready() -> void:
-	default_button.grab_focus()
+	default_button.grab_focus(true)
+	for node in get_tree().get_nodes_in_group("Position"):
+		positions.append(node)
 
-	top_1.text = "1. " + _get_name(0) + " : " + str(Global.leaderboard_pont[0])
-	top_2.text = "2. " + _get_name(1) + " : " + str(Global.leaderboard_pont[1])
-	top_3.text = "3. " + _get_name(2) + " : " + str(Global.leaderboard_pont[2])
-	top_4.text = "4. " + _get_name(3) + " : " + str(Global.leaderboard_pont[3])
-	top_5.text = "5. " + _get_name(4) + " : " + str(Global.leaderboard_pont[4])
-
-
-func _get_name(index: int) -> String:
-	return "???" if Global.leaderboard_names[index].is_empty() else Global.leaderboard_names[index]
+	for pos in positions:
+		var index: int = pos.get_index()
+		pos.text = str(index + 1) + ". " + Global.leaderboard_names[index] + " : " + str(Global.leaderboard_points[index])
 
 
 func _on_back_button_pressed() -> void:

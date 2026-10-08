@@ -1,4 +1,5 @@
-class_name FadeTransition extends SceneTransition
+class_name FadeTransition
+extends SceneTransition
 
 
 ## The color to fade through.
