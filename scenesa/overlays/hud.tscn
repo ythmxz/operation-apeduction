@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://y232dhvambw3"]
+
+[ext_resource type="Script" uid="uid://bxfr0jxs2n8m3" path="res://scenesa/overlays/hud.gd" id="1_6fbih"]
+[ext_resource type="Texture2D" path="res://assets/sprites/spr_coin.png" id="3_36asn"]
+[ext_resource type="Texture2D" path="res://assets/sprites/spr_hourglass.png" id="4_8jye8"]
+
+[node name="HUD" type="Control" unique_id=2067654754 node_paths=PackedStringArray("time_label", "coins_label")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6fbih")
+time_label = NodePath("MarginContainer/HBoxContainer/TimePanel/TimeHBox/TimeLabel")
+coins_label = NodePath("MarginContainer/HBoxContainer/CoinsPanel/CoinsHBox/CoinsLabel")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=951005372]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=604531904]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_constants/separation = 128
+alignment = 1
+
+[node name="TimePanel" type="PanelContainer" parent="MarginContainer/HBoxContainer" unique_id=1699886929]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TimeHBox" type="HBoxContainer" parent="MarginContainer/HBoxContainer/TimePanel" unique_id=824963370]
+layout_mode = 2
+alignment = 1
+
+[node name="TimeIcon" type="TextureRect" parent="MarginContainer/HBoxContainer/TimePanel/TimeHBox" unique_id=387251402]
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("4_8jye8")
+expand_mode = 3
+
+[node name="TimeLabel" type="Label" parent="MarginContainer/HBoxContainer/TimePanel/TimeHBox" unique_id=730413418]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 1
+text = "00:00"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CoinsPanel" type="PanelContainer" parent="MarginContainer/HBoxContainer" unique_id=1192427366]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="CoinsHBox" type="HBoxContainer" parent="MarginContainer/HBoxContainer/CoinsPanel" unique_id=873035037]
+layout_mode = 2
+alignment = 1
+
+[node name="CoinsIcon" type="TextureRect" parent="MarginContainer/HBoxContainer/CoinsPanel/CoinsHBox" unique_id=2014484352]
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("3_36asn")
+expand_mode = 3
+
+[node name="CoinsLabel" type="Label" parent="MarginContainer/HBoxContainer/CoinsPanel/CoinsHBox" unique_id=1841174959]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 1
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1

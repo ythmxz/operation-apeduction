@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://bsykrsga2gh2b"]
+
+[ext_resource type="Script" uid="uid://de7cjk3oq2ial" path="res://scenesa/overlays/high_score_screen.gd" id="1_1ko75"]
+[ext_resource type="Texture2D" path="res://assets/sprites/spr_high_score_background.png" id="1_8jrkk"]
+[ext_resource type="Texture2D" path="res://assets/sprites/spr_proceed_button.png" id="3_jat6a"]
+
+[node name="HighScoreScreen" type="Control" unique_id=257519152 node_paths=PackedStringArray("name_input", "proceed_button")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1ko75")
+name_input = NodePath("Background/VBoxContainer/PanelContainer/NameInput")
+proceed_button = NodePath("Background/VBoxContainer/ProceedButton")
+
+[node name="Background" type="TextureRect" parent="." unique_id=280940861]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_8jrkk")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Background" unique_id=497782767]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 64
+alignment = 1
+
+[node name="HighScoreLabel" type="Label" parent="Background/VBoxContainer" unique_id=2054631914]
+layout_mode = 2
+size_flags_vertical = 1
+text = "NOVO RECORDE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="Background/VBoxContainer" unique_id=620206585]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="NameInput" type="LineEdit" parent="Background/VBoxContainer/PanelContainer" unique_id=2147241907]
+layout_mode = 2
+size_flags_horizontal = 4
+placeholder_text = "___"
+alignment = 1
+max_length = 3
+context_menu_enabled = false
+emoji_menu_enabled = false
+backspace_deletes_composite_character_enabled = true
+middle_mouse_paste_enabled = false
+drag_and_drop_selection_enabled = false
+caret_blink = true
+
+[node name="ProceedButton" type="TextureButton" parent="Background/VBoxContainer" unique_id=997236388]
+custom_minimum_size = Vector2(70, 52)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("3_jat6a")
+stretch_mode = 0
+
+[connection signal="gui_input" from="Background/VBoxContainer/HighScoreLabel" to="Background" method="_on_texto_gui_input"]
+[connection signal="text_changed" from="Background/VBoxContainer/PanelContainer/NameInput" to="." method="_on_name_input_text_changed"]
+[connection signal="text_submitted" from="Background/VBoxContainer/PanelContainer/NameInput" to="." method="_on_name_input_text_submitted"]
+[connection signal="pressed" from="Background/VBoxContainer/ProceedButton" to="." method="_on_proceed_button_pressed"]

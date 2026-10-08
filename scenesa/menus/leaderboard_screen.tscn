@@ -1,0 +1,107 @@
+[gd_scene format=3 uid="uid://4ijkhmr1cggm"]
+
+[ext_resource type="Script" uid="uid://i1gabpl40lvk" path="res://scenesa/menus/leaderboard_screen.gd" id="1_bgrhn"]
+[ext_resource type="Shader" uid="uid://csqfbfxoy2tif" path="res://shadersa/scrolling_texture.gdshader" id="2_8lho1"]
+[ext_resource type="Texture2D" path="res://assets/tiles/tile_checkerboard.png" id="3_8cihe"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_m2eu1"]
+shader = ExtResource("2_8lho1")
+shader_parameter/speed = 0.2
+
+[node name="LeaderboardScreen" type="Control" unique_id=1447343299 node_paths=PackedStringArray("default_button", "top_1", "top_2", "top_3", "top_4", "top_5")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bgrhn")
+default_button = NodePath("MarginContainer/MenuVBox/BackButton")
+top_1 = NodePath("MarginContainer/MenuVBox/PositionsVBox/Top1")
+top_2 = NodePath("MarginContainer/MenuVBox/PositionsVBox/Top2")
+top_3 = NodePath("MarginContainer/MenuVBox/PositionsVBox/Top3")
+top_4 = NodePath("MarginContainer/MenuVBox/PositionsVBox/Top4")
+top_5 = NodePath("MarginContainer/MenuVBox/PositionsVBox/Top5")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=141078933]
+modulate = Color(1, 0.6745098, 0.34901962, 1)
+material = SubResource("ShaderMaterial_m2eu1")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_8cihe")
+stretch_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=630201785]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MenuVBox" type="VBoxContainer" parent="MarginContainer" unique_id=1166446335]
+layout_mode = 2
+alignment = 1
+
+[node name="LeaderBoardTitle" type="Label" parent="MarginContainer/MenuVBox" unique_id=1609645773]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"TitleLabel"
+text = "PLACAR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PositionsVBox" type="VBoxContainer" parent="MarginContainer/MenuVBox" unique_id=2102833333]
+layout_mode = 2
+alignment = 1
+
+[node name="Top1" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=1585220980 groups=["Position"]]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+text = "1. ??? : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Top2" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=597100719 groups=["Position"]]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+text = "2. ??? : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Top3" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=837903476 groups=["Position"]]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+text = "3. ??? : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Top4" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=181242393 groups=["Position"]]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+text = "4. ??? : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Top5" type="Label" parent="MarginContainer/MenuVBox/PositionsVBox" unique_id=33978886 groups=["Position"]]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+text = "5. ??? : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackButton" type="Button" parent="MarginContainer/MenuVBox" unique_id=282262731]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Voltar"
+
+[connection signal="pressed" from="MarginContainer/MenuVBox/BackButton" to="." method="_on_back_button_pressed"]
