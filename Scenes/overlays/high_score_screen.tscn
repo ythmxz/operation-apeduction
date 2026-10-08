@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bsykrsga2gh2b"]
 
 [ext_resource type="Script" uid="uid://de7cjk3oq2ial" path="res://scenes/overlays/high_score_screen.gd" id="1_1ko75"]
-[ext_resource type="Texture2D" uid="uid://dbrap87gubdib" path="res://assets/sprites/spr_high_score_background.png" id="1_8jrkk"]
-[ext_resource type="Texture2D" uid="uid://dcqxngmul8o58" path="res://assets/sprites/spr_proceed_button.png" id="3_jat6a"]
+[ext_resource type="Texture2D" uid="uid://byb7jsu6b3yh" path="res://assets/sprites/spr_high_score_background.png" id="1_8jrkk"]
+[ext_resource type="Texture2D" uid="uid://biscap4g60ib8" path="res://assets/sprites/spr_proceed_button.png" id="3_jat6a"]
 
 [node name="HighScoreScreen" type="Control" unique_id=257519152 node_paths=PackedStringArray("name_input", "proceed_button")]
 layout_mode = 3

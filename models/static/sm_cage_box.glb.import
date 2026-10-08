@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c8d2cgev8ccpn"
+uid="uid://co1trp8btj4tn"
 path="res://.godot/imported/sm_cage_box.glb-de7fb94caa758674120b01cb84acc33f.scn"
 
 [deps]
@@ -49,10 +49,11 @@ _subresources={
 },
 "nodes": {
 "PATH:Cubo_017": {
-"generate/physics": true
+"generate/physics": true,
+"physics/mask": 2
 }
 }
 }
 gltf/naming_version=2
 gltf/embedded_image_handling=1
-gltf/texture_map_mode=1
+gltf/texture_map_mode=0

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://beeali7widmrl"]
 
-[ext_resource type="Texture2D" uid="uid://blb5k3tdknu1r" path="res://objects/floor/brick_texture.png" id="1_s0pkn"]
+[ext_resource type="Texture2D" uid="uid://cpyg14q07xhbf" path="res://objects/floor/brick_texture.png" id="1_s0pkn"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_fk1rg"]
 size = Vector3(3.8066406, 0.40307617, 4.630127)

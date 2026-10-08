@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bp68cfi7gp6lo"
+uid="uid://ddvuelmxrai5a"
 path="res://.godot/imported/sm_chain.glb-ab747b3c5ff27b95a863fbc9f3126ab6.scn"
 
 [deps]
@@ -42,4 +42,4 @@ materials/extract_path=""
 _subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
-gltf/texture_map_mode=1
+gltf/texture_map_mode=0

@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://q4y4x2vgokus"
+uid="uid://dfgo3ujketrki"
 path="res://.godot/imported/sm_barrel.glb-3add21100c27fa620e3a7a573291c1bd.scn"
 
 [deps]
@@ -42,10 +42,11 @@ materials/extract_path=""
 _subresources={
 "nodes": {
 "PATH:model": {
-"generate/physics": true
+"generate/physics": true,
+"physics/mask": 2
 }
 }
 }
 gltf/naming_version=2
 gltf/embedded_image_handling=1
-gltf/texture_map_mode=1
+gltf/texture_map_mode=0

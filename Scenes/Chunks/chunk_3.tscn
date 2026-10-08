@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://objects/wall/wall.tscn" id="2_x841d"]
 [ext_resource type="PackedScene" uid="uid://cdg3yuggljlqj" path="res://models/static/sm_wall_rug.glb" id="3_01imp"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://objects/torch.tscn" id="4_1u80q"]
-[ext_resource type="PackedScene" uid="uid://c8d2cgev8ccpn" path="res://models/static/sm_cage_box.glb" id="5_e4tgv"]
+[ext_resource type="PackedScene" uid="uid://co1trp8btj4tn" path="res://models/static/sm_cage_box.glb" id="5_e4tgv"]
 [ext_resource type="PackedScene" uid="uid://clxy4mibufykd" path="res://objects/hanged_cage/hanged_cage.tscn" id="6_7e3di"]
 
 [node name="Chunk3" type="Node3D" unique_id=1030924840]

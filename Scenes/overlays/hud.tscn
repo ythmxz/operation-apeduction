@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://y232dhvambw3"]
 
 [ext_resource type="Script" uid="uid://bxfr0jxs2n8m3" path="res://scenes/overlays/hud.gd" id="1_6fbih"]
-[ext_resource type="Texture2D" uid="uid://vcsha1lkb2hl" path="res://assets/sprites/spr_coin.png" id="3_36asn"]
-[ext_resource type="Texture2D" uid="uid://cg671fmvajqr8" path="res://assets/sprites/spr_hourglass.png" id="4_8jye8"]
+[ext_resource type="Texture2D" uid="uid://db1a16md7fk5d" path="res://assets/sprites/spr_coin.png" id="3_36asn"]
+[ext_resource type="Texture2D" uid="uid://bw33q7g42jynj" path="res://assets/sprites/spr_hourglass.png" id="4_8jye8"]
 
 [node name="HUD" type="Control" unique_id=2067654754 node_paths=PackedStringArray("time_label", "coins_label")]
 layout_mode = 3

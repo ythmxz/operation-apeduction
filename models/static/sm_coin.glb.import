@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://e1nrjbafagc"
+uid="uid://dqslbdt4qthrr"
 path="res://.godot/imported/sm_coin.glb-0e8bb18b931481807365db102e31af0e.scn"
 
 [deps]
@@ -42,4 +42,4 @@ materials/extract_path=""
 _subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
-gltf/texture_map_mode=1
+gltf/texture_map_mode=0

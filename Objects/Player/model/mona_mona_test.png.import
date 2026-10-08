@@ -2,21 +2,21 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvrnp0fuwlyqd"
-path.s3tc="res://.godot/imported/obs_barrel_2_metal.png-0cc737d6a4c628a408d21aa4bae4301d.s3tc.ctex"
-path.etc2="res://.godot/imported/obs_barrel_2_metal.png-0cc737d6a4c628a408d21aa4bae4301d.etc2.ctex"
+uid="uid://c1jhlc8cthjvj"
+path.s3tc="res://.godot/imported/mona_mona_test.png-a3b2a3226866fdffbd44e97500560cb5.s3tc.ctex"
+path.etc2="res://.godot/imported/mona_mona_test.png-a3b2a3226866fdffbd44e97500560cb5.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "a2a2018d45ddb3cfd69e768b52f9333b"
+"md5": "3f3d61c8cf0f9412309b4c1ea6dbbece"
 }
 
 [deps]
 
-source_file="res://models/static/obs_barrel_2_metal.png"
-dest_files=["res://.godot/imported/obs_barrel_2_metal.png-0cc737d6a4c628a408d21aa4bae4301d.s3tc.ctex", "res://.godot/imported/obs_barrel_2_metal.png-0cc737d6a4c628a408d21aa4bae4301d.etc2.ctex"]
+source_file="res://objects/player/model/mona_mona_test.png"
+dest_files=["res://.godot/imported/mona_mona_test.png-a3b2a3226866fdffbd44e97500560cb5.s3tc.ctex", "res://.godot/imported/mona_mona_test.png-a3b2a3226866fdffbd44e97500560cb5.etc2.ctex"]
 
 [params]
 

@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://bojqeli1y7w6u"]
 
 [ext_resource type="Script" uid="uid://bv6lpoqpjmpk6" path="res://scenes/overlays/game_over_screen.gd" id="1_53l5e"]
-[ext_resource type="Texture2D" uid="uid://iyi63e20taks" path="res://assets/sprites/spr_game_over_background.png" id="2_53l5e"]
-[ext_resource type="Texture2D" uid="uid://cg671fmvajqr8" path="res://assets/sprites/spr_hourglass.png" id="3_k2e10"]
-[ext_resource type="Texture2D" uid="uid://vcsha1lkb2hl" path="res://assets/sprites/spr_coin.png" id="4_tto61"]
-[ext_resource type="Texture2D" uid="uid://dosven0seta2x" path="res://assets/sprites/spr_menu_button.png" id="5_h3xhd"]
-[ext_resource type="Texture2D" uid="uid://c5rrqb8m2sar1" path="res://assets/sprites/spr_restart_button.png" id="6_5xu2o"]
+[ext_resource type="Texture2D" uid="uid://yre65hs0toku" path="res://assets/sprites/spr_game_over_background.png" id="2_53l5e"]
+[ext_resource type="Texture2D" uid="uid://bw33q7g42jynj" path="res://assets/sprites/spr_hourglass.png" id="3_k2e10"]
+[ext_resource type="Texture2D" uid="uid://db1a16md7fk5d" path="res://assets/sprites/spr_coin.png" id="4_tto61"]
+[ext_resource type="Texture2D" uid="uid://bvrayeo8wm6o1" path="res://assets/sprites/spr_menu_button.png" id="5_h3xhd"]
+[ext_resource type="Texture2D" uid="uid://dvlkxqxl1pcyk" path="res://assets/sprites/spr_restart_button.png" id="6_5xu2o"]
 
 [node name="GameOverScreen" type="Control" unique_id=474260456 node_paths=PackedStringArray("default_button", "time_label", "coins_label", "score_label")]
 layout_mode = 3

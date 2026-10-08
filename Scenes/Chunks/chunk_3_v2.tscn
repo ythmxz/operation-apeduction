@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://c56u4ufo8803j" path="res://objects/wall/wall.tscn" id="2_78r7g"]
 [ext_resource type="PackedScene" uid="uid://cdg3yuggljlqj" path="res://models/static/sm_wall_rug.glb" id="3_ngepp"]
 [ext_resource type="PackedScene" uid="uid://c0oers5tfuco5" path="res://objects/torch.tscn" id="4_nlal8"]
-[ext_resource type="PackedScene" uid="uid://q4y4x2vgokus" path="res://models/static/sm_barrel.glb" id="5_d0kcw"]
+[ext_resource type="PackedScene" uid="uid://dfgo3ujketrki" path="res://models/static/sm_barrel.glb" id="5_d0kcw"]
 
 [node name="Chunk3" type="Node3D" unique_id=1030924840]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
