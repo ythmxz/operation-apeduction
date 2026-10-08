@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://bitckt6lejp3h"]
 
-[ext_resource type="Shader" path="res://shaders/dither_fadeaway.gdshader" id="1_ag6vr"]
+[ext_resource type="Shader" uid="uid://bh7typ1k6wc5q" path="res://shaders/dither_fadeaway.gdshader" id="1_ag6vr"]
 
 [resource]
 render_priority = 0

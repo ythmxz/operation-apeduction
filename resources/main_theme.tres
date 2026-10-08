@@ -1,6 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://c3ojic6fyhlqj"]
 
-[ext_resource type="FontFile" path="res://assets/font/not_jam_ui_condensed_19.ttf" id="1_ols5k"]
+[ext_resource type="FontFile" uid="uid://h1ktg56kwi85" path="res://assets/fonts/not_jam_ui_condensed_19.ttf" id="1_ols5k"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wdjou"]
 

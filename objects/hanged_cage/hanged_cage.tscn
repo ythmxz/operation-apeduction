@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://clxy4mibufykd"]
+
+[ext_resource type="Script" uid="uid://cqgnwne0xl02o" path="res://objects/hanged_cage/hanged_cage.gd" id="1_13v68"]
+[ext_resource type="PackedScene" uid="uid://co1trp8btj4tn" path="res://models/static/sm_cage_box.glb" id="1_cyufy"]
+[ext_resource type="PackedScene" uid="uid://ce7ylst4rcwse" path="res://objects/chain_link.tscn" id="2_cyufy"]
+
+[node name="GaiolaPendurada" type="Node3D" unique_id=775440262]
+script = ExtResource("1_13v68")
+
+[node name="SM_Caixa_Gaiola" parent="." unique_id=1931353450 instance=ExtResource("1_cyufy")]
+
+[node name="AnelCorrente" parent="." unique_id=868653436 instance=ExtResource("2_cyufy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7911868, 0)

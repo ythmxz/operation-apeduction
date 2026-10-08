@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://bnocousr6h4xx"]
-
-[ext_resource type="PackedScene" path="res://objects/player/model/mona.glb" id="1_y7y4q"]
-
-[node name="Mona" unique_id=970662309 instance=ExtResource("1_y7y4q")]
