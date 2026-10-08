@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dtlkdpv5mhf1i"
-path="res://.godot/imported/Mona.glb-4f9c4611b96310fa1e31e63cf6286930.scn"
+path="res://.godot/imported/mona.glb-c9eac087d1fac6885c5711db78d54d1b.scn"
 
 [deps]
 
-source_file="res://Objects/Player/model/Mona.glb"
-dest_files=["res://.godot/imported/Mona.glb-4f9c4611b96310fa1e31e63cf6286930.scn"]
+source_file="res://objects/player/model/mona.glb"
+dest_files=["res://.godot/imported/mona.glb-c9eac087d1fac6885c5711db78d54d1b.scn"]
 
 [params]
 

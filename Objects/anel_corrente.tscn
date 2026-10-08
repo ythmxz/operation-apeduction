@@ -1,8 +1,0 @@
-[gd_scene format=3 uid="uid://ce7ylst4rcwse"]
-
-[ext_resource type="PackedScene" uid="uid://2fekkl6bms30" path="res://Models/Static/SM_cenario_corrente_anel.glb" id="1_cgu28"]
-
-[node name="AnelCorrente" type="Node3D" unique_id=868653436]
-
-[node name="SM_cenario_corrente_anel" parent="." unique_id=1045310968 instance=ExtResource("1_cgu28")]
-transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)

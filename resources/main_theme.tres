@@ -18,6 +18,26 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1amdp"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yqjtg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lnu2h"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lbhrr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7ktk5"]
+bg_color = Color(0.1764706, 0.1764706, 0.34901962, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.105882354, 0.105882354, 0.12941177, 1)
+expand_margin_left = 8.0
+expand_margin_top = 8.0
+expand_margin_right = 8.0
+expand_margin_bottom = 8.0
+shadow_color = Color(1, 1, 1, 1)
+shadow_size = 2
+
 [resource]
 default_font = ExtResource("1_ols5k")
 Button/colors/font_color = Color(1, 1, 1, 1)
@@ -36,6 +56,7 @@ Button/styles/hover = SubResource("StyleBoxEmpty_o17qv")
 Button/styles/hover_pressed = SubResource("StyleBoxEmpty_ie4wh")
 Button/styles/normal = SubResource("StyleBoxEmpty_ao64o")
 Button/styles/pressed = SubResource("StyleBoxEmpty_ylu4a")
+HBoxContainer/constants/separation = 16
 Label/colors/font_color = Color(1, 1, 1, 1)
 Label/colors/font_outline_color = Color(0, 0.43137255, 0.6509804, 1)
 Label/constants/outline_size = 19
@@ -43,10 +64,16 @@ Label/font_sizes/font_size = 57
 Label/fonts/font = ExtResource("1_ols5k")
 Label/styles/focus = SubResource("StyleBoxEmpty_m2eu1")
 Label/styles/normal = SubResource("StyleBoxEmpty_1amdp")
+LineEdit/font_sizes/font_size = 38
+LineEdit/fonts/font = ExtResource("1_ols5k")
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_yqjtg")
+LineEdit/styles/normal = SubResource("StyleBoxEmpty_lnu2h")
+LineEdit/styles/read_only = SubResource("StyleBoxEmpty_lbhrr")
 MarginContainer/constants/margin_bottom = 16
 MarginContainer/constants/margin_left = 16
 MarginContainer/constants/margin_right = 16
 MarginContainer/constants/margin_top = 16
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_7ktk5")
 TitleLabel/base_type = &"Label"
 TitleLabel/colors/font_color = Color(1, 1, 1, 1)
 TitleLabel/colors/font_outline_color = Color(0, 0.43137255, 0.6509804, 1)

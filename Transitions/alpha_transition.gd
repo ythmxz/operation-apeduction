@@ -1,4 +1,5 @@
-class_name AlphaTransition extends SceneTransition
+class_name AlphaTransition
+extends SceneTransition
 
 
 func _init(p_duration: float = 0.5) -> void:

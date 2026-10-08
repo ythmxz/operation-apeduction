@@ -5,7 +5,7 @@ extends Control
 
 
 func _ready() -> void:
-	default_button.grab_focus()
+	default_button.grab_focus(true)
 
 
 func _on_back_button_pressed() -> void:
