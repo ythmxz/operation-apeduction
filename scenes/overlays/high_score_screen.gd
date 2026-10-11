@@ -23,5 +23,6 @@ func _on_proceed_button_pressed() -> void:
 
 	Global.leaderboard_names.insert(Global.position, player_name)
 	Global.leaderboard_names.pop_back()
+	Global.save_leaderboard()
 
 	Global.game.change_scene(&"gui", "uid://bojqeli1y7w6u")
